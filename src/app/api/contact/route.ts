@@ -36,9 +36,10 @@ export async function POST(request: Request) {
     );
   }
 
-  // 3. Log + respuesta exitosa
-  const { type, email, nombre } = parsed.data;
-  console.info(`[contact] nueva solicitud (${type}) de ${nombre} <${email}>`);
+  // 3. Log + respuesta exitosa.
+  // No registramos PII ni texto del usuario en logs (evita exponer datos
+  // personales e inyección de logs). `type` proviene de un enum controlado.
+  console.info("[contact] nueva solicitud recibida", { type: parsed.data.type });
 
   return NextResponse.json({ ok: true }, { status: 200 });
 }

@@ -26,8 +26,9 @@ export async function POST(request: Request) {
     );
   }
 
-  // TODO: persistir / enviar a CRM o servicio de email
-  console.info("[newsletter] nueva suscripción:", parsed.data.email);
+  // TODO: persistir / enviar a CRM o servicio de email.
+  // No registramos el correo (PII) en logs.
+  console.info("[newsletter] nueva suscripción recibida");
 
   return NextResponse.json({ ok: true }, { status: 200 });
 }
