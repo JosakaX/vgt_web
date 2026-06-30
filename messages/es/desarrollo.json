@@ -8,16 +8,6 @@
     "title": "Sitios, apps y plataformas a tu medida",
     "subtitle": "Diseñamos y desarrollamos productos digitales rápidos, modernos y escalables: desde tu sitio web hasta plataformas SaaS completas."
   },
-  "aiSpeed": {
-    "eyebrow": "Desarrollo acelerado con IA",
-    "title": "Tu producto en días, no en meses",
-    "text": "Usamos inteligencia artificial para prototipar, construir e iterar mucho más rápido, sin sacrificar calidad: revisamos, probamos y aseguramos cada entrega.",
-    "points": [
-      "Prototipos y MVPs en días",
-      "Iteración rápida y económica",
-      "Calidad asegurada con revisión y pruebas"
-    ]
-  },
   "includes": {
     "eyebrow": "Qué incluye",
     "title": "Desarrollo de ciclo completo",

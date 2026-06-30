@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { Check, Zap, type LucideIcon } from "lucide-react";
+import { Check, type LucideIcon } from "lucide-react";
 
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -27,9 +27,6 @@ export async function ServiceLanding({ ns, icons }: ServiceLandingProps) {
   const includes = t.raw("includes.items") as { title: string; description: string }[];
   const steps = t.raw("process.steps") as { title: string; description: string }[];
   const deliverables = t.raw("deliverables.items") as string[];
-  const aiSpeedPoints = t.has("aiSpeed.title")
-    ? (t.raw("aiSpeed.points") as string[])
-    : null;
 
   return (
     <>
@@ -45,41 +42,6 @@ export async function ServiceLanding({ ns, icons }: ServiceLandingProps) {
           />
         </Container>
       </section>
-
-      {/* ===== FRANJA: VELOCIDAD CON IA (opcional) ===== */}
-      {aiSpeedPoints ? (
-        <section className="border-b border-border bg-surface-2 py-10 sm:py-12">
-          <Container>
-            <FadeIn className="relative overflow-hidden rounded-3xl bg-navy-grad px-6 py-8 text-white shadow-card sm:px-10 sm:py-10">
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute -right-12 -top-12 h-44 w-44 rounded-full bg-accent/30 blur-3xl"
-              />
-              <div className="relative flex flex-col gap-4">
-                <span className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-widest text-white/80">
-                  <Zap className="h-5 w-5" aria-hidden="true" />
-                  {t("aiSpeed.eyebrow")}
-                </span>
-                <h2 className="font-display text-2xl font-bold sm:text-3xl">
-                  {t("aiSpeed.title")}
-                </h2>
-                <p className="max-w-2xl leading-relaxed text-silver">{t("aiSpeed.text")}</p>
-                <ul className="mt-1 flex flex-wrap gap-2.5">
-                  {aiSpeedPoints.map((point) => (
-                    <li
-                      key={point}
-                      className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3.5 py-1.5 text-sm font-medium text-white"
-                    >
-                      <Check className="h-4 w-4" aria-hidden="true" />
-                      {point}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </FadeIn>
-          </Container>
-        </section>
-      ) : null}
 
       {/* ===== QUÉ INCLUYE ===== */}
       <section className="py-20 sm:py-24">

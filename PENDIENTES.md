@@ -22,8 +22,7 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 - [ ] **Revisión legal** de privacidad, términos y cookies (+ fecha de última actualización).
 
 ## 🟡 Tareas de Claude (yo)
-- [ ] **Franja "Desarrollo acelerado con IA"** (diferenciador de velocidad / MVPs en días) dentro de
-      las landings de Desarrollo y Agentes. Recomendada, aún no implementada.
+- ~~Franja "Desarrollo acelerado con IA" en Desarrollo y Agentes~~ → **descartada por JosakaX**.
 - [ ] **QA responsive** teléfono/tablet: revisión a nivel de código + visual cuando el entorno de
       screenshots lo permita.
 - [ ] Afinar el **contenido de las 6 landings de servicio** cuando JosakaX defina proveedores.
