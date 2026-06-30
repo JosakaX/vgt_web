@@ -30,8 +30,12 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 - [ ] Integrar **envío real de formularios** a CRM/email (Resend / HubSpot). Hoy: endpoints
       placeholder que validan y responden 200.
 - [ ] Activar **analítica** (Google Analytics / Plausible).
-- [ ] Configurar **despliegue en Cloudflare** (adaptador OpenNext) y conectar el repo
-      `github.com/JosakaX/vgt_web.git`.
+- [ ] **Despliegue final DINÁMICO en Cloudflare** (adaptador OpenNext). ⚠️ IMPORTANTE: en producción
+      el sitio debe ser **dinámico como en dev**, con las rutas API funcionando (`/api/contact`,
+      `/api/newsletter`). El export estático de GitHub Pages es **SOLO para el preview visual**:
+      se activa con `BUILD_STATIC=true` y el Action **quita `src/app/api`** antes de exportar. El build
+      normal (sin esa variable) conserva todo lo dinámico — ese es el que va a Cloudflare. NO hacer
+      `output: export` permanente.
 - [ ] Re-auditoría final de **Lighthouse** (Performance/A11y/SEO/Best Practices ≥ 90).
 
 ## ✅ Hecho
@@ -43,3 +47,6 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 - [x] **6 landings de servicio de agencia** (Marketing, Branding, Desarrollo, Agentes+Chatbots,
       Consultoría IA, Datos & Dashboards) con componente reutilizable; tarjetas enlazadas; mega-menú
       de 2 columnas; sitemap actualizado.
+- [x] **Repo en GitHub** (github.com/JosakaX/vgt_web) + **preview estático en GitHub Pages** vía
+      GitHub Action (`.github/workflows/deploy-pages.yml`, export con `BUILD_STATIC=true`, basePath
+      `/vgt_web`). Preview visual; formularios no envían en ese modo (es solo demo).

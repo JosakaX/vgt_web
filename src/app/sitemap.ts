@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
 import { siteConfig, routes } from "@/lib/site";
 
+// Permite generarlo como archivo estático (necesario con output: export).
+export const dynamic = "force-static";
+
 /** Sitemap del sitio. Fase 1: solo rutas en español publicadas. */
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
