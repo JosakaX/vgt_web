@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "MyIntelli — Gestión de asistencia, tiempos y control de acceso | VGT",
+    "description": "Plataforma todo-en-uno para optimizar la gestión del tiempo, la asistencia y el control de acceso de tus empleados, en un entorno seguro e intuitivo."
+  },
+  "hero": {
+    "eyebrow": "MyIntelli",
+    "badge": "Plataforma de gestión empresarial",
+    "title": "Gestión de tiempo, asistencia y control de acceso todo-en-uno",
+    "subtitle": "MyIntelli es la plataforma que optimiza la gestión del tiempo, la asistencia y el control de acceso de tus empleados en un entorno seguro, intuitivo y centralizado. Con base en EE.UU. y más de 12 años de experiencia a nivel global.",
+    "ctaPrimary": "Solicitar demo",
+    "ctaSecondary": "Ver módulos"
+  },
+  "stats": [
+    { "value": "+1.000", "label": "Clientes activos" },
+    { "value": "+10", "label": "Países" },
+    { "value": "+12 años", "label": "De experiencia" },
+    { "value": "+200.000", "label": "Usuarios en plataforma" },
+    { "value": "+500.000", "label": "Horas procesadas por día" }
+  ],
+  "modules": {
+    "eyebrow": "Módulos",
+    "title": "Una solución para cada área de tu negocio",
+    "subtitle": "Cada módulo opera de forma independiente o integrada, adaptándose exactamente a las necesidades de tu organización.",
+    "items": [
+      {
+        "title": "Intelli Time",
+        "description": "Control y seguimiento del tiempo de trabajo: gestión de turnos y planificación, hoja de horas automática, registro de novedades e incidencias, gestión de tiempo libre, permisos y medición de productividad."
+      },
+      {
+        "title": "Intelli Access",
+        "description": "Control de acceso a instalaciones con historial completo de movimientos, reconocimiento biométrico (huella dactilar, rostro e iris) y registro y control de acceso de vehículos."
+      },
+      {
+        "title": "Intelli Guest",
+        "description": "Gestión integral de visitantes: registro de información biométrica, programación de visitas de personas y vehículos, y control de activos entregados."
+      },
+      {
+        "title": "Intelli Coworking",
+        "description": "Control de aforo y reserva de espacios de trabajo: agendamiento web, control de aforo en tiempo real y monitoreo de ocupación de instalaciones."
+      },
+      {
+        "title": "Intelli Lunch",
+        "description": "Gestión del comedor corporativo: planificación de menús, administración de turnos de entrega, integración con asistencia e identificación biométrica para el acceso."
+      }
+    ]
+  },
+  "marking": {
+    "eyebrow": "Métodos de marcaje",
+    "title": "Múltiples formas de registro para cualquier entorno",
+    "subtitle": "Desde dispositivos biométricos físicos hasta aplicaciones web y móviles, MyIntelli se adapta a cómo y dónde trabaja tu equipo.",
+    "items": [
+      {
+        "title": "Biométrico",
+        "description": "Dispositivos de huella dactilar, reconocimiento facial e iris. Compatible con ZKTeco, Suprema y VIRDI para entornos físicos.",
+        "features": [
+          "Validación por huella dactilar, rostro e iris",
+          "Múltiples patrones de validación configurables",
+          "Integración nativa con ZKTeco, Suprema y VIRDI",
+          "Funcionamiento online y offline"
+        ]
+      },
+      {
+        "title": "App Móvil",
+        "description": "Aplicación disponible en Google Play, App Store y AppGallery para marcaje desde cualquier lugar con geolocalización.",
+        "features": [
+          "Geolocalización y geocercas configurables",
+          "Marcaje facial desde el smartphone",
+          "Gestión de permisos y tiempo libre",
+          "Consulta de turnos y notificaciones push",
+          "Seguimiento de actividad en tiempo real"
+        ]
+      },
+      {
+        "title": "App Web",
+        "description": "Solución para empleados en computadora: compatible con Windows, macOS y Linux, con control de productividad avanzado.",
+        "features": [
+          "Marcaje facial desde la cámara del equipo",
+          "Capturas de pantalla y registro de actividad",
+          "Monitoreo de aplicaciones en uso",
+          "Detección de actividad e inactividad",
+          "Medición de productividad y reportes exportables"
+        ]
+      }
+    ]
+  },
+  "integrations": {
+    "eyebrow": "Integraciones",
+    "title": "Conectado con tu ecosistema tecnológico",
+    "subtitle": "MyIntelli se integra de manera nativa con las principales plataformas de nómina y dispositivos biométricos del mercado.",
+    "items": [
+      "Oracle",
+      "SAP",
+      "Buk",
+      "+10 plataformas de nómina",
+      "Dispositivos biométricos",
+      "Nube AWS"
+    ]
+  },
+  "benefits": {
+    "eyebrow": "Beneficios",
+    "title": "Resultados que se miden desde el primer mes",
+    "subtitle": "Organizaciones que implementan MyIntelli reportan mejoras concretas y medibles en sus operaciones de recursos humanos.",
+    "items": [
+      {
+        "title": "Mayor productividad",
+        "description": "Automatiza tareas manuales y libera a tu equipo de RRHH para actividades de mayor valor estratégico para la empresa."
+      },
+      {
+        "title": "Reducción de tiempo operativo",
+        "description": "Los cierres de nómina que antes tomaban días se procesan en horas gracias a la automatización y la integración de datos."
+      },
+      {
+        "title": "Eliminación de errores de marcaje",
+        "description": "La biometría y la geolocalización eliminan el fraude en registros y los errores propios del marcaje manual."
+      },
+      {
+        "title": "ROI comprobable",
+        "description": "El ahorro en tiempo operativo y la reducción de incidencias generan un retorno de inversión medible desde los primeros meses."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Quieres ver MyIntelli en acción?",
+    "subtitle": "Solicita una demo personalizada sin costo y descubre cómo MyIntelli puede transformar la gestión de tu fuerza laboral.",
+    "button": "Solicitar demo de MyIntelli"
+  }
+}

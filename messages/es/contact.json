@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Contacto — Valadares Global Tech",
+    "description": "Hablemos. Agenda una demo o escríbenos para descubrir cómo VGT puede potenciar la operación de tu empresa."
+  },
+  "hero": {
+    "eyebrow": "Contáctanos",
+    "title": "Hablemos de tu negocio",
+    "subtitle": "Cuéntanos sobre tu empresa y el reto que enfrentas. Nuestro equipo te responde en menos de 24 horas hábiles."
+  },
+  "form": {
+    "heading": "Envíanos un mensaje",
+    "submit": "Enviar mensaje",
+    "submitting": "Enviando…",
+    "success": "¡Mensaje recibido! Te contactaremos en menos de 24 horas.",
+    "error": "No pudimos enviar tu mensaje. Por favor intenta de nuevo.",
+    "required": "* Campo obligatorio",
+    "fields": {
+      "nombre": {
+        "label": "Nombre completo *",
+        "placeholder": "¿Cómo te llamas?"
+      },
+      "empresa": {
+        "label": "Empresa",
+        "placeholder": "Nombre de tu organización"
+      },
+      "pais": {
+        "label": "País",
+        "placeholder": "Ej. Venezuela, México, España…"
+      },
+      "email": {
+        "label": "Correo electrónico *",
+        "placeholder": "tu@empresa.com"
+      },
+      "telefono": {
+        "label": "Teléfono",
+        "placeholder": "+1 555 000 0000"
+      },
+      "servicio": {
+        "label": "Servicio de interés *",
+        "placeholder": "Selecciona una opción",
+        "myintelli": "MyIntelli — Gestión de asistencia y acceso",
+        "cybernova": "CyberNova — Ciberseguridad",
+        "ambos": "Ambos servicios"
+      },
+      "empleados": {
+        "label": "Número de empleados",
+        "placeholder": "Selecciona un rango",
+        "r1": "1 – 50 empleados",
+        "r2": "51 – 200 empleados",
+        "r3": "201 – 1 000 empleados",
+        "r4": "Más de 1 000 empleados"
+      },
+      "mensaje": {
+        "label": "Mensaje *",
+        "placeholder": "Cuéntanos brevemente qué necesitas o qué reto quieres resolver…"
+      }
+    }
+  },
+  "validation": {
+    "nombreRequired": "El nombre es obligatorio.",
+    "emailRequired": "El correo electrónico es obligatorio.",
+    "emailInvalid": "Ingresa un correo electrónico válido.",
+    "servicioRequired": "Selecciona el servicio de tu interés.",
+    "mensajeRequired": "El mensaje es obligatorio.",
+    "mensajeMinLength": "El mensaje debe tener al menos 10 caracteres."
+  },
+  "info": {
+    "heading": "Información de contacto",
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Teléfonos",
+    "demo": {
+      "heading": "¿Prefieres una demo en vivo?",
+      "body": "Agenda una llamada con nuestro equipo y descubre cómo MyIntelli o CyberNova se adapta a tu operación.",
+      "button": "Agendar demo"
+    }
+  }
+}

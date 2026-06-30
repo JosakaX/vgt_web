@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "Agentes de IA, Chatbots y Automatización 24/7 | Valadares Global Tech",
+    "description": "Chatbots, asistentes virtuales y agentes de IA que trabajan por ti 24/7: atención por WhatsApp, llamadas, CRM y automatización de procesos que conectan tus sistemas."
+  },
+  "hero": {
+    "eyebrow": "Agentes de IA, Chatbots y Automatización",
+    "title": "Agentes y chatbots que trabajan por ti, 24/7",
+    "subtitle": "Implementamos chatbots, asistentes virtuales y agentes inteligentes que atienden a tus clientes, gestionan tareas y conectan tus sistemas, sin descanso y sin contratar más personal."
+  },
+  "aiSpeed": {
+    "eyebrow": "Implementación acelerada con IA",
+    "title": "De la idea a un agente funcionando, rápido",
+    "text": "Aprovechamos la inteligencia artificial para diseñar, integrar y poner en marcha tu agente en tiempo récord, y lo mejoramos de forma continua.",
+    "points": [
+      "Puesta en marcha veloz",
+      "Mejora continua del agente",
+      "Integrado a tus canales y datos"
+    ]
+  },
+  "includes": {
+    "eyebrow": "Qué incluye",
+    "title": "Agentes y chatbots a la medida de tu operación",
+    "subtitle": "Diseñamos el agente o chatbot según lo que tu negocio necesita resolver.",
+    "items": [
+      {
+        "title": "Chatbots y asistentes virtuales",
+        "description": "Asistentes que responden preguntas frecuentes, guían y atienden a tus clientes en tu web y tus canales."
+      },
+      {
+        "title": "Agente de WhatsApp 24/7",
+        "description": "Atiende, responde dudas, agenda citas y da seguimiento a tus clientes en WhatsApp, todo el día."
+      },
+      {
+        "title": "Agente de llamadas (voz)",
+        "description": "Contesta y realiza llamadas con voz natural: atención, recordatorios y calificación de clientes."
+      },
+      {
+        "title": "Agente CRM y de ventas",
+        "description": "Captura leads, actualiza tu CRM, hace seguimiento y mantiene tu base de datos siempre al día."
+      },
+      {
+        "title": "Automatización de procesos",
+        "description": "Conecta tus apps y sistemas para que el trabajo repetitivo ocurra solo (p. ej. tu tienda con tu contabilidad)."
+      },
+      {
+        "title": "Agentes autónomos a medida",
+        "description": "Agentes con memoria que ejecutan tareas reales por ti y operan de forma autónoma en tus canales."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De tu proceso a un agente operando",
+    "subtitle": "Diseñamos, integramos y mejoramos el agente de forma continua.",
+    "steps": [
+      { "title": "Diagnóstico", "description": "Identificamos qué tareas o canales conviene automatizar primero." },
+      { "title": "Diseño del agente", "description": "Definimos sus habilidades, su tono y los flujos que seguirá." },
+      { "title": "Integración y entrenamiento", "description": "Lo conectamos a tus canales, datos y sistemas, y lo entrenamos." },
+      { "title": "Operación y mejora 24/7", "description": "El agente opera sin descanso mientras medimos y lo optimizamos." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Entregables",
+    "title": "Lo que recibes",
+    "subtitle": "Un agente o chatbot listo para trabajar, integrado a tu negocio.",
+    "items": [
+      "Chatbot o agente desplegado y operativo en tus canales",
+      "Integraciones con tus sistemas y datos",
+      "Flujos de conversación y automatizaciones configurados",
+      "Panel de monitoreo y métricas",
+      "Documentación de uso",
+      "Soporte y mejora continua"
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para tener un agente trabajando por ti?",
+    "subtitle": "Cuéntanos qué quieres automatizar y diseñamos el chatbot o agente ideal para tu negocio.",
+    "button": "Hablemos"
+  }
+}

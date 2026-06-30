@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Diseño & Branding | Valadares Global Tech",
+    "description": "Identidad de marca, logotipo, sistema visual, manual de identidad y piezas de diseño. Branding estratégico que conecta con tu audiencia."
+  },
+  "hero": {
+    "eyebrow": "Diseño & Branding",
+    "title": "Identidad de marca que conecta y perdura",
+    "subtitle": "Creamos marcas coherentes y memorables: desde la estrategia y el naming hasta el sistema visual completo y sus aplicaciones."
+  },
+  "includes": {
+    "eyebrow": "Qué incluye",
+    "title": "Tu marca, de la estrategia al detalle",
+    "subtitle": "Cada decisión de diseño parte de la estrategia, no de la estética por sí sola.",
+    "items": [
+      {
+        "title": "Estrategia de marca y naming",
+        "description": "Definición de propósito, posicionamiento, personalidad y nombre cuando se requiere."
+      },
+      {
+        "title": "Logotipo y sistema visual",
+        "description": "Diseño del logotipo en sus variantes y de un sistema gráfico coherente y escalable."
+      },
+      {
+        "title": "Paleta y tipografía",
+        "description": "Selección de colores y familias tipográficas que transmiten la esencia de tu marca."
+      },
+      {
+        "title": "Manual de identidad",
+        "description": "Guía de uso visual y verbal para mantener coherencia en todos tus canales."
+      },
+      {
+        "title": "Identidad verbal y tono",
+        "description": "Definición del tono de voz y los mensajes clave con los que se comunica tu marca."
+      },
+      {
+        "title": "Piezas y aplicaciones",
+        "description": "Diseño de plantillas, papelería, redes sociales y materiales de comunicación."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso de marca con método",
+    "subtitle": "Investigación, concepto y ejecución, paso a paso.",
+    "steps": [
+      { "title": "Investigación", "description": "Entendemos tu negocio, tu mercado y tu audiencia." },
+      { "title": "Concepto", "description": "Definimos la dirección creativa y el territorio de marca." },
+      { "title": "Diseño", "description": "Creamos el logotipo, el sistema visual y sus aplicaciones." },
+      { "title": "Manual y entrega", "description": "Documentamos todo en un manual y entregamos los archivos." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Entregables",
+    "title": "Lo que recibes",
+    "subtitle": "Tu marca lista para usar en cualquier canal.",
+    "items": [
+      "Logotipo en todas sus versiones y formatos",
+      "Manual de identidad visual y verbal",
+      "Paleta de colores y tipografías definidas",
+      "Sistema gráfico y elementos de marca",
+      "Plantillas y piezas de aplicación",
+      "Archivos editables y para producción"
+    ]
+  },
+  "cta": {
+    "title": "¿Tu marca necesita destacar?",
+    "subtitle": "Construyamos una identidad sólida y coherente para tu organización.",
+    "button": "Hablemos"
+  }
+}

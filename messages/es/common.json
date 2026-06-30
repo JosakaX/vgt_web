@@ -1,0 +1,116 @@
+{
+  "brand": {
+    "name": "Valadares Global Tech",
+    "shortName": "VGT",
+    "tagline": "Marketing · Diseño · Tecnología",
+    "legalName": "Valadares Global Tech LLC",
+    "partnerNote": "Valadares Global Tech LLC — Partner autorizado de MyIntelli y CyberNova."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "servicesMenu": {
+      "marketing": "Marketing & Estrategia Digital",
+      "marketingDesc": "Estrategia, redes, contenido, campañas y analítica",
+      "branding": "Diseño & Branding",
+      "brandingDesc": "Identidad de marca, logotipo y sistema visual",
+      "desarrollo": "Desarrollo Web, Apps & SaaS",
+      "desarrolloDesc": "Sitios, apps, SaaS, bases de datos y sistemas",
+      "agentes": "Agentes de IA, Chatbots y Automatización",
+      "agentesDesc": "Chatbots, agentes 24/7, WhatsApp, llamadas y workflows",
+      "consultoria": "Consultoría en IA & Transformación Digital",
+      "consultoriaDesc": "Diagnóstico y hoja de ruta para crecer con IA",
+      "datos": "Datos, Analítica & Dashboards",
+      "datosDesc": "Dashboards, KPIs y reportes para decidir con datos",
+      "myintelli": "Gestión de Asistencia y Acceso",
+      "myintelliDesc": "Control de tiempo, asistencia y acceso con biometría",
+      "cybernova": "Ciberseguridad Gestionada",
+      "cybernovaDesc": "Protección integral como servicio gestionado (CSAAS)"
+    },
+    "about": "Nosotros",
+    "projects": "Proyectos",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "ctaDemo": "Agendar demo",
+    "talk": "Hablemos",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "skipToContent": "Saltar al contenido"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "light": "Tema claro",
+    "dark": "Tema oscuro"
+  },
+  "lang": {
+    "label": "Idioma",
+    "current": "Español",
+    "soon": "Próximamente",
+    "es": "Español",
+    "en": "English",
+    "pt": "Português"
+  },
+  "cta": {
+    "demo": "Agendar demo",
+    "services": "Ver servicios",
+    "quote": "Solicitar cotización",
+    "learnMore": "Conocer más",
+    "contact": "Contáctanos",
+    "send": "Enviar"
+  },
+  "contactInfo": {
+    "web": "www.valadaresglobaltech.com",
+    "webUrl": "https://www.valadaresglobaltech.com",
+    "email": "contacto@valadaresglobaltech.com",
+    "phones": {
+      "us": "+1 (USA)",
+      "usNote": "Estados Unidos",
+      "ve": "+58 424 612 5993",
+      "veNote": "Venezuela",
+      "pt": "+351 932 742 678",
+      "ptNote": "Portugal"
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "cols": {
+      "services": "Servicios",
+      "company": "Empresa",
+      "legal": "Legal",
+      "contact": "Contacto"
+    },
+    "links": {
+      "myintelli": "Gestión de Asistencia y Acceso",
+      "cybernova": "Ciberseguridad Gestionada",
+      "allServices": "Todos los servicios",
+      "about": "Nosotros",
+      "projects": "Proyectos",
+      "blog": "Blog",
+      "contactPage": "Contacto",
+      "quote": "Solicitar cotización",
+      "privacy": "Política de privacidad",
+      "terms": "Términos y condiciones",
+      "cookies": "Política de cookies"
+    },
+    "newsletter": {
+      "title": "Recibe novedades",
+      "desc": "Tendencias en tecnología empresarial y ciberseguridad, sin spam.",
+      "placeholder": "Tu correo electrónico",
+      "button": "Suscribirme",
+      "success": "¡Listo! Revisa tu correo para confirmar.",
+      "error": "No pudimos procesar tu suscripción. Inténtalo de nuevo.",
+      "invalid": "Introduce un correo válido."
+    },
+    "social": {
+      "title": "Síguenos",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "x": "X (Twitter)",
+      "youtube": "YouTube"
+    }
+  },
+  "newsletter": {
+    "placeholder": "Tu correo electrónico",
+    "button": "Suscribirme"
+  }
+}

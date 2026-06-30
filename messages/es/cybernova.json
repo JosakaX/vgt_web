@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "CyberNova — Ciberseguridad transversal como servicio (CSAAS) | VGT",
+    "description": "Protección integral: gobierno y cumplimiento, monitoreo y respuesta, defensa proactiva, análisis forense y operaciones ofensivas, como servicio gestionado."
+  },
+  "hero": {
+    "eyebrow": "CyberNova",
+    "title": "Ciberseguridad transversal como servicio (CSAAS)",
+    "subtitle": "CyberNova ofrece protección integral para tu organización: desde el gobierno del riesgo y el cumplimiento normativo hasta la defensa activa, el análisis forense y las operaciones ofensivas, todo como servicio gestionado.",
+    "ctaPrimary": "Solicitar evaluación de seguridad",
+    "ctaSecondary": "Ver portafolio"
+  },
+  "intro": {
+    "eyebrow": "¿Qué es CSAAS?",
+    "title": "Ciberseguridad que se adapta a tu organización",
+    "subtitle": "El modelo CSAAS (Ciberseguridad Transversal como Servicio) permite a las organizaciones acceder a capacidades de seguridad de nivel empresarial, pagando solo por lo que necesitan, sin la complejidad de mantener un equipo interno.",
+    "items": [
+      {
+        "title": "Sin inversión en infraestructura",
+        "description": "Accedes a herramientas y expertos de última generación sin necesidad de inversión de capital en equipamiento o licencias."
+      },
+      {
+        "title": "Escalable según tu crecimiento",
+        "description": "El servicio crece contigo: ajusta el nivel de protección según el tamaño de tu organización y su perfil de riesgo."
+      },
+      {
+        "title": "Expertos especializados",
+        "description": "Tu organización accede a un equipo multidisciplinario de analistas y especialistas en ciberseguridad sin necesidad de contratarlos."
+      },
+      {
+        "title": "Cobertura continua 24/7",
+        "description": "Monitoreo y respuesta permanente para detectar y neutralizar amenazas en tiempo real, sin interrupciones."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Portafolio de servicios",
+    "title": "Protección en cada capa de tu organización",
+    "subtitle": "CyberNova estructura sus servicios en seis categorías que cubren todo el ciclo de la ciberseguridad empresarial.",
+    "categories": [
+      {
+        "title": "Gobierno, Riesgo y Cumplimiento (GRC)",
+        "content": [
+          "Diagnóstico de postura de seguridad (CIS Controls, NIST CSF, ISO 27000)",
+          "Inventario de activos TIC y matriz de ciberriesgos (BIA)",
+          "Análisis de riesgos y evaluación de impacto en el negocio",
+          "Plan Estratégico de Seguridad de la Información (PESI) y planes de acción",
+          "Gestión continua de incidentes de seguridad",
+          "Políticas de seguridad basadas en ISO 27002:2022",
+          "Evaluaciones de madurez del programa de seguridad",
+          "Entrenamiento y concientización: higiene digital, formación directiva y técnica, DevSecOps"
+        ]
+      },
+      {
+        "title": "Monitoreo, Detección y Respuesta",
+        "content": [
+          "SOCaaS — Centro de Operaciones de Seguridad como Servicio con cobertura 24/7",
+          "SIEMaaS — Gestión de información y eventos de seguridad en tiempo real",
+          "EDRaaS — Detección y respuesta avanzada en endpoints",
+          "Threat Intelligence — Inteligencia de amenazas contextualizada para tu industria",
+          "Threat Hunting — Búsqueda proactiva de amenazas latentes en tu infraestructura"
+        ]
+      },
+      {
+        "title": "Ciberdefensa / Blue Team",
+        "content": [
+          "Protección de usuarios, endpoints y servidores corporativos",
+          "Protección de correo electrónico contra phishing, spoofing y malware",
+          "Gestión de identidad y autenticación multifactor (MFA)",
+          "Cifrado de datos en reposo y en tránsito",
+          "Análisis de tráfico de red y detección de intrusos (IDS/IPS)",
+          "Protección de aplicaciones web y APIs",
+          "Managed XDR: XDR, EDR, NGFW, Email Security, DNS Security, SWG y SIEM integrados"
+        ]
+      },
+      {
+        "title": "Análisis Forense Digital (DFIR)",
+        "content": [
+          "Recopilación y preservación de evidencia digital con cadena de custodia",
+          "Análisis forense de incidentes de seguridad",
+          "Contención y erradicación de amenazas activas",
+          "Informe pericial para uso legal o regulatorio"
+        ]
+      },
+      {
+        "title": "Operaciones Ofensivas / Red Team",
+        "content": [
+          "Gestión y remediación de vulnerabilidades de forma continua",
+          "Pentesting perimetral: redes, sistemas e infraestructura",
+          "Pentesting de aplicaciones web y móviles",
+          "Ingeniería social: phishing, vishing y simulaciones de ataques dirigidos",
+          "Pruebas de seguridad en redes inalámbricas",
+          "Simulación y emulación de adversarios (Adversary Simulation)"
+        ]
+      },
+      {
+        "title": "e-Learning en Ciberseguridad",
+        "content": [
+          "Plataformas virtuales de aprendizaje (LMS) para toda la organización",
+          "Desarrollo de contenidos de ciberseguridad a medida",
+          "Registro de asistencia y emisión automática de certificados",
+          "Alojamiento y gestión de cursos en línea",
+          "Capacitación sincrónica, asincrónica y presencial",
+          "Programas de concientización y cultura de seguridad para toda la organización"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Tu organización está realmente protegida?",
+    "subtitle": "Solicita una evaluación de seguridad gratuita y descubre cuál es tu postura actual ante las ciberamenazas.",
+    "button": "Solicitar evaluación de seguridad"
+  }
+}

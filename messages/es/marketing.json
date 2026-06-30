@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Marketing & Estrategia Digital | Valadares Global Tech",
+    "description": "Estrategia, redes sociales, contenido, SEO/SEM, email marketing y analítica. Marketing digital orientado a resultados para empresas e instituciones."
+  },
+  "hero": {
+    "eyebrow": "Marketing & Estrategia Digital",
+    "title": "Marketing y estrategia que generan resultados",
+    "subtitle": "Diseñamos y ejecutamos estrategias de marketing digital basadas en datos, para hacer crecer tu presencia, tus leads y tus ventas."
+  },
+  "includes": {
+    "eyebrow": "Qué incluye",
+    "title": "Un servicio de marketing integral",
+    "subtitle": "Combinamos estrategia, ejecución y medición en un mismo equipo.",
+    "items": [
+      {
+        "title": "Estrategia y posicionamiento",
+        "description": "Definición de objetivos, públicos, propuesta de valor y plan de acción medible para tu marca."
+      },
+      {
+        "title": "Gestión de redes sociales",
+        "description": "Planificación, creación de contenido y community management en las plataformas donde está tu audiencia."
+      },
+      {
+        "title": "Contenido y SEO",
+        "description": "Artículos, blog y contenido optimizado para posicionar tu marca de forma orgánica en buscadores."
+      },
+      {
+        "title": "Publicidad y campañas (SEM/Ads)",
+        "description": "Campañas en Google, Meta y otras plataformas, segmentadas y optimizadas para maximizar el retorno."
+      },
+      {
+        "title": "Email marketing y automatización",
+        "description": "Flujos automatizados de captación y fidelización que acompañan al cliente en todo su recorrido."
+      },
+      {
+        "title": "Analítica y optimización",
+        "description": "Medición continua de resultados con tableros claros para decidir con datos y mejorar cada mes."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la estrategia a los resultados",
+    "subtitle": "Un proceso claro y medible, con reportes en cada etapa.",
+    "steps": [
+      { "title": "Diagnóstico", "description": "Analizamos tu marca, tu mercado y tu competencia." },
+      { "title": "Estrategia", "description": "Definimos canales, mensajes y un plan de acción priorizado." },
+      { "title": "Ejecución", "description": "Producimos contenido y lanzamos campañas y automatizaciones." },
+      { "title": "Medición y optimización", "description": "Analizamos resultados y optimizamos de forma continua." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Entregables",
+    "title": "Lo que recibes",
+    "subtitle": "Resultados tangibles, no solo actividad.",
+    "items": [
+      "Plan de marketing y estrategia documentada",
+      "Calendario de contenidos y publicaciones",
+      "Campañas de publicidad activas y optimizadas",
+      "Flujos de email marketing y automatización",
+      "Tablero de métricas y reportes periódicos",
+      "Recomendaciones de mejora continua"
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para hacer crecer tu marca?",
+    "subtitle": "Cuéntanos tus objetivos y diseñamos una estrategia de marketing a tu medida.",
+    "button": "Hablemos"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "Desarrollo Web & SaaS | Valadares Global Tech",
+    "description": "Sitios web, e-commerce, aplicaciones móviles y plataformas SaaS a medida. Desarrollo de software con enfoque de producto, UX/UI y escalabilidad."
+  },
+  "hero": {
+    "eyebrow": "Desarrollo Web & SaaS",
+    "title": "Sitios, apps y plataformas a tu medida",
+    "subtitle": "Diseñamos y desarrollamos productos digitales rápidos, modernos y escalables: desde tu sitio web hasta plataformas SaaS completas."
+  },
+  "aiSpeed": {
+    "eyebrow": "Desarrollo acelerado con IA",
+    "title": "Tu producto en días, no en meses",
+    "text": "Usamos inteligencia artificial para prototipar, construir e iterar mucho más rápido, sin sacrificar calidad: revisamos, probamos y aseguramos cada entrega.",
+    "points": [
+      "Prototipos y MVPs en días",
+      "Iteración rápida y económica",
+      "Calidad asegurada con revisión y pruebas"
+    ]
+  },
+  "includes": {
+    "eyebrow": "Qué incluye",
+    "title": "Desarrollo de ciclo completo",
+    "subtitle": "Te acompañamos desde la idea hasta el lanzamiento y el soporte.",
+    "items": [
+      {
+        "title": "Sitios web y landing pages",
+        "description": "Sitios y landings rápidos, responsivos y optimizados para SEO que convierten visitantes en clientes."
+      },
+      {
+        "title": "E-commerce y tiendas en línea",
+        "description": "Tiendas seguras y fáciles de administrar para vender tus productos o servicios en línea."
+      },
+      {
+        "title": "Aplicaciones web y móviles",
+        "description": "Apps intuitivas y escalables para web, iOS y Android que acercan tus servicios a tus usuarios."
+      },
+      {
+        "title": "Plataformas SaaS y micro-SaaS",
+        "description": "Productos de software con enfoque de producto, pensados para validar, lanzar y escalar."
+      },
+      {
+        "title": "Bases de datos y sistemas a medida",
+        "description": "Sistemas internos, paneles y bases de datos robustas que ordenan y potencian tu operación."
+      },
+      {
+        "title": "Integraciones, APIs y soporte",
+        "description": "Conectamos tus herramientas (pagos, CRM, ERP) y damos mantenimiento y soporte continuo."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "De la idea al producto en producción",
+    "subtitle": "Metodología clara, entregas iterativas y comunicación constante.",
+    "steps": [
+      { "title": "Descubrimiento", "description": "Definimos alcance, requisitos y objetivos del producto." },
+      { "title": "Diseño UX/UI", "description": "Prototipamos la experiencia y el diseño de cada pantalla." },
+      { "title": "Desarrollo", "description": "Construimos el producto con entregas iterativas y revisiones." },
+      { "title": "Lanzamiento y soporte", "description": "Desplegamos, capacitamos y damos mantenimiento continuo." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Entregables",
+    "title": "Lo que recibes",
+    "subtitle": "Un producto listo para usar y crecer.",
+    "items": [
+      "Sitio web, app o plataforma en producción",
+      "Diseño UX/UI y prototipos",
+      "Código fuente y documentación técnica",
+      "Configuración de hosting y despliegue",
+      "Integraciones con tus sistemas",
+      "Soporte y mantenimiento posterior"
+    ]
+  },
+  "cta": {
+    "title": "¿Tienes un proyecto digital en mente?",
+    "subtitle": "Cuéntanos tu idea y la convertimos en un producto sólido y escalable.",
+    "button": "Hablemos"
+  }
+}

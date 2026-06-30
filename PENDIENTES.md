@@ -1,0 +1,46 @@
+# PENDIENTES — VGT Web
+
+Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX + Claude.
+Última actualización: 2026-06-29.
+
+## 🔴 Decisiones / acciones de JosakaX (tú)
+- [ ] **Proveedores de servicios de agencia:** conseguir las empresas/aliados que prestarán
+      Marketing & Estrategia, Diseño & Branding y Desarrollo Web/SaaS (el contenido de las landings
+      se ajustará a lo que ellos ofrezcan).
+- [ ] **Nombres definitivos** de los 2 servicios especializados (hoy "Gestión de Asistencia y Acceso"
+      y "Ciberseguridad Gestionada") — confirmar con los proveedores (MyIntelli / CyberNova).
+- [ ] **Métricas:** confirmar qué cifras puede mostrar VGT como propias vs. las del proveedor
+      (hoy se usan +1.000 clientes, +12 años, etc. de la plataforma de asistencia).
+- [ ] **¿Quitar marcas dentro de las páginas de detalle?** Decidir si las landings de detalle
+      siguen mostrando MyIntelli/CyberNova o se neutralizan (eso sería la "pasada grande": contenido
+      + URLs + redirecciones 301). Hoy: el menú/Home/footer ya usan nombres de servicio VGT.
+- [ ] **Logo SVG final** → reemplazar `public/logo/logo-vgt.svg` (hoy hay placeholder).
+- [ ] **Teléfono de EE. UU.** → confirmar el número.
+- [ ] **Fotos reales del equipo** (Carla y Jorge) → hoy avatares con iniciales.
+- [ ] **Capturas/mockups reales** de los proyectos del portafolio (hoy visual con gradiente).
+- [ ] **Misión y Visión** → validar los borradores con dirección.
+- [ ] **Revisión legal** de privacidad, términos y cookies (+ fecha de última actualización).
+
+## 🟡 Tareas de Claude (yo)
+- [ ] **Franja "Desarrollo acelerado con IA"** (diferenciador de velocidad / MVPs en días) dentro de
+      las landings de Desarrollo y Agentes. Recomendada, aún no implementada.
+- [ ] **QA responsive** teléfono/tablet: revisión a nivel de código + visual cuando el entorno de
+      screenshots lo permita.
+- [ ] Afinar el **contenido de las 6 landings de servicio** cuando JosakaX defina proveedores.
+- [ ] Integrar **Calendly** en el bloque "Agendar demo".
+- [ ] Integrar **envío real de formularios** a CRM/email (Resend / HubSpot). Hoy: endpoints
+      placeholder que validan y responden 200.
+- [ ] Activar **analítica** (Google Analytics / Plausible).
+- [ ] Configurar **despliegue en Cloudflare** (adaptador OpenNext) y conectar el repo
+      `github.com/JosakaX/vgt_web.git`.
+- [ ] Re-auditoría final de **Lighthouse** (Performance/A11y/SEO/Best Practices ≥ 90).
+
+## ✅ Hecho
+- [x] Fundación Next.js + TS + Tailwind + i18n + dark mode + componentes base.
+- [x] Home (posicionamiento de agencia), Servicios, Nosotros (con equipo), Proyectos (4 sitios
+      reales), Blog (Próximamente), Contacto, Cotización, Legales.
+- [x] Renombrado de los servicios especializados en menú/Home/footer a nombres de servicio VGT.
+- [x] SEO técnico (sitemap, robots, JSON-LD, metadata por página), README, DECISIONES, .env.example.
+- [x] **6 landings de servicio de agencia** (Marketing, Branding, Desarrollo, Agentes+Chatbots,
+      Consultoría IA, Datos & Dashboards) con componente reutilizable; tarjetas enlazadas; mega-menú
+      de 2 columnas; sitemap actualizado.

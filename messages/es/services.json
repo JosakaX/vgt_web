@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Servicios — Marketing, Diseño y Tecnología | Valadares Global Tech",
+    "description": "Estrategia digital, diseño y branding, desarrollo web y de apps, y tecnología e innovación. Además distribuimos soluciones líderes: MyIntelli y CyberNova."
+  },
+  "hero": {
+    "eyebrow": "Servicios",
+    "title": "Estrategia, diseño y tecnología de punta a punta",
+    "subtitle": "Acompañamos a empresas e instituciones en cada etapa de su transformación digital, con un equipo experto y soluciones a medida."
+  },
+  "agency": {
+    "eyebrow": "Lo que hacemos",
+    "title": "Nuestros servicios",
+    "subtitle": "Líneas de servicio que se combinan según las necesidades de tu organización.",
+    "items": [
+      {
+        "key": "marketing",
+        "name": "Marketing & Estrategia Digital",
+        "category": "Crecimiento",
+        "summary": "Estrategia, redes sociales, contenido, campañas y analítica para hacer crecer tu marca y tus ventas.",
+        "cta": "Conocer más",
+        "href": "/servicios/marketing"
+      },
+      {
+        "key": "branding",
+        "name": "Diseño & Branding",
+        "category": "Identidad",
+        "summary": "Identidad visual completa: estrategia de marca, logotipo, sistema visual y manual de identidad.",
+        "cta": "Conocer más",
+        "href": "/servicios/branding"
+      },
+      {
+        "key": "desarrollo",
+        "name": "Desarrollo Web, Apps & SaaS",
+        "category": "Producto digital",
+        "summary": "Sitios, apps, plataformas SaaS y micro-SaaS, bases de datos y sistemas a medida, con enfoque de producto.",
+        "cta": "Conocer más",
+        "href": "/servicios/desarrollo"
+      },
+      {
+        "key": "agentes",
+        "name": "Agentes de IA, Chatbots y Automatización",
+        "category": "Inteligencia artificial",
+        "summary": "Chatbots, asistentes y agentes que trabajan 24/7: WhatsApp, llamadas, CRM y automatizaciones que conectan tus sistemas.",
+        "cta": "Conocer más",
+        "href": "/servicios/agentes"
+      },
+      {
+        "key": "consultoria",
+        "name": "Consultoría en IA & Transformación Digital",
+        "category": "Estrategia",
+        "summary": "Diagnóstico, casos de uso de IA y una hoja de ruta priorizada para digitalizar tu organización con impacto medible.",
+        "cta": "Conocer más",
+        "href": "/servicios/consultoria"
+      },
+      {
+        "key": "datos",
+        "name": "Datos, Analítica & Dashboards",
+        "category": "Business Intelligence",
+        "summary": "Convertimos tus datos en dashboards, KPIs y reportes automatizados para que decidas con información, no con intuición.",
+        "cta": "Conocer más",
+        "href": "/servicios/datos"
+      }
+    ]
+  },
+  "solutions": {
+    "eyebrow": "Soluciones especializadas",
+    "title": "Plataformas líderes que integramos por ti",
+    "subtitle": "Como partner autorizado, distribuimos e implementamos soluciones empresariales probadas a escala internacional.",
+    "myintelli": {
+      "name": "Gestión de Asistencia y Acceso",
+      "category": "Control de tiempo y acceso",
+      "summary": "Plataforma todo-en-uno para el control de asistencia, tiempos y acceso de empleados, con biometría avanzada y app móvil.",
+      "cta": "Conocer más"
+    },
+    "cybernova": {
+      "name": "Ciberseguridad Gestionada",
+      "category": "Ciberseguridad como Servicio (CSAAS)",
+      "summary": "Protección integral como servicio gestionado: gobierno y cumplimiento, monitoreo, defensa, forense y operaciones ofensivas.",
+      "cta": "Conocer más"
+    }
+  },
+  "stats": {
+    "items": [
+      { "value": "+120", "label": "Proyectos completados" },
+      { "value": "+85", "label": "Clientes satisfechos" },
+      { "value": "+10", "label": "Países alcanzados" },
+      { "value": "+15", "label": "Años de experiencia" }
+    ]
+  },
+  "whyus": {
+    "eyebrow": "Por qué VGT",
+    "title": "¿Por qué elegirnos?",
+    "subtitle": "Lo que nos diferencia como aliado tecnológico de empresas e instituciones.",
+    "items": [
+      {
+        "title": "Enfoque estratégico",
+        "description": "Cada proyecto parte de tus objetivos de negocio, no de la tecnología por sí sola."
+      },
+      {
+        "title": "Soluciones a medida",
+        "description": "Diseñamos cada propuesta según tu industria, tamaño y necesidades reales."
+      },
+      {
+        "title": "Tecnología de vanguardia",
+        "description": "Trabajamos con las herramientas y plataformas líderes del mercado."
+      },
+      {
+        "title": "Equipo experto",
+        "description": "Especialistas en marketing, diseño, desarrollo y ciberseguridad bajo un mismo techo."
+      },
+      {
+        "title": "Compromiso y calidad",
+        "description": "Acompañamiento cercano y estándares de calidad en cada entrega."
+      },
+      {
+        "title": "Alcance global",
+        "description": "Experiencia con organizaciones en múltiples países de Latinoamérica y más allá."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿No sabes por dónde empezar?",
+    "subtitle": "Cuéntanos tu reto y nuestro equipo te orientará sobre la mejor combinación de servicios para tu organización.",
+    "button": "Hablemos"
+  }
+}

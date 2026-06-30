@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Valadares Global Tech — Estrategia, Diseño y Tecnología",
+    "description": "Agencia digital de marketing, diseño y tecnología para empresas e instituciones. Soluciones integrales: estrategia, branding, desarrollo web y apps, ciberseguridad y más."
+  },
+  "hero": {
+    "badge": "Marketing · Diseño · Tecnología",
+    "title": "Estrategia, diseño y tecnología que transforman organizaciones.",
+    "subtitle": "Soluciones digitales integrales para empresas e instituciones que buscan innovación, crecimiento y resultados.",
+    "ctaPrimary": "Nuestros servicios",
+    "ctaSecondary": "Hablemos"
+  },
+  "servicesPreview": {
+    "eyebrow": "Servicios",
+    "title": "Qué hacemos por tu organización",
+    "subtitle": "Estrategia, diseño y tecnología que se combinan según lo que necesitas.",
+    "viewAll": "Ver todos los servicios"
+  },
+  "projectsPreview": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos destacados",
+    "subtitle": "Una muestra de cómo combinamos creatividad y tecnología para generar resultados.",
+    "viewAll": "Ver todos los proyectos"
+  },
+  "trustBar": {
+    "title": "Soluciones potenciadas por nuestros aliados tecnológicos"
+  },
+  "solutions": {
+    "heading": "Soluciones especializadas",
+    "subheading": "Además de nuestros servicios de agencia, distribuimos como partner autorizado dos plataformas líderes.",
+    "myintelli": {
+      "name": "Gestión de Asistencia y Acceso",
+      "category": "Control de tiempo y acceso",
+      "summary": "Plataforma todo-en-uno para optimizar la gestión del tiempo, la asistencia y el control de acceso de tus empleados, en un entorno seguro e intuitivo.",
+      "cta": "Conocer más"
+    },
+    "cybernova": {
+      "name": "Ciberseguridad Gestionada",
+      "category": "Ciberseguridad como Servicio (CSAAS)",
+      "summary": "Ciberseguridad transversal como servicio (CSAAS): gobierno y cumplimiento, monitoreo y respuesta, defensa proactiva, forense y operaciones ofensivas.",
+      "cta": "Conocer más"
+    }
+  },
+  "why": {
+    "heading": "Por qué VGT",
+    "subheading": "Un aliado que entiende tu operación y la tecnología que la potencia.",
+    "pillars": [
+      {
+        "title": "Un solo aliado, múltiples soluciones",
+        "desc": "Centraliza la gestión de personal y la ciberseguridad de tu empresa con un único interlocutor."
+      },
+      {
+        "title": "Acompañamiento local en Latinoamérica",
+        "desc": "Implementación, idioma y soporte cercano, adaptados a la realidad de tu región."
+      },
+      {
+        "title": "Soporte y consultoría continua",
+        "desc": "No te dejamos solo tras la instalación: optimización y asesoría permanentes."
+      },
+      {
+        "title": "Soluciones probadas a escala internacional",
+        "desc": "Tecnología de proveedores líderes, usada por organizaciones en decenas de países."
+      }
+    ]
+  },
+  "how": {
+    "heading": "Cómo trabajamos",
+    "subheading": "Un proceso claro, de la primera reunión al soporte continuo.",
+    "steps": [
+      {
+        "title": "Diagnóstico",
+        "desc": "Entendemos tu operación, tus retos y tus objetivos."
+      },
+      {
+        "title": "Propuesta a medida",
+        "desc": "Diseñamos la combinación de soluciones que mejor se ajusta a tu caso."
+      },
+      {
+        "title": "Implementación",
+        "desc": "Desplegamos, integramos y capacitamos a tu equipo."
+      },
+      {
+        "title": "Soporte continuo",
+        "desc": "Acompañamiento, optimización y mejora permanente."
+      }
+    ]
+  },
+  "industries": {
+    "heading": "Sectores que potenciamos",
+    "subheading": "Soluciones que se adaptan a las exigencias de cada industria.",
+    "items": [
+      "Salud",
+      "Manufactura",
+      "Minería",
+      "Servicios",
+      "Hotelería",
+      "Construcción",
+      "Educación",
+      "Restaurantes",
+      "Entretenimiento",
+      "Banca/Fintech"
+    ]
+  },
+  "finalCta": {
+    "title": "Hablemos de tu próximo proyecto",
+    "subtitle": "Cuéntanos tu reto y te mostramos cómo la estrategia, el diseño y la tecnología pueden transformar tu organización.",
+    "button": "Hablemos"
+  }
+}

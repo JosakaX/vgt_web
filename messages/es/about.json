@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Nosotros — Valadares Global Tech",
+    "description": "VGT es tu aliado tecnológico: seleccionamos, integramos y desplegamos soluciones líderes para empresas de Latinoamérica. Marketing · Diseño · Tecnología."
+  },
+  "hero": {
+    "eyebrow": "Nosotros",
+    "title": "Tu aliado tecnológico en Latinoamérica",
+    "subtitle": "Seleccionamos, integramos y desplegamos soluciones de clase mundial para que tu empresa compita con las mejores herramientas del mercado."
+  },
+  "who": {
+    "eyebrow": "Quiénes somos",
+    "title": "Una empresa construida para acelerar tu negocio",
+    "paragraphs": [
+      "Valadares Global Tech (VGT) es una empresa tecnológica orientada a empresas de Latinoamérica. No fabricamos herramientas genéricas: identificamos las plataformas líderes del mercado, nos convertimos en sus partners autorizados y las desplegamos con acompañamiento real para que cada cliente obtenga el máximo retorno de su inversión.",
+      "Operamos como puente entre la innovación global y las necesidades específicas de cada organización. Nuestro equipo combina experiencia en marketing digital, diseño estratégico y tecnología para ofrecer una propuesta integral que va mucho más allá de la venta de software."
+    ]
+  },
+  "partner": {
+    "eyebrow": "Modelo partner",
+    "title": "Distribuidor y partner autorizado",
+    "subtitle": "Somos socios estratégicos certificados de las soluciones que representamos, no revendedores genéricos. Eso se traduce en implementaciones más sólidas y soporte respaldado por el fabricante.",
+    "viewSolution": "Ver solución",
+    "items": [
+      {
+        "name": "MyIntelli",
+        "badge": "Partner autorizado",
+        "description": "Plataforma de gestión de asistencia, tiempo y control de acceso para empresas. Como partner autorizado, ofrecemos implementación, capacitación continua y soporte técnico directo.",
+        "href": "/servicios/myintelli"
+      },
+      {
+        "name": "CyberNova",
+        "badge": "Distribuidor autorizado",
+        "description": "Portafolio integral de ciberseguridad como servicio para organizaciones de todos los tamaños. La condición de distribuidor autorizado garantiza licencias oficiales y soporte certificado.",
+        "href": "/servicios/cybernova"
+      }
+    ]
+  },
+  "value": {
+    "eyebrow": "Propuesta de valor",
+    "title": "Tres áreas que impulsan tu crecimiento",
+    "subtitle": "Integramos marketing, diseño y tecnología en una propuesta cohesiva, orientada a los resultados concretos de tu negocio.",
+    "pillars": [
+      {
+        "title": "Marketing",
+        "description": "Estrategias de marketing digital impulsadas por inteligencia artificial: automatización de campañas, análisis de datos y optimización continua para maximizar tu presencia y conversiones."
+      },
+      {
+        "title": "Diseño",
+        "description": "Identidad visual, experiencia de usuario y materiales de comunicación que reflejan la esencia de tu marca y conectan con tu audiencia de forma genuina."
+      },
+      {
+        "title": "Tecnología",
+        "description": "Integración de soluciones líderes, ciberseguridad y automatización de procesos para que tu empresa opere con la máxima eficiencia y seguridad."
+      }
+    ]
+  },
+  "mission": {
+    "eyebrow": "Propósito",
+    "title": "Lo que nos mueve",
+    "mission": {
+      "label": "Misión",
+      "text": "Democratizar el acceso a tecnología de clase mundial para empresas latinoamericanas, acompañándolas en cada etapa de su transformación digital con soluciones probadas, equipos certificados y resultados medibles."
+    },
+    "vision": {
+      "label": "Visión",
+      "text": "Ser el aliado tecnológico de referencia para empresas de Latinoamérica que buscan crecer con las mejores herramientas del mundo, consolidando nuestra presencia en toda la región como puente entre la innovación global y el mercado local."
+    }
+  },
+  "team": {
+    "eyebrow": "Equipo directivo",
+    "title": "Quiénes lideran VGT",
+    "subtitle": "Un equipo que combina visión creativa e innovación tecnológica.",
+    "members": [
+      {
+        "name": "Carla Valadares",
+        "role": "Directora Creativa y Relaciones Institucionales",
+        "initials": "CV"
+      },
+      {
+        "name": "Jorge Valadares",
+        "role": "Director de Innovación y Desarrollo Tecnológico",
+        "initials": "JV"
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para transformar tu empresa?",
+    "subtitle": "Agenda una consulta gratuita y descubre cómo VGT puede acompañarte.",
+    "button": "Agendar consulta"
+  }
+}

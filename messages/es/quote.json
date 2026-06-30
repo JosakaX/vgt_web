@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Solicitar cotización — Valadares Global Tech",
+    "description": "Cuéntanos sobre tu empresa y el servicio que te interesa. Preparamos una propuesta a tu medida, sin compromiso."
+  },
+  "hero": {
+    "eyebrow": "Cotización",
+    "title": "Propuesta a tu medida",
+    "subtitle": "Completa el formulario con los detalles de tu proyecto. Nuestro equipo analiza tu caso y prepara una propuesta personalizada sin ningún compromiso."
+  },
+  "note": "Cada propuesta es elaborada por nuestros especialistas según las necesidades reales de tu empresa. Sin costos fijos, sin compromisos.",
+  "form": {
+    "heading": "Cuéntanos sobre tu proyecto",
+    "submit": "Solicitar cotización",
+    "submitting": "Enviando…",
+    "success": "¡Solicitud recibida! Nuestro equipo preparará tu propuesta y te contactará pronto.",
+    "error": "No pudimos enviar tu solicitud. Por favor intenta de nuevo.",
+    "required": "* Campo obligatorio",
+    "fields": {
+      "nombre": {
+        "label": "Nombre completo *",
+        "placeholder": "¿Cómo te llamas?"
+      },
+      "empresa": {
+        "label": "Empresa",
+        "placeholder": "Nombre de tu organización"
+      },
+      "pais": {
+        "label": "País",
+        "placeholder": "Ej. Venezuela, México, España…"
+      },
+      "email": {
+        "label": "Correo electrónico *",
+        "placeholder": "tu@empresa.com"
+      },
+      "telefono": {
+        "label": "Teléfono",
+        "placeholder": "+1 555 000 0000"
+      },
+      "servicio": {
+        "label": "Servicio de interés *",
+        "placeholder": "Selecciona una opción",
+        "myintelli": "MyIntelli — Gestión de asistencia y acceso",
+        "cybernova": "CyberNova — Ciberseguridad",
+        "ambos": "Ambos servicios"
+      },
+      "empleados": {
+        "label": "Número de empleados",
+        "placeholder": "Selecciona un rango",
+        "r1": "1 – 50 empleados",
+        "r2": "51 – 200 empleados",
+        "r3": "201 – 1 000 empleados",
+        "r4": "Más de 1 000 empleados"
+      },
+      "modulos": {
+        "label": "Módulos o funcionalidades de interés",
+        "placeholder": "Ej. gestión de inventario, monitoreo de amenazas, reportes en tiempo real…"
+      },
+      "objetivo": {
+        "label": "Objetivo o necesidad principal *",
+        "placeholder": "Describe el reto que quieres resolver con nuestra solución…"
+      },
+      "mensaje": {
+        "label": "Comentarios adicionales",
+        "placeholder": "Cualquier detalle que quieras compartir con nuestro equipo…"
+      }
+    }
+  },
+  "validation": {
+    "nombreRequired": "El nombre es obligatorio.",
+    "emailRequired": "El correo electrónico es obligatorio.",
+    "emailInvalid": "Ingresa un correo electrónico válido.",
+    "servicioRequired": "Selecciona el servicio de tu interés.",
+    "objetivoRequired": "Describe tu objetivo o necesidad principal.",
+    "objetivoMinLength": "Por favor describe tu objetivo con al menos 10 caracteres."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Proyectos destacados — Valadares Global Tech",
+    "description": "Sitios web institucionales y de organizaciones desarrollados por VGT: Red Gobierno con Valores, OHGDA, GEDEVAL y Solo Una Vida."
+  },
+  "hero": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos destacados",
+    "subtitle": "Una selección de sitios web que hemos diseñado y desarrollado para instituciones y organizaciones."
+  },
+  "intro": "Cada proyecto combina estrategia, diseño y tecnología para dar presencia digital sólida a organizaciones e instituciones. Estos son algunos de nuestros trabajos en línea.",
+  "viewAll": "Ver todos los proyectos",
+  "visit": "Visitar sitio",
+  "items": [
+    {
+      "title": "Red Gobierno con Valores",
+      "category": "Institucional · Gobernanza",
+      "url": "https://www.redgobiernoconvalores.com",
+      "domain": "redgobiernoconvalores.com"
+    },
+    {
+      "title": "OHGDA",
+      "category": "Organización internacional",
+      "url": "https://ohgda.org",
+      "domain": "ohgda.org"
+    },
+    {
+      "title": "GEDEVAL",
+      "category": "Institucional",
+      "url": "https://www.gedeval.org",
+      "domain": "gedeval.org"
+    },
+    {
+      "title": "Solo Una Vida",
+      "category": "Organización social",
+      "url": "https://www.solounavida.org",
+      "domain": "solounavida.org"
+    }
+  ]
+}

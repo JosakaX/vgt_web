@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* === Marca (extraídos del logo VGT) === */
+    --vgt-navy: #0b2c6d;
+    --vgt-navy-deep: #071e4a;
+    --vgt-navy-soft: #15427f;
+
+    --vgt-silver: #c7ccd4;
+    --vgt-silver-light: #e9ecf1;
+    --vgt-graphite: #3a4252;
+    --vgt-white: #ffffff;
+    --vgt-ink: #0e1525;
+
+    /* Accent vivo SOLO para gradientes decorativos (mantiene la energía de marca) */
+    --vgt-accent-vivid: #2f6bff;
+    /* Accent para TEXTO/enlaces/tintes — AA sobre claro (5.6:1) */
+    --vgt-accent: #1d4ed8;
+    --vgt-accent-2: #0e7d6f;
+    /* Accent SÓLIDO para rellenos con texto blanco (fijo en ambos temas, AA 5.6:1) */
+    --vgt-accent-solid: #1d4ed8;
+    --vgt-accent-solid-hover: #1a45c0;
+
+    --vgt-success: #1fa971;
+    --vgt-warning: #e0a100;
+    --vgt-danger: #d64545;
+
+    /* === Tokens semánticos — TEMA CLARO (por defecto) === */
+    --bg: var(--vgt-white);
+    --surface: var(--vgt-white);
+    --surface-2: var(--vgt-silver-light);
+    --border-color: #dfe3ea;
+    --fg: var(--vgt-ink);
+    --fg-muted: var(--vgt-graphite);
+
+    color-scheme: light;
+  }
+
+  .dark {
+    /* === Tokens semánticos — TEMA OSCURO === */
+    --bg: #0a1124;
+    --surface: #101a35;
+    --surface-2: #16223f;
+    --border-color: #243156;
+    --fg: #eef2fb;
+    --fg-muted: #a6b1cc;
+
+    /* En oscuro la "plata" del logo se mantiene clara para contraste */
+    --vgt-silver-light: #16223f;
+
+    /* Accent para TEXTO sobre fondos oscuros (más claro para contraste AA) */
+    --vgt-accent: #84a9ff;
+    --vgt-accent-2: #22c9b8;
+
+    color-scheme: dark;
+  }
+
+  * {
+    border-color: var(--border-color);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Foco visible y accesible en toda la app */
+  :focus-visible {
+    outline: 2px solid var(--vgt-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: var(--vgt-accent);
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  /* Texto con gradiente de marca */
+  .text-gradient {
+    background: linear-gradient(120deg, var(--vgt-navy) 0%, var(--vgt-accent) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  .dark .text-gradient {
+    background: linear-gradient(120deg, #93b4ff 0%, var(--vgt-accent-2) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Patrón sutil de retícula para fondos de sección */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, var(--border-color) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--border-color) 1px, transparent 1px);
+    background-size: 48px 48px;
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+  }
+}
+
+/* Respeta la preferencia de movimiento reducido del usuario */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

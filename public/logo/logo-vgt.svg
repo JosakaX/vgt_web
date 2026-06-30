@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" role="img" aria-label="Valadares Global Tech">
+  <!-- PLACEHOLDER provisional. Reemplaza este archivo por el SVG final de VGT
+       manteniendo el mismo nombre (logo-vgt.svg). Navbar y Footer ya lo consumen. -->
+  <defs>
+    <linearGradient id="vgtNavy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2A3D6E"/>
+      <stop offset="1" stop-color="#121E3D"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#vgtNavy)">
+    <text x="0" y="34" font-family="'Sora','Segoe UI',sans-serif" font-size="34" font-weight="800" letter-spacing="1">VGT</text>
+  </g>
+  <text x="2" y="54" font-family="'Inter','Segoe UI',sans-serif" font-size="9.5" font-weight="600" letter-spacing="2.5" fill="currentColor">VALADARES GLOBAL TECH</text>
+</svg>
