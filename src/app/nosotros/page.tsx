@@ -50,6 +50,7 @@ export default async function NosotrosPage() {
   const team = t.raw("team.members") as {
     name: string;
     role: string;
+    subrole?: string;
     initials: string;
   }[];
 
@@ -204,6 +205,7 @@ export default async function NosotrosPage() {
                 <TeamCard
                   name={member.name}
                   role={member.role}
+                  subrole={member.subrole}
                   initials={member.initials}
                 />
               </StaggerItem>

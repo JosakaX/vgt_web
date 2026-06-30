@@ -75,11 +75,13 @@
       {
         "name": "Jorge Valadares",
         "role": "Founder & CEO",
+        "subrole": "Director de Innovación y Desarrollo Tecnológico",
         "initials": "JV"
       },
       {
         "name": "Carla Valadares",
         "role": "Co-Founder & COO",
+        "subrole": "Directora Creativa y Relaciones Institucionales",
         "initials": "CV"
       }
     ]
