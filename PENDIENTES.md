@@ -3,6 +3,10 @@
 Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX + Claude.
 Última actualización: 2026-06-29.
 
+## ⚠️ TEMPORAL — REVERTIR
+- [ ] El **badge del hero de la Home** dice `Carla Te amo mi Reina...` (sorpresa para Carla 💍).
+      **Revertir** a `Marketing · Diseño · Tecnología` en `messages/es/home.json` → `hero.badge`.
+
 ## 🔴 Decisiones / acciones de JosakaX (tú)
 - [ ] **Proveedores de servicios de agencia:** conseguir las empresas/aliados que prestarán
       Marketing & Estrategia, Diseño & Branding y Desarrollo Web/SaaS (el contenido de las landings
