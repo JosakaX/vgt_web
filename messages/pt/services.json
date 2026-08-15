@@ -1,0 +1,127 @@
+﻿{
+  "meta": {
+    "title": "Serviços — Marketing, Design e Tecnologia | Valadares Global Tech",
+    "description": "Estratégia digital, design e branding, desenvolvimento web e de apps, e tecnologia e inovação. Além disso, distribuímos soluções líderes: Veritempo e Veriscudo."
+  },
+  "hero": {
+    "eyebrow": "Serviços",
+    "title": "Estratégia, design e tecnologia de ponta a ponta",
+    "subtitle": "Acompanhamos empresas e instituições em cada etapa da sua transformação digital, com uma equipa especializada e soluções à medida."
+  },
+  "agency": {
+    "eyebrow": "O que fazemos",
+    "title": "Os nossos serviços",
+    "subtitle": "Linhas de serviço que se combinam de acordo com as necessidades da tua organização.",
+    "items": [
+      {
+        "key": "marketing",
+        "name": "Marketing & Estratégia Digital",
+        "category": "Crescimento",
+        "summary": "Estratégia, redes sociais, conteúdo, campanhas e analítica para fazer crescer a tua marca e as tuas vendas.",
+        "cta": "Saber mais",
+        "href": "/servicios/marketing"
+      },
+      {
+        "key": "branding",
+        "name": "Design & Branding",
+        "category": "Identidade",
+        "summary": "Identidade visual completa: estratégia de marca, logótipo, sistema visual e manual de identidade.",
+        "cta": "Saber mais",
+        "href": "/servicios/branding"
+      },
+      {
+        "key": "desarrollo",
+        "name": "Desenvolvimento Web, Apps & SaaS",
+        "category": "Produto digital",
+        "summary": "Sites, apps, plataformas SaaS e micro-SaaS, bases de dados e sistemas à medida, com abordagem de produto.",
+        "cta": "Saber mais",
+        "href": "/servicios/desarrollo"
+      },
+      {
+        "key": "agentes",
+        "name": "Agentes de IA, Chatbots e Automação",
+        "category": "Inteligência artificial",
+        "summary": "Chatbots, assistentes e agentes que trabalham 24/7: WhatsApp, chamadas, CRM e automações que ligam os teus sistemas.",
+        "cta": "Saber mais",
+        "href": "/servicios/agentes"
+      },
+      {
+        "key": "consultoria",
+        "name": "Consultoria em IA & Transformação Digital",
+        "category": "Estratégia",
+        "summary": "Diagnóstico, casos de uso de IA e um roteiro priorizado para digitalizar a tua organização com impacto mensurável.",
+        "cta": "Saber mais",
+        "href": "/servicios/consultoria"
+      },
+      {
+        "key": "datos",
+        "name": "Dados, Analítica & Dashboards",
+        "category": "Business Intelligence",
+        "summary": "Transformamos os teus dados em dashboards, KPIs e relatórios automatizados para que decidas com informação, não com intuição.",
+        "cta": "Saber mais",
+        "href": "/servicios/datos"
+      }
+    ]
+  },
+  "solutions": {
+    "eyebrow": "Soluções especializadas",
+    "title": "Plataformas líderes que integramos por ti",
+    "subtitle": "Como partner autorizado, distribuímos e implementamos soluções empresariais comprovadas à escala internacional.",
+    "veritempo": {
+      "name": "Gestão de Assiduidade e Acessos",
+      "category": "Controlo de tempo e acessos",
+      "summary": "Plataforma tudo-em-um para o controlo de assiduidade, tempos e acessos de colaboradores, com biometria avançada e app móvel.",
+      "cta": "Saber mais"
+    },
+    "veriscudo": {
+      "name": "Cibersegurança Gerida",
+      "category": "Cibersegurança como Serviço (CSaaS)",
+      "summary": "Proteção integral como serviço gerido: governação e conformidade, monitorização, defesa, forense e operações ofensivas.",
+      "cta": "Saber mais"
+    }
+  },
+  "stats": {
+    "items": [
+      { "value": "+120", "label": "Projetos concluídos" },
+      { "value": "+85", "label": "Clientes satisfeitos" },
+      { "value": "+10", "label": "Países alcançados" },
+      { "value": "+11", "label": "Anos de experiência" }
+    ]
+  },
+  "whyus": {
+    "eyebrow": "Porquê a VGT",
+    "title": "Porquê escolher-nos?",
+    "subtitle": "O que nos diferencia como parceiro tecnológico de empresas e instituições.",
+    "items": [
+      {
+        "title": "Abordagem estratégica",
+        "description": "Cada projeto parte dos teus objetivos de negócio, não da tecnologia por si só."
+      },
+      {
+        "title": "Soluções à medida",
+        "description": "Desenhamos cada proposta de acordo com a tua indústria, dimensão e necessidades reais."
+      },
+      {
+        "title": "Tecnologia de vanguarda",
+        "description": "Trabalhamos com as ferramentas e plataformas líderes do mercado."
+      },
+      {
+        "title": "Equipa especializada",
+        "description": "Especialistas em marketing, design, desenvolvimento e cibersegurança sob o mesmo teto."
+      },
+      {
+        "title": "Compromisso e qualidade",
+        "description": "Acompanhamento próximo e padrões de qualidade em cada entrega."
+      },
+      {
+        "title": "Alcance global",
+        "description": "Experiência com organizações em vários países da América Latina e não só."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Não sabes por onde começar?",
+    "subtitle": "Conta-nos o teu desafio e a nossa equipa orienta-te sobre a melhor combinação de serviços para a tua organização.",
+    "button": "Falemos"
+  }
+}

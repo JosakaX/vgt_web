@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Dados, Analítica & Dashboards | Valadares Global Tech",
+    "description": "Transformamos os teus dados em decisões: dashboards interativos, KPIs, relatórios automatizados e analítica com IA para a tua organização."
+  },
+  "hero": {
+    "eyebrow": "Dados, Analítica & Dashboards",
+    "title": "Transforma os teus dados em decisões",
+    "subtitle": "Centralizamos, visualizamos e analisamos a informação do teu negócio para que tomes decisões com dados, não com intuição."
+  },
+  "includes": {
+    "eyebrow": "O que inclui",
+    "title": "De dados dispersos a informação clara",
+    "subtitle": "Um único lugar para perceberes o que se passa no teu negócio.",
+    "items": [
+      {
+        "title": "Dashboards e relatórios (BI)",
+        "description": "Painéis interativos que mostram o estado do teu negócio em tempo real e num relance."
+      },
+      {
+        "title": "Integração e limpeza de dados",
+        "description": "Ligamos e organizamos as tuas fontes (vendas, marketing, operações) num mesmo lugar."
+      },
+      {
+        "title": "KPIs e métricas à medida",
+        "description": "Definimos os indicadores que realmente importam para o teu negócio e tornamo-los visíveis."
+      },
+      {
+        "title": "Analítica web e de marketing",
+        "description": "Medimos o desempenho do teu site e das tuas campanhas para otimizar o investimento."
+      },
+      {
+        "title": "Relatórios automatizados",
+        "description": "Relatórios que se geram e enviam sozinhos, sem trabalho manual todos os meses."
+      },
+      {
+        "title": "Analítica preditiva com IA",
+        "description": "Modelos que antecipam tendências e apoiam decisões com a ajuda da inteligência artificial."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Como trabalhamos",
+    "title": "Dos dados aos insights",
+    "subtitle": "Estruturamos a tua informação e transformamo-la em painéis acionáveis.",
+    "steps": [
+      { "title": "Diagnóstico de dados", "description": "Analisamos que dados tens e o que queres responder." },
+      { "title": "Integração", "description": "Ligamos e limpamos as tuas fontes de informação." },
+      { "title": "Visualização", "description": "Construímos os dashboards e relatórios à tua medida." },
+      { "title": "Insights e melhoria", "description": "Interpretamos os dados e otimizamos de forma contínua." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Entregáveis",
+    "title": "O que recebes",
+    "subtitle": "O teu negócio, visível e mensurável.",
+    "items": [
+      "Dashboards interativos em tempo real",
+      "Fontes de dados integradas e depuradas",
+      "Definição de KPIs e métricas-chave",
+      "Relatórios automatizados periódicos",
+      "Documentação e formação de utilização",
+      "Suporte e melhoria contínua"
+    ]
+  },
+  "cta": {
+    "title": "Queres ver o teu negócio com clareza?",
+    "subtitle": "Vamos transformar os teus dados em dashboards que te ajudem a decidir melhor.",
+    "button": "Falemos"
+  }
+}

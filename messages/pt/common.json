@@ -1,0 +1,114 @@
+{
+  "brand": {
+    "name": "Valadares Global Tech",
+    "shortName": "VGT",
+    "tagline": "Marketing · Design · Tecnologia",
+    "legalName": "Valadares Global Tech LLC",
+    "partnerNote": "Valadares Global Tech LLC — LATAM · EUA · EUROPA"
+  },
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "servicesMenu": {
+      "marketing": "Marketing & Estratégia Digital",
+      "marketingDesc": "Estratégia, redes sociais, conteúdo, campanhas e analítica",
+      "branding": "Design & Branding",
+      "brandingDesc": "Identidade de marca, logótipo e sistema visual",
+      "desarrollo": "Desenvolvimento Web, Apps & SaaS",
+      "desarrolloDesc": "Sites, apps, SaaS, bases de dados e sistemas",
+      "agentes": "Agentes de IA, Chatbots e Automação",
+      "agentesDesc": "Chatbots, agentes 24/7, WhatsApp, chamadas e workflows",
+      "consultoria": "Consultoria em IA & Transformação Digital",
+      "consultoriaDesc": "Diagnóstico e roteiro para crescer com IA",
+      "datos": "Dados, Analítica & Dashboards",
+      "datosDesc": "Dashboards, KPIs e relatórios para decidir com dados",
+      "veritempo": "Gestão de Assiduidade e Acessos",
+      "veritempoDesc": "Controlo de tempo, assiduidade e acessos com biometria",
+      "veriscudo": "Cibersegurança Gerida",
+      "veriscudoDesc": "Proteção integral como serviço gerido (CSaaS)"
+    },
+    "about": "Sobre nós",
+    "projects": "Projetos",
+    "contact": "Contacto",
+    "ctaDemo": "Agendar demonstração",
+    "talk": "Falemos",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "skipToContent": "Saltar para o conteúdo"
+  },
+  "theme": {
+    "toggle": "Alternar tema",
+    "light": "Tema claro",
+    "dark": "Tema escuro"
+  },
+  "lang": {
+    "label": "Idioma",
+    "current": "Português",
+    "soon": "Brevemente",
+    "es": "Español",
+    "en": "English",
+    "pt": "Português"
+  },
+  "cta": {
+    "demo": "Agendar demonstração",
+    "services": "Ver serviços",
+    "quote": "Pedir orçamento",
+    "learnMore": "Saber mais",
+    "contact": "Contacta-nos",
+    "send": "Enviar"
+  },
+  "contactInfo": {
+    "web": "www.valadaresglobaltech.com",
+    "webUrl": "https://www.valadaresglobaltech.com",
+    "email": "contacto@valadaresglobaltech.com",
+    "phones": {
+      "us": "+1 (USA)",
+      "usNote": "Estados Unidos",
+      "ve": "+58 424 612 5993",
+      "veNote": "Venezuela",
+      "pt": "+351 932 742 678",
+      "ptNote": "Portugal"
+    }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "cols": {
+      "services": "Serviços",
+      "company": "Empresa",
+      "legal": "Legal",
+      "contact": "Contacto"
+    },
+    "links": {
+      "veritempo": "Gestão de Assiduidade e Acessos",
+      "veriscudo": "Cibersegurança Gerida",
+      "allServices": "Todos os serviços",
+      "about": "Sobre nós",
+      "projects": "Projetos",
+      "contactPage": "Contacto",
+      "quote": "Pedir orçamento",
+      "privacy": "Política de privacidade",
+      "terms": "Termos e condições",
+      "cookies": "Política de cookies"
+    },
+    "newsletter": {
+      "title": "Recebe as novidades",
+      "desc": "Tendências em tecnologia empresarial e cibersegurança, sem spam.",
+      "placeholder": "O teu e-mail",
+      "button": "Subscrever",
+      "success": "Feito! Verifica o teu e-mail para confirmar.",
+      "error": "Não conseguimos processar a tua subscrição. Tenta novamente.",
+      "invalid": "Introduz um e-mail válido."
+    },
+    "social": {
+      "title": "Segue-nos",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "x": "X (Twitter)",
+      "youtube": "YouTube"
+    }
+  },
+  "newsletter": {
+    "placeholder": "O teu e-mail",
+    "button": "Subscrever"
+  }
+}

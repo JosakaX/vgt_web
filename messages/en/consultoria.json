@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "AI & Digital Transformation Consulting | Valadares Global Tech",
+    "description": "Assessment, strategy, and roadmap to adopt artificial intelligence and digitalize your organization with measurable impact."
+  },
+  "hero": {
+    "eyebrow": "AI & Digital Transformation Consulting",
+    "title": "A clear roadmap to grow with AI",
+    "subtitle": "We help you understand where to apply artificial intelligence and technology in your organization, and prioritize the initiatives that deliver the greatest impact."
+  },
+  "includes": {
+    "eyebrow": "What's included",
+    "title": "Strategy before technology",
+    "subtitle": "First the assessment and the plan; then execution, with clear priorities.",
+    "items": [
+      {
+        "title": "Digital maturity assessment",
+        "description": "We evaluate your processes, tools, and data to know where we're starting from."
+      },
+      {
+        "title": "AI use case identification",
+        "description": "We pinpoint where AI can save you time, cut costs, or generate revenue."
+      },
+      {
+        "title": "Transformation roadmap",
+        "description": "A phased plan, prioritized by impact and effort, with measurable goals."
+      },
+      {
+        "title": "Automation opportunities",
+        "description": "We map the repetitive processes worth automating first."
+      },
+      {
+        "title": "Technology selection",
+        "description": "We recommend the right tools and architecture for your case and budget."
+      },
+      {
+        "title": "Adoption support",
+        "description": "We guide you through change management so your team embraces the new tools."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "From assessment to action plan",
+    "subtitle": "A clear process that ends in decisions, not in a report nobody reads.",
+    "steps": [
+      { "title": "Assessment", "description": "We get to know your operation, your data, and your goals." },
+      { "title": "Strategy", "description": "We define the vision and the priority use cases." },
+      { "title": "Roadmap", "description": "We prioritize initiatives by impact and effort." },
+      { "title": "Support", "description": "We back you through execution and adoption." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Deliverables",
+    "title": "What you get",
+    "subtitle": "Clarity to decide and an actionable plan.",
+    "items": [
+      "Digital maturity assessment report",
+      "Prioritized map of AI use cases",
+      "Phased transformation roadmap",
+      "Technology and architecture recommendations",
+      "Implementation plan and quick wins",
+      "Presentation session and ongoing support"
+    ]
+  },
+  "cta": {
+    "title": "Where to start with AI?",
+    "subtitle": "Let's run an assessment and draw your transformation roadmap together.",
+    "button": "Let's talk"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Desenvolvimento Web & SaaS | Valadares Global Tech",
+    "description": "Sites, e-commerce, aplicações móveis e plataformas SaaS à medida. Desenvolvimento de software com abordagem de produto, UX/UI e escalabilidade."
+  },
+  "hero": {
+    "eyebrow": "Desenvolvimento Web & SaaS",
+    "title": "Sites, apps e plataformas à tua medida",
+    "subtitle": "Desenhamos e desenvolvemos produtos digitais rápidos, modernos e escaláveis: desde o teu site até plataformas SaaS completas."
+  },
+  "includes": {
+    "eyebrow": "O que inclui",
+    "title": "Desenvolvimento de ciclo completo",
+    "subtitle": "Acompanhamos-te desde a ideia até ao lançamento e ao suporte.",
+    "items": [
+      {
+        "title": "Sites e landing pages",
+        "description": "Sites e landing pages rápidos, responsivos e otimizados para SEO, que convertem visitantes em clientes."
+      },
+      {
+        "title": "E-commerce e lojas online",
+        "description": "Lojas seguras e fáceis de administrar para venderes os teus produtos ou serviços online."
+      },
+      {
+        "title": "Aplicações web e móveis",
+        "description": "Apps intuitivas e escaláveis para web, iOS e Android que aproximam os teus serviços dos teus utilizadores."
+      },
+      {
+        "title": "Plataformas SaaS e micro-SaaS",
+        "description": "Produtos de software com abordagem de produto, pensados para validar, lançar e escalar."
+      },
+      {
+        "title": "Bases de dados e sistemas à medida",
+        "description": "Sistemas internos, painéis e bases de dados robustas que organizam e potenciam a tua operação."
+      },
+      {
+        "title": "Integrações, APIs e suporte",
+        "description": "Ligamos as tuas ferramentas (pagamentos, CRM, ERP) e asseguramos manutenção e suporte contínuo."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Como trabalhamos",
+    "title": "Da ideia ao produto em produção",
+    "subtitle": "Metodologia clara, entregas iterativas e comunicação constante.",
+    "steps": [
+      { "title": "Descoberta", "description": "Definimos o âmbito, os requisitos e os objetivos do produto." },
+      { "title": "Design UX/UI", "description": "Prototipamos a experiência e o design de cada ecrã." },
+      { "title": "Desenvolvimento", "description": "Construímos o produto com entregas iterativas e revisões." },
+      { "title": "Lançamento e suporte", "description": "Fazemos o deploy, damos formação e asseguramos manutenção contínua." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Entregáveis",
+    "title": "O que recebes",
+    "subtitle": "Um produto pronto a usar e a crescer.",
+    "items": [
+      "Site, app ou plataforma em produção",
+      "Design UX/UI e protótipos",
+      "Código-fonte e documentação técnica",
+      "Configuração de alojamento e deploy",
+      "Integrações com os teus sistemas",
+      "Suporte e manutenção posterior"
+    ]
+  },
+  "cta": {
+    "title": "Tens um projeto digital em mente?",
+    "subtitle": "Conta-nos a tua ideia e transformamo-la num produto sólido e escalável.",
+    "button": "Falemos"
+  }
+}

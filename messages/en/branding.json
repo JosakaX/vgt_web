@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Design & Branding | Valadares Global Tech",
+    "description": "Brand identity, logo, visual system, brand guidelines, and design pieces. Strategic branding that connects with your audience."
+  },
+  "hero": {
+    "eyebrow": "Design & Branding",
+    "title": "A brand identity that connects and endures",
+    "subtitle": "We create coherent, memorable brands: from strategy and naming to the complete visual system and its applications."
+  },
+  "includes": {
+    "eyebrow": "What's included",
+    "title": "Your brand, from strategy to detail",
+    "subtitle": "Every design decision starts from strategy, not aesthetics alone.",
+    "items": [
+      {
+        "title": "Brand strategy and naming",
+        "description": "Definition of purpose, positioning, personality, and name when required."
+      },
+      {
+        "title": "Logo and visual system",
+        "description": "Design of the logo in all its variants and a coherent, scalable graphic system."
+      },
+      {
+        "title": "Palette and typography",
+        "description": "Selection of colors and type families that convey the essence of your brand."
+      },
+      {
+        "title": "Brand guidelines",
+        "description": "A visual and verbal usage guide to keep your brand consistent across every channel."
+      },
+      {
+        "title": "Verbal identity and tone",
+        "description": "Definition of the tone of voice and the key messages your brand communicates with."
+      },
+      {
+        "title": "Pieces and applications",
+        "description": "Design of templates, stationery, social media assets, and communication materials."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "A branding process with method",
+    "subtitle": "Research, concept, and execution, step by step.",
+    "steps": [
+      { "title": "Research", "description": "We get to know your business, your market, and your audience." },
+      { "title": "Concept", "description": "We define the creative direction and the brand territory." },
+      { "title": "Design", "description": "We create the logo, the visual system, and its applications." },
+      { "title": "Guidelines and handoff", "description": "We document everything in a brand book and deliver the files." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Deliverables",
+    "title": "What you get",
+    "subtitle": "Your brand, ready to use on any channel.",
+    "items": [
+      "Logo in all its versions and formats",
+      "Visual and verbal brand guidelines",
+      "Defined color palette and typography",
+      "Graphic system and brand elements",
+      "Templates and application pieces",
+      "Editable and production-ready files"
+    ]
+  },
+  "cta": {
+    "title": "Does your brand need to stand out?",
+    "subtitle": "Let's build a solid, coherent identity for your organization.",
+    "button": "Let's talk"
+  }
+}

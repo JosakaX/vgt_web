@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Pedir orçamento — Valadares Global Tech",
+    "description": "Conta-nos sobre a tua empresa e o serviço que te interessa. Preparamos uma proposta à tua medida, sem compromisso."
+  },
+  "hero": {
+    "eyebrow": "Orçamento",
+    "title": "Proposta à tua medida",
+    "subtitle": "Preenche o formulário com os detalhes do teu projeto. A nossa equipa analisa o teu caso e prepara uma proposta personalizada sem qualquer compromisso."
+  },
+  "note": "Cada proposta é elaborada pelos nossos especialistas de acordo com as necessidades reais da tua empresa. Sem custos fixos, sem compromissos.",
+  "form": {
+    "heading": "Conta-nos sobre o teu projeto",
+    "submit": "Pedir orçamento",
+    "submitting": "A enviar…",
+    "success": "Pedido recebido! A nossa equipa vai preparar a tua proposta e contactar-te em breve.",
+    "error": "Não conseguimos enviar o teu pedido. Por favor, tenta novamente.",
+    "required": "* Campo obrigatório",
+    "fields": {
+      "nombre": {
+        "label": "Nome completo *",
+        "placeholder": "Como te chamas?"
+      },
+      "empresa": {
+        "label": "Empresa",
+        "placeholder": "Nome da tua organização"
+      },
+      "pais": {
+        "label": "País",
+        "placeholder": "Ex.: Portugal, Espanha, Venezuela…"
+      },
+      "email": {
+        "label": "E-mail *",
+        "placeholder": "tu@empresa.com"
+      },
+      "telefono": {
+        "label": "Telefone",
+        "placeholder": "+351 900 000 000"
+      },
+      "servicio": {
+        "label": "Serviço de interesse *",
+        "placeholder": "Seleciona uma opção",
+        "veritempo": "Veritempo — Gestão de assiduidade e acessos",
+        "veriscudo": "Veriscudo — Cibersegurança",
+        "ambos": "Ambos os serviços"
+      },
+      "empleados": {
+        "label": "Número de colaboradores",
+        "placeholder": "Seleciona um intervalo",
+        "r1": "1 – 50 colaboradores",
+        "r2": "51 – 200 colaboradores",
+        "r3": "201 – 1 000 colaboradores",
+        "r4": "Mais de 1 000 colaboradores"
+      },
+      "modulos": {
+        "label": "Módulos ou funcionalidades de interesse",
+        "placeholder": "Ex.: gestão de inventário, monitorização de ameaças, relatórios em tempo real…"
+      },
+      "objetivo": {
+        "label": "Objetivo ou necessidade principal *",
+        "placeholder": "Descreve o desafio que queres resolver com a nossa solução…"
+      },
+      "mensaje": {
+        "label": "Comentários adicionais",
+        "placeholder": "Qualquer detalhe que queiras partilhar com a nossa equipa…"
+      }
+    }
+  },
+  "validation": {
+    "nombreRequired": "O nome é obrigatório.",
+    "emailRequired": "O e-mail é obrigatório.",
+    "emailInvalid": "Introduz um e-mail válido.",
+    "servicioRequired": "Seleciona o serviço do teu interesse.",
+    "objetivoRequired": "Descreve o teu objetivo ou necessidade principal.",
+    "objetivoMinLength": "Por favor, descreve o teu objetivo com pelo menos 10 caracteres."
+  }
+}

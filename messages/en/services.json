@@ -1,0 +1,127 @@
+﻿{
+  "meta": {
+    "title": "Services — Marketing, Design & Technology | Valadares Global Tech",
+    "description": "Digital strategy, design and branding, web and app development, and technology and innovation. We also distribute leading solutions: Veritempo and Veriscudo."
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Strategy, design, and technology, end to end",
+    "subtitle": "We support companies and institutions at every stage of their digital transformation, with an expert team and tailored solutions."
+  },
+  "agency": {
+    "eyebrow": "What we do",
+    "title": "Our services",
+    "subtitle": "Service lines that combine around your organization's needs.",
+    "items": [
+      {
+        "key": "marketing",
+        "name": "Marketing & Digital Strategy",
+        "category": "Growth",
+        "summary": "Strategy, social media, content, campaigns, and analytics to grow your brand and your sales.",
+        "cta": "Learn more",
+        "href": "/servicios/marketing"
+      },
+      {
+        "key": "branding",
+        "name": "Design & Branding",
+        "category": "Identity",
+        "summary": "Complete visual identity: brand strategy, logo, visual system, and brand guidelines.",
+        "cta": "Learn more",
+        "href": "/servicios/branding"
+      },
+      {
+        "key": "desarrollo",
+        "name": "Web, App & SaaS Development",
+        "category": "Digital product",
+        "summary": "Websites, apps, SaaS and micro-SaaS platforms, databases, and custom systems, built with a product mindset.",
+        "cta": "Learn more",
+        "href": "/servicios/desarrollo"
+      },
+      {
+        "key": "agentes",
+        "name": "AI Agents, Chatbots & Automation",
+        "category": "Artificial intelligence",
+        "summary": "Chatbots, assistants, and agents working 24/7: WhatsApp, calls, CRM, and automations that connect your systems.",
+        "cta": "Learn more",
+        "href": "/servicios/agentes"
+      },
+      {
+        "key": "consultoria",
+        "name": "AI & Digital Transformation Consulting",
+        "category": "Strategy",
+        "summary": "Assessment, AI use cases, and a prioritized roadmap to digitalize your organization with measurable impact.",
+        "cta": "Learn more",
+        "href": "/servicios/consultoria"
+      },
+      {
+        "key": "datos",
+        "name": "Data, Analytics & Dashboards",
+        "category": "Business Intelligence",
+        "summary": "We turn your data into dashboards, KPIs, and automated reports so you decide with information, not intuition.",
+        "cta": "Learn more",
+        "href": "/servicios/datos"
+      }
+    ]
+  },
+  "solutions": {
+    "eyebrow": "Specialized solutions",
+    "title": "Leading platforms we integrate for you",
+    "subtitle": "As an authorized partner, we distribute and implement enterprise solutions proven at international scale.",
+    "veritempo": {
+      "name": "Attendance & Access Management",
+      "category": "Time and access control",
+      "summary": "An all-in-one platform for employee attendance, time, and access control, with advanced biometrics and a mobile app.",
+      "cta": "Learn more"
+    },
+    "veriscudo": {
+      "name": "Managed Cybersecurity",
+      "category": "Cybersecurity as a Service (CSaaS)",
+      "summary": "End-to-end protection as a managed service: governance and compliance, monitoring, defense, forensics, and offensive operations.",
+      "cta": "Learn more"
+    }
+  },
+  "stats": {
+    "items": [
+      { "value": "+120", "label": "Projects completed" },
+      { "value": "+85", "label": "Satisfied clients" },
+      { "value": "+10", "label": "Countries reached" },
+      { "value": "+11", "label": "Years of experience" }
+    ]
+  },
+  "whyus": {
+    "eyebrow": "Why VGT",
+    "title": "Why choose us?",
+    "subtitle": "What sets us apart as a technology partner for companies and institutions.",
+    "items": [
+      {
+        "title": "Strategic focus",
+        "description": "Every project starts from your business goals, not from technology for its own sake."
+      },
+      {
+        "title": "Tailored solutions",
+        "description": "We design every proposal around your industry, size, and real needs."
+      },
+      {
+        "title": "Cutting-edge technology",
+        "description": "We work with the market's leading tools and platforms."
+      },
+      {
+        "title": "Expert team",
+        "description": "Specialists in marketing, design, development, and cybersecurity under one roof."
+      },
+      {
+        "title": "Commitment and quality",
+        "description": "Hands-on support and high quality standards in every delivery."
+      },
+      {
+        "title": "Global reach",
+        "description": "Experience with organizations across multiple countries in Latin America and beyond."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Not sure where to start?",
+    "subtitle": "Tell us about your challenge and our team will guide you toward the best combination of services for your organization.",
+    "button": "Let's talk"
+  }
+}

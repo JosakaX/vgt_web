@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Data, Analytics & Dashboards | Valadares Global Tech",
+    "description": "We turn your data into decisions: interactive dashboards, KPIs, automated reports, and AI-powered analytics for your organization."
+  },
+  "hero": {
+    "eyebrow": "Data, Analytics & Dashboards",
+    "title": "Turn your data into decisions",
+    "subtitle": "We centralize, visualize, and analyze your business information so you make decisions with data, not intuition."
+  },
+  "includes": {
+    "eyebrow": "What's included",
+    "title": "From scattered data to clear information",
+    "subtitle": "One place to understand what's happening in your business.",
+    "items": [
+      {
+        "title": "Dashboards and reports (BI)",
+        "description": "Interactive dashboards that show the state of your business in real time, at a glance."
+      },
+      {
+        "title": "Data integration and cleansing",
+        "description": "We connect and organize your sources (sales, marketing, operations) in a single place."
+      },
+      {
+        "title": "Custom KPIs and metrics",
+        "description": "We define the indicators that truly matter for your business and make them visible."
+      },
+      {
+        "title": "Web and marketing analytics",
+        "description": "We measure the performance of your site and your campaigns to optimize your investment."
+      },
+      {
+        "title": "Automated reports",
+        "description": "Reports that generate and send themselves, with no manual work every month."
+      },
+      {
+        "title": "Predictive analytics with AI",
+        "description": "Models that anticipate trends and support decisions with the help of artificial intelligence."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "From data to insights",
+    "subtitle": "We structure your information and turn it into actionable dashboards.",
+    "steps": [
+      { "title": "Data assessment", "description": "We review what data you have and what you want to answer." },
+      { "title": "Integration", "description": "We connect and clean your information sources." },
+      { "title": "Visualization", "description": "We build the dashboards and reports tailored to you." },
+      { "title": "Insights and improvement", "description": "We interpret the data and optimize continuously." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Deliverables",
+    "title": "What you get",
+    "subtitle": "Your business, visible and measurable.",
+    "items": [
+      "Real-time interactive dashboards",
+      "Integrated, clean data sources",
+      "Definition of KPIs and key metrics",
+      "Periodic automated reports",
+      "Documentation and user training",
+      "Support and continuous improvement"
+    ]
+  },
+  "cta": {
+    "title": "Want to see your business clearly?",
+    "subtitle": "Let's turn your data into dashboards that help you decide better.",
+    "button": "Let's talk"
+  }
+}

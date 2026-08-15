@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "About us — Valadares Global Tech",
+    "description": "VGT is your technology partner: we select, integrate, and deploy leading solutions for companies across Latin America. Marketing · Design · Technology."
+  },
+  "hero": {
+    "eyebrow": "About us",
+    "title": "Your technology partner in Latin America",
+    "subtitle": "We select, integrate, and deploy world-class solutions so your company can compete with the best tools on the market."
+  },
+  "who": {
+    "eyebrow": "Who we are",
+    "title": "A company built to accelerate your business",
+    "paragraphs": [
+      "Valadares Global Tech (VGT) is a technology company focused on businesses across Latin America. We don't build generic tools: we identify the market's leading platforms, become their authorized partners, and deploy them with real hands-on support so every client gets the maximum return on their investment.",
+      "We act as a bridge between global innovation and the specific needs of each organization. Our team combines expertise in digital marketing, strategic design, and technology to deliver an integrated offering that goes far beyond selling software."
+    ]
+  },
+  "partner": {
+    "eyebrow": "Partner model",
+    "title": "Authorized distributor and partner",
+    "subtitle": "We are certified strategic partners of the solutions we represent, not generic resellers. That translates into stronger implementations and vendor-backed support.",
+    "viewSolution": "View solution",
+    "items": [
+      {
+        "name": "Veritempo",
+        "badge": "A VGT brand",
+        "description": "Our attendance, time, and access control management platform for businesses. Implementation, ongoing training, and technical support delivered directly by our team.",
+        "href": "/servicios/veritempo"
+      },
+      {
+        "name": "Veriscudo",
+        "badge": "A VGT brand",
+        "description": "Our end-to-end cybersecurity-as-a-service portfolio for organizations of every size, backed by certified providers with official licenses and specialized support.",
+        "href": "/servicios/veriscudo"
+      }
+    ]
+  },
+  "value": {
+    "eyebrow": "Value proposition",
+    "title": "Three areas that drive your growth",
+    "subtitle": "We integrate marketing, design, and technology into one cohesive offering, focused on concrete results for your business.",
+    "pillars": [
+      {
+        "title": "Marketing",
+        "description": "AI-powered digital marketing strategies: campaign automation, data analysis, and continuous optimization to maximize your presence and conversions."
+      },
+      {
+        "title": "Design",
+        "description": "Visual identity, user experience, and communication materials that reflect the essence of your brand and connect with your audience in a genuine way."
+      },
+      {
+        "title": "Technology",
+        "description": "Integration of leading solutions, cybersecurity, and process automation so your company operates with maximum efficiency and security."
+      }
+    ]
+  },
+  "mission": {
+    "eyebrow": "Purpose",
+    "title": "What drives us",
+    "mission": {
+      "label": "Mission",
+      "text": "To democratize access to world-class technology for Latin American companies, supporting them at every stage of their digital transformation with proven solutions, certified teams, and measurable results."
+    },
+    "vision": {
+      "label": "Vision",
+      "text": "To be the go-to technology partner for Latin American companies looking to grow with the world's best tools, consolidating our presence across the region as a bridge between global innovation and the local market."
+    }
+  },
+  "team": {
+    "eyebrow": "Leadership team",
+    "title": "Who leads VGT",
+    "subtitle": "A team that combines creative vision and technological innovation.",
+    "members": [
+      {
+        "name": "Jorge Valadares",
+        "role": "Founder & CEO",
+        "subrole": "Director of Innovation and Technology Development",
+        "initials": "JV"
+      },
+      {
+        "name": "Carla Valadares",
+        "role": "Co-Founder & COO",
+        "subrole": "Creative Director and Institutional Relations",
+        "initials": "CV"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to transform your company?",
+    "subtitle": "Book a free consultation and discover how VGT can support you.",
+    "button": "Book a consultation"
+  }
+}

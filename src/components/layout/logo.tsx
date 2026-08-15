@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 
 type LogoProps = {
@@ -17,6 +18,7 @@ type LogoProps = {
  * los consumidores (Navbar/Footer).
  */
 export function Logo({ className, showWordmark = true, href = "/" }: LogoProps) {
+  const t = useTranslations("common.brand");
   const content = (
     <span className={cn("inline-flex min-w-0 items-center gap-2.5 sm:gap-3", className)}>
       <span
@@ -31,7 +33,7 @@ export function Logo({ className, showWordmark = true, href = "/" }: LogoProps) 
             VALADARES GLOBAL TECH
           </span>
           <span className="mt-1 hidden text-[10px] font-medium uppercase tracking-[0.18em] text-muted sm:block">
-            Marketing · Diseño · Tecnología
+            {t("tagline")}
           </span>
         </span>
       ) : null}

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "title": "Veritempo — Attendance, time & access control management | VGT",
+    "description": "Veritempo, VGT's solution for managing your employees' time, attendance, and access. Biometrics, mobile and web apps, and integration with your payroll."
+  },
+  "hero": {
+    "eyebrow": "Veritempo",
+    "badge": "Business management solution",
+    "title": "All-in-one time, attendance, and access control management",
+    "subtitle": "Veritempo is VGT's solution for managing your employees' time, attendance, and access, in a secure, intuitive, and centralized environment. We support you from implementation through ongoing support.",
+    "ctaPrimary": "Request a demo",
+    "ctaSecondary": "View modules"
+  },
+  "modules": {
+    "eyebrow": "Modules",
+    "title": "A solution for every area of your business",
+    "subtitle": "Each module works independently or integrated, adapting exactly to your organization's needs.",
+    "items": [
+      {
+        "title": "Time",
+        "description": "Work time tracking and control: shift management and planning, automatic timesheets, logging of events and incidents, time-off and leave management, and productivity measurement."
+      },
+      {
+        "title": "Access",
+        "description": "Facility access control with a complete movement history, biometric recognition (fingerprint, face, and iris), and vehicle access logging and control."
+      },
+      {
+        "title": "Guest",
+        "description": "End-to-end visitor management: biometric data registration, scheduling of visits for people and vehicles, and tracking of assets handed over."
+      },
+      {
+        "title": "Coworking",
+        "description": "Occupancy control and workspace booking: web scheduling, real-time occupancy control, and facility usage monitoring."
+      },
+      {
+        "title": "Lunch",
+        "description": "Corporate cafeteria management: menu planning, serving-shift administration, attendance integration, and biometric identification for access."
+      }
+    ]
+  },
+  "marking": {
+    "eyebrow": "Clock-in methods",
+    "title": "Multiple ways to clock in, for any environment",
+    "subtitle": "From physical biometric devices to web and mobile apps, Veritempo adapts to how and where your team works.",
+    "items": [
+      {
+        "title": "Biometric",
+        "description": "Fingerprint, facial recognition, and iris devices. Compatible with ZKTeco, Suprema, and VIRDI for physical environments.",
+        "features": [
+          "Validation by fingerprint, face, and iris",
+          "Multiple configurable validation patterns",
+          "Native integration with ZKTeco, Suprema, and VIRDI",
+          "Online and offline operation"
+        ]
+      },
+      {
+        "title": "Mobile App",
+        "description": "App available on Google Play, App Store, and AppGallery for clocking in from anywhere with geolocation.",
+        "features": [
+          "Geolocation and configurable geofences",
+          "Facial clock-in from your smartphone",
+          "Leave and time-off management",
+          "Shift lookup and push notifications",
+          "Real-time activity tracking"
+        ]
+      },
+      {
+        "title": "Web App",
+        "description": "A solution for desk-based employees: compatible with Windows, macOS, and Linux, with advanced productivity control.",
+        "features": [
+          "Facial clock-in from the computer's camera",
+          "Screenshots and activity logging",
+          "Monitoring of applications in use",
+          "Activity and idle-time detection",
+          "Productivity measurement and exportable reports"
+        ]
+      }
+    ]
+  },
+  "integrations": {
+    "eyebrow": "Integrations",
+    "title": "Connected to your technology ecosystem",
+    "subtitle": "Veritempo integrates natively with the market's leading payroll platforms and biometric devices.",
+    "items": [
+      "Oracle",
+      "SAP",
+      "Buk",
+      "+10 payroll platforms",
+      "Biometric devices",
+      "AWS cloud"
+    ]
+  },
+  "benefits": {
+    "eyebrow": "Benefits",
+    "title": "Results you can measure from the first month",
+    "subtitle": "Organizations implementing Veritempo report concrete, measurable improvements in their HR operations.",
+    "items": [
+      {
+        "title": "Higher productivity",
+        "description": "Automate manual tasks and free your HR team for activities of greater strategic value to the company."
+      },
+      {
+        "title": "Less time on operations",
+        "description": "Payroll closings that used to take days are processed in hours thanks to automation and data integration."
+      },
+      {
+        "title": "No more clock-in errors",
+        "description": "Biometrics and geolocation eliminate time-tracking fraud and the errors inherent to manual clock-ins."
+      },
+      {
+        "title": "Provable ROI",
+        "description": "Savings in operational time and fewer incidents deliver a measurable return on investment within the first months."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Want to see Veritempo in action?",
+    "subtitle": "Request a free personalized demo and discover how Veritempo can transform your workforce management.",
+    "button": "Request a Veritempo demo"
+  }
+}

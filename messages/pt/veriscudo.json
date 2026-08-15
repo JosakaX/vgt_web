@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Veriscudo — Cibersegurança transversal como serviço (CSaaS) | VGT",
+    "description": "Proteção integral: governação e conformidade, monitorização e resposta, defesa proativa, análise forense e operações ofensivas, como serviço gerido."
+  },
+  "hero": {
+    "eyebrow": "Veriscudo",
+    "title": "Cibersegurança transversal como serviço (CSaaS)",
+    "subtitle": "O Veriscudo oferece proteção integral para a tua organização: desde a governação do risco e a conformidade regulamentar até à defesa ativa, à análise forense e às operações ofensivas, tudo como serviço gerido.",
+    "ctaPrimary": "Pedir avaliação de segurança",
+    "ctaSecondary": "Ver portefólio"
+  },
+  "intro": {
+    "eyebrow": "O que é CSaaS?",
+    "title": "Cibersegurança que se adapta à tua organização",
+    "subtitle": "O modelo CSaaS (Cibersegurança Transversal como Serviço) permite às organizações aceder a capacidades de segurança de nível empresarial, pagando apenas o que precisam, sem a complexidade de manter uma equipa interna.",
+    "items": [
+      {
+        "title": "Sem investimento em infraestrutura",
+        "description": "Acedes a ferramentas e especialistas de última geração sem necessidade de investimento de capital em equipamento ou licenças."
+      },
+      {
+        "title": "Escalável de acordo com o teu crescimento",
+        "description": "O serviço cresce contigo: ajusta o nível de proteção de acordo com a dimensão da tua organização e o seu perfil de risco."
+      },
+      {
+        "title": "Especialistas dedicados",
+        "description": "A tua organização acede a uma equipa multidisciplinar de analistas e especialistas em cibersegurança sem necessidade de os contratar."
+      },
+      {
+        "title": "Cobertura contínua 24/7",
+        "description": "Monitorização e resposta permanente para detetar e neutralizar ameaças em tempo real, sem interrupções."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Portefólio de serviços",
+    "title": "Proteção em cada camada da tua organização",
+    "subtitle": "O Veriscudo estrutura os seus serviços em seis categorias que cobrem todo o ciclo da cibersegurança empresarial.",
+    "categories": [
+      {
+        "title": "Governação, Risco e Conformidade (GRC)",
+        "content": [
+          "Diagnóstico da postura de segurança (CIS Controls, NIST CSF, ISO 27000)",
+          "Inventário de ativos TIC e matriz de ciber-riscos (BIA)",
+          "Análise de riscos e avaliação de impacto no negócio",
+          "Plano Estratégico de Segurança da Informação (PESI) e planos de ação",
+          "Gestão contínua de incidentes de segurança",
+          "Políticas de segurança baseadas na ISO 27002:2022",
+          "Avaliações de maturidade do programa de segurança",
+          "Formação e sensibilização: higiene digital, formação executiva e técnica, DevSecOps"
+        ]
+      },
+      {
+        "title": "Monitorização, Deteção e Resposta",
+        "content": [
+          "SOCaaS — Centro de Operações de Segurança como Serviço com cobertura 24/7",
+          "SIEMaaS — Gestão de informação e eventos de segurança em tempo real",
+          "EDRaaS — Deteção e resposta avançada em endpoints",
+          "Threat Intelligence — Inteligência de ameaças contextualizada para a tua indústria",
+          "Threat Hunting — Procura proativa de ameaças latentes na tua infraestrutura"
+        ]
+      },
+      {
+        "title": "Ciberdefesa / Blue Team",
+        "content": [
+          "Proteção de utilizadores, endpoints e servidores corporativos",
+          "Proteção do correio eletrónico contra phishing, spoofing e malware",
+          "Gestão de identidade e autenticação multifator (MFA)",
+          "Cifra de dados em repouso e em trânsito",
+          "Análise de tráfego de rede e deteção de intrusões (IDS/IPS)",
+          "Proteção de aplicações web e APIs",
+          "Managed XDR: XDR, EDR, NGFW, Email Security, DNS Security, SWG e SIEM integrados"
+        ]
+      },
+      {
+        "title": "Análise Forense Digital (DFIR)",
+        "content": [
+          "Recolha e preservação de evidência digital com cadeia de custódia",
+          "Análise forense de incidentes de segurança",
+          "Contenção e erradicação de ameaças ativas",
+          "Relatório pericial para uso legal ou regulatório"
+        ]
+      },
+      {
+        "title": "Operações Ofensivas / Red Team",
+        "content": [
+          "Gestão e remediação de vulnerabilidades de forma contínua",
+          "Pentesting perimetral: redes, sistemas e infraestrutura",
+          "Pentesting de aplicações web e móveis",
+          "Engenharia social: phishing, vishing e simulações de ataques dirigidos",
+          "Testes de segurança em redes sem fios",
+          "Simulação e emulação de adversários (Adversary Simulation)"
+        ]
+      },
+      {
+        "title": "e-Learning em Cibersegurança",
+        "content": [
+          "Plataformas virtuais de aprendizagem (LMS) para toda a organização",
+          "Desenvolvimento de conteúdos de cibersegurança à medida",
+          "Registo de assiduidade e emissão automática de certificados",
+          "Alojamento e gestão de cursos online",
+          "Formação síncrona, assíncrona e presencial",
+          "Programas de sensibilização e cultura de segurança para toda a organização"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "A tua organização está realmente protegida?",
+    "subtitle": "Pede uma avaliação de segurança gratuita e descobre qual é a tua postura atual perante as ciberameaças.",
+    "button": "Pedir avaliação de segurança"
+  }
+}

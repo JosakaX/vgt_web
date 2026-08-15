@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "AI Agents, Chatbots & 24/7 Automation | Valadares Global Tech",
+    "description": "Chatbots, virtual assistants, and AI agents that work for you 24/7: WhatsApp support, calls, CRM, and process automation that connects your systems."
+  },
+  "hero": {
+    "eyebrow": "AI Agents, Chatbots & Automation",
+    "title": "Agents and chatbots that work for you, 24/7",
+    "subtitle": "We implement chatbots, virtual assistants, and intelligent agents that serve your customers, handle tasks, and connect your systems, around the clock and without hiring more staff."
+  },
+  "includes": {
+    "eyebrow": "What's included",
+    "title": "Agents and chatbots tailored to your operation",
+    "subtitle": "We design the agent or chatbot around what your business needs to solve.",
+    "items": [
+      {
+        "title": "Chatbots and virtual assistants",
+        "description": "Assistants that answer FAQs, guide visitors, and serve your customers on your website and channels."
+      },
+      {
+        "title": "24/7 WhatsApp agent",
+        "description": "Serves customers, answers questions, books appointments, and follows up on WhatsApp, all day long."
+      },
+      {
+        "title": "Voice call agent",
+        "description": "Answers and makes calls with a natural voice: customer service, reminders, and lead qualification."
+      },
+      {
+        "title": "CRM and sales agent",
+        "description": "Captures leads, updates your CRM, follows up, and keeps your database always current."
+      },
+      {
+        "title": "Process automation",
+        "description": "Connects your apps and systems so repetitive work happens on its own (e.g. your store with your accounting)."
+      },
+      {
+        "title": "Custom autonomous agents",
+        "description": "Agents with memory that execute real tasks for you and operate autonomously across your channels."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "From your process to a working agent",
+    "subtitle": "We design, integrate, and continuously improve the agent.",
+    "steps": [
+      { "title": "Assessment", "description": "We identify which tasks or channels are worth automating first." },
+      { "title": "Agent design", "description": "We define its skills, its tone, and the flows it will follow." },
+      { "title": "Integration and training", "description": "We connect it to your channels, data, and systems, and train it." },
+      { "title": "24/7 operation and improvement", "description": "The agent works nonstop while we measure and optimize it." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Deliverables",
+    "title": "What you get",
+    "subtitle": "An agent or chatbot ready to work, integrated with your business.",
+    "items": [
+      "Chatbot or agent deployed and running on your channels",
+      "Integrations with your systems and data",
+      "Configured conversation flows and automations",
+      "Monitoring and metrics dashboard",
+      "Usage documentation",
+      "Support and continuous improvement"
+    ]
+  },
+  "cta": {
+    "title": "Ready to have an agent working for you?",
+    "subtitle": "Tell us what you want to automate and we'll design the ideal chatbot or agent for your business.",
+    "button": "Let's talk"
+  }
+}

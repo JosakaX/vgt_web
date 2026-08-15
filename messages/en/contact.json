@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Contact — Valadares Global Tech",
+    "description": "Let's talk. Book a demo or write to us to discover how VGT can power your company's operations."
+  },
+  "hero": {
+    "eyebrow": "Contact us",
+    "title": "Let's talk about your business",
+    "subtitle": "Tell us about your company and the challenge you're facing. Our team gets back to you within 24 business hours."
+  },
+  "form": {
+    "heading": "Send us a message",
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "success": "Message received! We'll get back to you within 24 hours.",
+    "error": "We couldn't send your message. Please try again.",
+    "required": "* Required field",
+    "fields": {
+      "nombre": {
+        "label": "Full name *",
+        "placeholder": "What's your name?"
+      },
+      "empresa": {
+        "label": "Company",
+        "placeholder": "Your organization's name"
+      },
+      "pais": {
+        "label": "Country",
+        "placeholder": "E.g. Venezuela, Mexico, Spain…"
+      },
+      "email": {
+        "label": "Email address *",
+        "placeholder": "you@company.com"
+      },
+      "telefono": {
+        "label": "Phone",
+        "placeholder": "+1 555 000 0000"
+      },
+      "servicio": {
+        "label": "Service of interest *",
+        "placeholder": "Select an option",
+        "veritempo": "Veritempo — Attendance and access management",
+        "veriscudo": "Veriscudo — Cybersecurity",
+        "ambos": "Both services"
+      },
+      "empleados": {
+        "label": "Number of employees",
+        "placeholder": "Select a range",
+        "r1": "1 – 50 employees",
+        "r2": "51 – 200 employees",
+        "r3": "201 – 1,000 employees",
+        "r4": "More than 1,000 employees"
+      },
+      "mensaje": {
+        "label": "Message *",
+        "placeholder": "Briefly tell us what you need or the challenge you want to solve…"
+      }
+    }
+  },
+  "validation": {
+    "nombreRequired": "Name is required.",
+    "emailRequired": "Email address is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "servicioRequired": "Select the service you're interested in.",
+    "mensajeRequired": "Message is required.",
+    "mensajeMinLength": "The message must be at least 10 characters long."
+  },
+  "info": {
+    "heading": "Contact information",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone numbers",
+    "demo": {
+      "heading": "Prefer a live demo?",
+      "body": "Book a call with our team and discover how Veritempo or Veriscudo fits your operation.",
+      "button": "Book a demo"
+    }
+  }
+}

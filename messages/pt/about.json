@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Sobre nós — Valadares Global Tech",
+    "description": "A VGT é o teu parceiro tecnológico: selecionamos, integramos e implementamos soluções líderes para empresas da América Latina. Marketing · Design · Tecnologia."
+  },
+  "hero": {
+    "eyebrow": "Sobre nós",
+    "title": "O teu parceiro tecnológico na América Latina",
+    "subtitle": "Selecionamos, integramos e implementamos soluções de classe mundial para que a tua empresa compita com as melhores ferramentas do mercado."
+  },
+  "who": {
+    "eyebrow": "Quem somos",
+    "title": "Uma empresa construída para acelerar o teu negócio",
+    "paragraphs": [
+      "A Valadares Global Tech (VGT) é uma empresa tecnológica orientada para empresas da América Latina. Não fabricamos ferramentas genéricas: identificamos as plataformas líderes do mercado, tornamo-nos seus partners autorizados e implementamo-las com acompanhamento real para que cada cliente obtenha o máximo retorno do seu investimento.",
+      "Funcionamos como ponte entre a inovação global e as necessidades específicas de cada organização. A nossa equipa combina experiência em marketing digital, design estratégico e tecnologia para oferecer uma proposta integral que vai muito além da venda de software."
+    ]
+  },
+  "partner": {
+    "eyebrow": "Modelo partner",
+    "title": "Distribuidor e partner autorizado",
+    "subtitle": "Somos parceiros estratégicos certificados das soluções que representamos, não revendedores genéricos. Isso traduz-se em implementações mais sólidas e suporte respaldado pelo fabricante.",
+    "viewSolution": "Ver solução",
+    "items": [
+      {
+        "name": "Veritempo",
+        "badge": "Marca da VGT",
+        "description": "A nossa plataforma de gestão de assiduidade, tempo e controlo de acessos para empresas. Implementação, formação contínua e suporte técnico direto da nossa equipa.",
+        "href": "/servicios/veritempo"
+      },
+      {
+        "name": "Veriscudo",
+        "badge": "Marca da VGT",
+        "description": "O nosso portefólio integral de cibersegurança como serviço para organizações de todas as dimensões, respaldado por fornecedores certificados com licenças oficiais e suporte especializado.",
+        "href": "/servicios/veriscudo"
+      }
+    ]
+  },
+  "value": {
+    "eyebrow": "Proposta de valor",
+    "title": "Três áreas que impulsionam o teu crescimento",
+    "subtitle": "Integramos marketing, design e tecnologia numa proposta coesa, orientada para os resultados concretos do teu negócio.",
+    "pillars": [
+      {
+        "title": "Marketing",
+        "description": "Estratégias de marketing digital impulsionadas por inteligência artificial: automação de campanhas, análise de dados e otimização contínua para maximizar a tua presença e as tuas conversões."
+      },
+      {
+        "title": "Design",
+        "description": "Identidade visual, experiência de utilizador e materiais de comunicação que refletem a essência da tua marca e ligam com a tua audiência de forma genuína."
+      },
+      {
+        "title": "Tecnologia",
+        "description": "Integração de soluções líderes, cibersegurança e automação de processos para que a tua empresa opere com a máxima eficiência e segurança."
+      }
+    ]
+  },
+  "mission": {
+    "eyebrow": "Propósito",
+    "title": "O que nos move",
+    "mission": {
+      "label": "Missão",
+      "text": "Democratizar o acesso a tecnologia de classe mundial para empresas latino-americanas, acompanhando-as em cada etapa da sua transformação digital com soluções comprovadas, equipas certificadas e resultados mensuráveis."
+    },
+    "vision": {
+      "label": "Visão",
+      "text": "Ser o parceiro tecnológico de referência para empresas da América Latina que procuram crescer com as melhores ferramentas do mundo, consolidando a nossa presença em toda a região como ponte entre a inovação global e o mercado local."
+    }
+  },
+  "team": {
+    "eyebrow": "Equipa executiva",
+    "title": "Quem lidera a VGT",
+    "subtitle": "Uma equipa que combina visão criativa e inovação tecnológica.",
+    "members": [
+      {
+        "name": "Jorge Valadares",
+        "role": "Founder & CEO",
+        "subrole": "Diretor de Inovação e Desenvolvimento Tecnológico",
+        "initials": "JV"
+      },
+      {
+        "name": "Carla Valadares",
+        "role": "Co-Founder & COO",
+        "subrole": "Diretora Criativa e de Relações Institucionais",
+        "initials": "CV"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para transformar a tua empresa?",
+    "subtitle": "Agenda uma consulta gratuita e descobre como a VGT te pode acompanhar.",
+    "button": "Agendar consulta"
+  }
+}

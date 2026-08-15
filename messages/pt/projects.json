@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Projetos em destaque — Valadares Global Tech",
+    "description": "Sites e produtos digitais desenvolvidos pela VGT: Veritempo, Veriscudo, Red Gobierno con Valores, OHGDA, GEDEVAL e Solo Una Vida."
+  },
+  "hero": {
+    "eyebrow": "Portefólio",
+    "title": "Projetos em destaque",
+    "subtitle": "Uma seleção de sites que desenhámos e desenvolvemos para instituições e organizações."
+  },
+  "intro": "Cada projeto combina estratégia, design e tecnologia para dar uma presença digital sólida a organizações e instituições. Estes são alguns dos nossos trabalhos online.",
+  "viewAll": "Ver todos os projetos",
+  "visit": "Visitar site",
+  "items": [
+    {
+      "title": "Veritempo",
+      "category": "Produto VGT · Gestão do tempo",
+      "url": "https://veritempo.eu",
+      "domain": "veritempo.eu",
+      "image": "/projects/veritempo.webp"
+    },
+    {
+      "title": "Veriscudo",
+      "category": "Produto VGT · Cibersegurança",
+      "url": "https://veriscudo.com",
+      "domain": "veriscudo.com"
+    },
+    {
+      "title": "Red Gobierno con Valores",
+      "category": "Institucional · Governação",
+      "url": "https://www.redgobiernoconvalores.com",
+      "domain": "redgobiernoconvalores.com",
+      "image": "/projects/redgobiernoconvalores.webp"
+    },
+    {
+      "title": "OHGDA",
+      "category": "Organização internacional",
+      "url": "https://ohgda.org",
+      "domain": "ohgda.org"
+    },
+    {
+      "title": "GEDEVAL",
+      "category": "Institucional",
+      "url": "https://www.gedeval.org",
+      "domain": "gedeval.org"
+    },
+    {
+      "title": "Solo Una Vida",
+      "category": "Organização social",
+      "url": "https://solounavida.ong",
+      "domain": "solounavida.ong"
+    }
+  ]
+}

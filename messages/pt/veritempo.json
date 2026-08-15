@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "title": "Veritempo — Gestão de assiduidade, tempos e controlo de acessos | VGT",
+    "description": "Veritempo, a solução da VGT para o controlo do tempo, da assiduidade e dos acessos dos teus colaboradores. Biometria, app móvel e web, e integração com o teu processamento salarial."
+  },
+  "hero": {
+    "eyebrow": "Veritempo",
+    "badge": "Solução de gestão empresarial",
+    "title": "Gestão de tempo, assiduidade e controlo de acessos tudo-em-um",
+    "subtitle": "O Veritempo é a solução da VGT para o controlo do tempo, da assiduidade e dos acessos dos teus colaboradores, num ambiente seguro, intuitivo e centralizado. Acompanhamos-te desde a implementação até ao suporte contínuo.",
+    "ctaPrimary": "Pedir demonstração",
+    "ctaSecondary": "Ver módulos"
+  },
+  "modules": {
+    "eyebrow": "Módulos",
+    "title": "Uma solução para cada área do teu negócio",
+    "subtitle": "Cada módulo funciona de forma independente ou integrada, adaptando-se exatamente às necessidades da tua organização.",
+    "items": [
+      {
+        "title": "Time",
+        "description": "Controlo e acompanhamento do tempo de trabalho: gestão de turnos e planeamento, folha de horas automática, registo de ocorrências e incidências, gestão de tempo livre, ausências e medição de produtividade."
+      },
+      {
+        "title": "Access",
+        "description": "Controlo de acesso às instalações com histórico completo de movimentos, reconhecimento biométrico (impressão digital, rosto e íris) e registo e controlo de acesso de veículos."
+      },
+      {
+        "title": "Guest",
+        "description": "Gestão integral de visitantes: registo de informação biométrica, agendamento de visitas de pessoas e veículos, e controlo de ativos entregues."
+      },
+      {
+        "title": "Coworking",
+        "description": "Controlo de lotação e reserva de espaços de trabalho: agendamento web, controlo de lotação em tempo real e monitorização da ocupação das instalações."
+      },
+      {
+        "title": "Lunch",
+        "description": "Gestão da cantina da empresa: planeamento de menus, administração de turnos de entrega, integração com a assiduidade e identificação biométrica para o acesso."
+      }
+    ]
+  },
+  "marking": {
+    "eyebrow": "Métodos de registo de ponto",
+    "title": "Múltiplas formas de registo para qualquer ambiente",
+    "subtitle": "Desde dispositivos biométricos físicos até aplicações web e móveis, o Veritempo adapta-se a como e onde trabalha a tua equipa.",
+    "items": [
+      {
+        "title": "Biométrico",
+        "description": "Dispositivos de impressão digital, reconhecimento facial e de íris. Compatível com ZKTeco, Suprema e VIRDI para ambientes físicos.",
+        "features": [
+          "Validação por impressão digital, rosto e íris",
+          "Múltiplos padrões de validação configuráveis",
+          "Integração nativa com ZKTeco, Suprema e VIRDI",
+          "Funcionamento online e offline"
+        ]
+      },
+      {
+        "title": "App Móvel",
+        "description": "Aplicação disponível no Google Play, App Store e AppGallery para registo de ponto a partir de qualquer lugar, com geolocalização.",
+        "features": [
+          "Geolocalização e geofencing configuráveis",
+          "Registo facial a partir do smartphone",
+          "Gestão de ausências e tempo livre",
+          "Consulta de turnos e notificações push",
+          "Acompanhamento de atividade em tempo real"
+        ]
+      },
+      {
+        "title": "App Web",
+        "description": "Solução para colaboradores no computador: compatível com Windows, macOS e Linux, com controlo de produtividade avançado.",
+        "features": [
+          "Registo facial a partir da câmara do computador",
+          "Capturas de ecrã e registo de atividade",
+          "Monitorização das aplicações em utilização",
+          "Deteção de atividade e inatividade",
+          "Medição de produtividade e relatórios exportáveis"
+        ]
+      }
+    ]
+  },
+  "integrations": {
+    "eyebrow": "Integrações",
+    "title": "Ligado ao teu ecossistema tecnológico",
+    "subtitle": "O Veritempo integra-se de forma nativa com as principais plataformas de processamento salarial e dispositivos biométricos do mercado.",
+    "items": [
+      "Oracle",
+      "SAP",
+      "Buk",
+      "+10 plataformas de processamento salarial",
+      "Dispositivos biométricos",
+      "Cloud AWS"
+    ]
+  },
+  "benefits": {
+    "eyebrow": "Benefícios",
+    "title": "Resultados que se medem desde o primeiro mês",
+    "subtitle": "As organizações que implementam o Veritempo reportam melhorias concretas e mensuráveis nas suas operações de recursos humanos.",
+    "items": [
+      {
+        "title": "Maior produtividade",
+        "description": "Automatiza tarefas manuais e liberta a tua equipa de RH para atividades de maior valor estratégico para a empresa."
+      },
+      {
+        "title": "Redução de tempo operacional",
+        "description": "Os fechos do processamento salarial que antes demoravam dias passam a processar-se em horas, graças à automação e à integração de dados."
+      },
+      {
+        "title": "Eliminação de erros de registo",
+        "description": "A biometria e a geolocalização eliminam a fraude nos registos e os erros próprios do registo de ponto manual."
+      },
+      {
+        "title": "ROI comprovável",
+        "description": "A poupança em tempo operacional e a redução de incidências geram um retorno do investimento mensurável desde os primeiros meses."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Queres ver o Veritempo em ação?",
+    "subtitle": "Pede uma demonstração personalizada sem custo e descobre como o Veritempo pode transformar a gestão da tua força de trabalho.",
+    "button": "Pedir demonstração do Veritempo"
+  }
+}

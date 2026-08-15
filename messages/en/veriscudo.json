@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Veriscudo — Cross-functional cybersecurity as a service (CSaaS) | VGT",
+    "description": "End-to-end protection: governance and compliance, monitoring and response, proactive defense, digital forensics, and offensive operations, as a managed service."
+  },
+  "hero": {
+    "eyebrow": "Veriscudo",
+    "title": "Cross-functional cybersecurity as a service (CSaaS)",
+    "subtitle": "Veriscudo delivers end-to-end protection for your organization: from risk governance and regulatory compliance to active defense, digital forensics, and offensive operations, all as a managed service.",
+    "ctaPrimary": "Request a security assessment",
+    "ctaSecondary": "View portfolio"
+  },
+  "intro": {
+    "eyebrow": "What is CSaaS?",
+    "title": "Cybersecurity that adapts to your organization",
+    "subtitle": "The CSaaS model (Cross-functional Cybersecurity as a Service) gives organizations access to enterprise-grade security capabilities, paying only for what they need, without the complexity of maintaining an in-house team.",
+    "items": [
+      {
+        "title": "No infrastructure investment",
+        "description": "Access state-of-the-art tools and experts with no capital investment in equipment or licenses."
+      },
+      {
+        "title": "Scales as you grow",
+        "description": "The service grows with you: adjust the level of protection to your organization's size and risk profile."
+      },
+      {
+        "title": "Specialized experts",
+        "description": "Your organization gains access to a multidisciplinary team of cybersecurity analysts and specialists without having to hire them."
+      },
+      {
+        "title": "Continuous 24/7 coverage",
+        "description": "Around-the-clock monitoring and response to detect and neutralize threats in real time, without interruptions."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Service portfolio",
+    "title": "Protection at every layer of your organization",
+    "subtitle": "Veriscudo structures its services into six categories covering the full cycle of enterprise cybersecurity.",
+    "categories": [
+      {
+        "title": "Governance, Risk & Compliance (GRC)",
+        "content": [
+          "Security posture assessment (CIS Controls, NIST CSF, ISO 27000)",
+          "ICT asset inventory and cyber-risk matrix (BIA)",
+          "Risk analysis and business impact assessment",
+          "Strategic Information Security Plan (SISP) and action plans",
+          "Ongoing security incident management",
+          "Security policies based on ISO 27002:2022",
+          "Security program maturity assessments",
+          "Training and awareness: digital hygiene, executive and technical training, DevSecOps"
+        ]
+      },
+      {
+        "title": "Monitoring, Detection & Response",
+        "content": [
+          "SOCaaS — Security Operations Center as a Service with 24/7 coverage",
+          "SIEMaaS — Real-time security information and event management",
+          "EDRaaS — Advanced endpoint detection and response",
+          "Threat Intelligence — Threat intelligence contextualized for your industry",
+          "Threat Hunting — Proactive hunting for latent threats in your infrastructure"
+        ]
+      },
+      {
+        "title": "Cyber Defense / Blue Team",
+        "content": [
+          "Protection for corporate users, endpoints, and servers",
+          "Email protection against phishing, spoofing, and malware",
+          "Identity management and multi-factor authentication (MFA)",
+          "Data encryption at rest and in transit",
+          "Network traffic analysis and intrusion detection (IDS/IPS)",
+          "Protection for web applications and APIs",
+          "Managed XDR: XDR, EDR, NGFW, Email Security, DNS Security, SWG, and SIEM, integrated"
+        ]
+      },
+      {
+        "title": "Digital Forensics (DFIR)",
+        "content": [
+          "Collection and preservation of digital evidence with chain of custody",
+          "Forensic analysis of security incidents",
+          "Containment and eradication of active threats",
+          "Expert reports for legal or regulatory use"
+        ]
+      },
+      {
+        "title": "Offensive Operations / Red Team",
+        "content": [
+          "Continuous vulnerability management and remediation",
+          "Perimeter pentesting: networks, systems, and infrastructure",
+          "Web and mobile application pentesting",
+          "Social engineering: phishing, vishing, and targeted attack simulations",
+          "Wireless network security testing",
+          "Adversary simulation and emulation (Adversary Simulation)"
+        ]
+      },
+      {
+        "title": "Cybersecurity e-Learning",
+        "content": [
+          "Virtual learning platforms (LMS) for the whole organization",
+          "Custom cybersecurity content development",
+          "Attendance tracking and automatic certificate issuance",
+          "Online course hosting and management",
+          "Synchronous, asynchronous, and in-person training",
+          "Organization-wide awareness and security culture programs"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "Is your organization truly protected?",
+    "subtitle": "Request a free security assessment and find out where you stand against cyber threats today.",
+    "button": "Request a security assessment"
+  }
+}

@@ -1,52 +1,26 @@
+import { cookies } from "next/headers";
 import { getRequestConfig } from "next-intl/server";
-import type { AbstractIntlMessages } from "next-intl";
 
-import common from "../../messages/es/common.json";
-import home from "../../messages/es/home.json";
-import services from "../../messages/es/services.json";
-import veritempo from "../../messages/es/veritempo.json";
-import veriscudo from "../../messages/es/veriscudo.json";
-import about from "../../messages/es/about.json";
-import contact from "../../messages/es/contact.json";
-import quote from "../../messages/es/quote.json";
-import legal from "../../messages/es/legal.json";
-import projects from "../../messages/es/projects.json";
-import marketing from "../../messages/es/marketing.json";
-import branding from "../../messages/es/branding.json";
-import desarrollo from "../../messages/es/desarrollo.json";
-import agentes from "../../messages/es/agentes.json";
-import consultoria from "../../messages/es/consultoria.json";
-import datos from "../../messages/es/datos.json";
+import { getLocaleMessages } from "./messages";
 
-// Fase 1: solo español. EN y PT-PT quedan preparados para Fase 2 (Portugal/UE).
-export const locales = ["es"] as const;
+// Fase 2 activada (2026-08-15): ES, EN y PT-PT. Arquitectura SIN routing:
+// el idioma viaja en la cookie NEXT_LOCALE (la escribe el LangSwitcher).
+export const locales = ["es", "en", "pt"] as const;
 export const defaultLocale = "es" as const;
 export type Locale = (typeof locales)[number];
 
-// Mensajes centralizados por namespace. Cada página/escuadrón es dueño de su
-// propio archivo en messages/es/<namespace>.json (sin conflictos de merge).
-// Cast a través de unknown: next-intl admite arrays de objetos en runtime
-// (vía t.raw), pero su tipo AbstractIntlMessages no los modela.
-const messages = {
-  common,
-  home,
-  services,
-  veritempo,
-  veriscudo,
-  about,
-  contact,
-  quote,
-  legal,
-  projects,
-  marketing,
-  branding,
-  desarrollo,
-  agentes,
-  consultoria,
-  datos,
-} as unknown as AbstractIntlMessages;
+export default getRequestConfig(async () => {
+  let locale: Locale = defaultLocale;
 
-export default getRequestConfig(async () => ({
-  locale: defaultLocale,
-  messages,
-}));
+  // El export estático (GitHub Pages) queda fijo en ES: leer cookies()
+  // haría dinámicas todas las páginas y rompería el export.
+  if (process.env.BUILD_STATIC !== "true") {
+    const store = await cookies();
+    const candidate = store.get("NEXT_LOCALE")?.value;
+    if (candidate && (locales as readonly string[]).includes(candidate)) {
+      locale = candidate as Locale;
+    }
+  }
+
+  return { locale, messages: getLocaleMessages(locale) };
+});

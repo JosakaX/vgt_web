@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Web & SaaS Development | Valadares Global Tech",
+    "description": "Websites, e-commerce, mobile apps, and custom SaaS platforms. Software development with a product mindset, UX/UI, and scalability."
+  },
+  "hero": {
+    "eyebrow": "Web & SaaS Development",
+    "title": "Websites, apps, and platforms built for you",
+    "subtitle": "We design and develop fast, modern, scalable digital products: from your website to full SaaS platforms."
+  },
+  "includes": {
+    "eyebrow": "What's included",
+    "title": "Full-cycle development",
+    "subtitle": "We're with you from the idea through launch and support.",
+    "items": [
+      {
+        "title": "Websites and landing pages",
+        "description": "Fast, responsive, SEO-optimized sites and landing pages that turn visitors into customers."
+      },
+      {
+        "title": "E-commerce and online stores",
+        "description": "Secure, easy-to-manage stores to sell your products or services online."
+      },
+      {
+        "title": "Web and mobile applications",
+        "description": "Intuitive, scalable apps for web, iOS, and Android that bring your services closer to your users."
+      },
+      {
+        "title": "SaaS and micro-SaaS platforms",
+        "description": "Software built with a product mindset, designed to validate, launch, and scale."
+      },
+      {
+        "title": "Databases and custom systems",
+        "description": "Internal systems, admin panels, and robust databases that organize and power your operation."
+      },
+      {
+        "title": "Integrations, APIs, and support",
+        "description": "We connect your tools (payments, CRM, ERP) and provide ongoing maintenance and support."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "From idea to product in production",
+    "subtitle": "Clear methodology, iterative deliveries, and constant communication.",
+    "steps": [
+      { "title": "Discovery", "description": "We define the product's scope, requirements, and goals." },
+      { "title": "UX/UI design", "description": "We prototype the experience and the design of every screen." },
+      { "title": "Development", "description": "We build the product with iterative deliveries and reviews." },
+      { "title": "Launch and support", "description": "We deploy, train your team, and provide ongoing maintenance." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Deliverables",
+    "title": "What you get",
+    "subtitle": "A product ready to use and grow.",
+    "items": [
+      "Website, app, or platform in production",
+      "UX/UI design and prototypes",
+      "Source code and technical documentation",
+      "Hosting and deployment setup",
+      "Integrations with your systems",
+      "Post-launch support and maintenance"
+    ]
+  },
+  "cta": {
+    "title": "Have a digital project in mind?",
+    "subtitle": "Tell us your idea and we'll turn it into a solid, scalable product.",
+    "button": "Let's talk"
+  }
+}

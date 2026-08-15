@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Marketing & Digital Strategy | Valadares Global Tech",
+    "description": "Strategy, social media, content, SEO/SEM, email marketing, and analytics. Results-driven digital marketing for companies and institutions."
+  },
+  "hero": {
+    "eyebrow": "Marketing & Digital Strategy",
+    "title": "Marketing and strategy that drive results",
+    "subtitle": "We design and execute data-driven digital marketing strategies to grow your presence, your leads, and your sales."
+  },
+  "includes": {
+    "eyebrow": "What's included",
+    "title": "A full-service marketing offering",
+    "subtitle": "We combine strategy, execution, and measurement in a single team.",
+    "items": [
+      {
+        "title": "Strategy and positioning",
+        "description": "Definition of goals, audiences, value proposition, and a measurable action plan for your brand."
+      },
+      {
+        "title": "Social media management",
+        "description": "Planning, content creation, and community management on the platforms where your audience is."
+      },
+      {
+        "title": "Content and SEO",
+        "description": "Articles, blog posts, and optimized content to position your brand organically in search engines."
+      },
+      {
+        "title": "Advertising and campaigns (SEM/Ads)",
+        "description": "Campaigns on Google, Meta, and other platforms, targeted and optimized to maximize returns."
+      },
+      {
+        "title": "Email marketing and automation",
+        "description": "Automated acquisition and retention flows that accompany the customer throughout their journey."
+      },
+      {
+        "title": "Analytics and optimization",
+        "description": "Continuous measurement of results with clear dashboards to decide with data and improve every month."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "From strategy to results",
+    "subtitle": "A clear, measurable process, with reports at every stage.",
+    "steps": [
+      { "title": "Assessment", "description": "We analyze your brand, your market, and your competition." },
+      { "title": "Strategy", "description": "We define channels, messages, and a prioritized action plan." },
+      { "title": "Execution", "description": "We produce content and launch campaigns and automations." },
+      { "title": "Measurement and optimization", "description": "We analyze results and optimize continuously." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Deliverables",
+    "title": "What you get",
+    "subtitle": "Tangible results, not just activity.",
+    "items": [
+      "Documented marketing plan and strategy",
+      "Content and publishing calendar",
+      "Live, optimized advertising campaigns",
+      "Email marketing and automation flows",
+      "Metrics dashboard and periodic reports",
+      "Continuous improvement recommendations"
+    ]
+  },
+  "cta": {
+    "title": "Ready to grow your brand?",
+    "subtitle": "Tell us your goals and we'll design a marketing strategy tailored to you.",
+    "button": "Let's talk"
+  }
+}

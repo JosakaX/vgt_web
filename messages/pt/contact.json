@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Contacto — Valadares Global Tech",
+    "description": "Falemos. Agenda uma demonstração ou escreve-nos para descobrir como a VGT pode potenciar a operação da tua empresa."
+  },
+  "hero": {
+    "eyebrow": "Contacta-nos",
+    "title": "Falemos do teu negócio",
+    "subtitle": "Conta-nos sobre a tua empresa e o desafio que enfrentas. A nossa equipa responde-te em menos de 24 horas úteis."
+  },
+  "form": {
+    "heading": "Envia-nos uma mensagem",
+    "submit": "Enviar mensagem",
+    "submitting": "A enviar…",
+    "success": "Mensagem recebida! Vamos contactar-te em menos de 24 horas.",
+    "error": "Não conseguimos enviar a tua mensagem. Por favor, tenta novamente.",
+    "required": "* Campo obrigatório",
+    "fields": {
+      "nombre": {
+        "label": "Nome completo *",
+        "placeholder": "Como te chamas?"
+      },
+      "empresa": {
+        "label": "Empresa",
+        "placeholder": "Nome da tua organização"
+      },
+      "pais": {
+        "label": "País",
+        "placeholder": "Ex.: Portugal, Espanha, Venezuela…"
+      },
+      "email": {
+        "label": "E-mail *",
+        "placeholder": "tu@empresa.com"
+      },
+      "telefono": {
+        "label": "Telefone",
+        "placeholder": "+351 900 000 000"
+      },
+      "servicio": {
+        "label": "Serviço de interesse *",
+        "placeholder": "Seleciona uma opção",
+        "veritempo": "Veritempo — Gestão de assiduidade e acessos",
+        "veriscudo": "Veriscudo — Cibersegurança",
+        "ambos": "Ambos os serviços"
+      },
+      "empleados": {
+        "label": "Número de colaboradores",
+        "placeholder": "Seleciona um intervalo",
+        "r1": "1 – 50 colaboradores",
+        "r2": "51 – 200 colaboradores",
+        "r3": "201 – 1 000 colaboradores",
+        "r4": "Mais de 1 000 colaboradores"
+      },
+      "mensaje": {
+        "label": "Mensagem *",
+        "placeholder": "Conta-nos brevemente o que precisas ou que desafio queres resolver…"
+      }
+    }
+  },
+  "validation": {
+    "nombreRequired": "O nome é obrigatório.",
+    "emailRequired": "O e-mail é obrigatório.",
+    "emailInvalid": "Introduz um e-mail válido.",
+    "servicioRequired": "Seleciona o serviço do teu interesse.",
+    "mensajeRequired": "A mensagem é obrigatória.",
+    "mensajeMinLength": "A mensagem deve ter pelo menos 10 caracteres."
+  },
+  "info": {
+    "heading": "Informações de contacto",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefones",
+    "demo": {
+      "heading": "Preferes uma demonstração ao vivo?",
+      "body": "Agenda uma chamada com a nossa equipa e descobre como o Veritempo ou o Veriscudo se adapta à tua operação.",
+      "button": "Agendar demonstração"
+    }
+  }
+}

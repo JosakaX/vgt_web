@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Consultoria em IA & Transformação Digital | Valadares Global Tech",
+    "description": "Diagnóstico, estratégia e roteiro para adotar inteligência artificial e digitalizar a tua organização com impacto mensurável."
+  },
+  "hero": {
+    "eyebrow": "Consultoria em IA & Transformação Digital",
+    "title": "Um roteiro claro para crescer com IA",
+    "subtitle": "Ajudamos-te a perceber onde aplicar inteligência artificial e tecnologia na tua organização, e a priorizar as iniciativas que geram mais impacto."
+  },
+  "includes": {
+    "eyebrow": "O que inclui",
+    "title": "Estratégia antes da tecnologia",
+    "subtitle": "Primeiro o diagnóstico e o plano; depois a execução, com prioridades claras.",
+    "items": [
+      {
+        "title": "Diagnóstico de maturidade digital",
+        "description": "Avaliamos os teus processos, ferramentas e dados para saber de onde partimos."
+      },
+      {
+        "title": "Identificação de casos de uso de IA",
+        "description": "Detetamos onde a IA te pode poupar tempo, reduzir custos ou gerar receitas."
+      },
+      {
+        "title": "Roteiro de transformação",
+        "description": "Um plano por fases, priorizado por impacto e esforço, com objetivos mensuráveis."
+      },
+      {
+        "title": "Oportunidades de automação",
+        "description": "Mapeamos os processos repetitivos que convém automatizar primeiro."
+      },
+      {
+        "title": "Seleção de tecnologia",
+        "description": "Recomendamos as ferramentas e a arquitetura adequadas ao teu caso e orçamento."
+      },
+      {
+        "title": "Acompanhamento na adoção",
+        "description": "Orientamos-te na gestão da mudança para que a tua equipa adote as novas ferramentas."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Como trabalhamos",
+    "title": "Do diagnóstico ao plano de ação",
+    "subtitle": "Um processo claro que termina em decisões, não num relatório que ninguém lê.",
+    "steps": [
+      { "title": "Diagnóstico", "description": "Compreendemos a tua operação, os teus dados e os teus objetivos." },
+      { "title": "Estratégia", "description": "Definimos a visão e os casos de uso prioritários." },
+      { "title": "Roteiro", "description": "Priorizamos as iniciativas por impacto e esforço." },
+      { "title": "Acompanhamento", "description": "Apoiamos-te na execução e na adoção." }
+    ]
+  },
+  "deliverables": {
+    "eyebrow": "Entregáveis",
+    "title": "O que recebes",
+    "subtitle": "Clareza para decidir e um plano acionável.",
+    "items": [
+      "Relatório de diagnóstico de maturidade digital",
+      "Mapa de casos de uso de IA priorizados",
+      "Roteiro de transformação por fases",
+      "Recomendações de tecnologia e arquitetura",
+      "Plano de implementação e quick wins",
+      "Sessão de apresentação e acompanhamento"
+    ]
+  },
+  "cta": {
+    "title": "Por onde começar com a IA?",
+    "subtitle": "Vamos fazer um diagnóstico e desenhar juntos o teu roteiro de transformação.",
+    "button": "Falemos"
+  }
+}

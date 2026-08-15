@@ -51,9 +51,9 @@ export const routes = {
   affiliates: "/afiliados",
 } as const;
 
-/** Idiomas: ES activo; EN y PT-PT preparados para Fase 2. */
+/** Idiomas activos del sitio (Fase 2 activada 2026-08-15: ES, EN y PT-PT). */
 export const languages = [
   { code: "es", label: "Español", enabled: true },
-  { code: "en", label: "English", enabled: false },
-  { code: "pt", label: "Português", enabled: false },
+  { code: "en", label: "English", enabled: true },
+  { code: "pt", label: "Português", enabled: true },
 ] as const;

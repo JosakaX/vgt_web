@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Valadares Global Tech — Estratégia, Design e Tecnologia",
+    "description": "Agência digital de marketing, design e tecnologia para empresas e instituições. Soluções integrais: estratégia, branding, desenvolvimento web e apps, cibersegurança e muito mais."
+  },
+  "hero": {
+    "badge": "Marketing · Design · Tecnologia",
+    "title": "Estratégia, design e tecnologia que transformam organizações.",
+    "subtitle": "Soluções digitais integrais para empresas e instituições que procuram inovação, crescimento e resultados.",
+    "ctaPrimary": "Os nossos serviços",
+    "ctaSecondary": "Falemos"
+  },
+  "servicesPreview": {
+    "eyebrow": "Serviços",
+    "title": "O que fazemos pela tua organização",
+    "subtitle": "Estratégia, design e tecnologia que se combinam de acordo com o que precisas.",
+    "viewAll": "Ver todos os serviços"
+  },
+  "projectsPreview": {
+    "eyebrow": "Portefólio",
+    "title": "Projetos em destaque",
+    "subtitle": "Uma amostra de como combinamos criatividade e tecnologia para gerar resultados.",
+    "viewAll": "Ver todos os projetos"
+  },
+  "trustBar": {
+    "title": "Soluções potenciadas pelos nossos parceiros tecnológicos"
+  },
+  "solutions": {
+    "heading": "Soluções especializadas",
+    "subheading": "Além dos nossos serviços de agência, distribuímos como partner autorizado duas plataformas líderes.",
+    "veritempo": {
+      "name": "Gestão de Assiduidade e Acessos",
+      "category": "Controlo de tempo e acessos",
+      "summary": "Plataforma tudo-em-um para otimizar a gestão do tempo, da assiduidade e do controlo de acessos dos teus colaboradores, num ambiente seguro e intuitivo.",
+      "cta": "Saber mais"
+    },
+    "veriscudo": {
+      "name": "Cibersegurança Gerida",
+      "category": "Cibersegurança como Serviço (CSaaS)",
+      "summary": "Cibersegurança transversal como serviço (CSaaS): governação e conformidade, monitorização e resposta, defesa proativa, forense e operações ofensivas.",
+      "cta": "Saber mais"
+    }
+  },
+  "why": {
+    "heading": "Porquê a VGT",
+    "subheading": "Um parceiro que entende a tua operação e a tecnologia que a potencia.",
+    "pillars": [
+      {
+        "title": "Um único parceiro, múltiplas soluções",
+        "desc": "Centraliza a gestão de pessoal e a cibersegurança da tua empresa com um único interlocutor."
+      },
+      {
+        "title": "Acompanhamento local na América Latina",
+        "desc": "Implementação, idioma e suporte próximo, adaptados à realidade da tua região."
+      },
+      {
+        "title": "Suporte e consultoria contínua",
+        "desc": "Não te deixamos sozinho após a instalação: otimização e aconselhamento permanentes."
+      },
+      {
+        "title": "Soluções comprovadas à escala internacional",
+        "desc": "Tecnologia de fornecedores líderes, utilizada por organizações em dezenas de países."
+      }
+    ]
+  },
+  "how": {
+    "heading": "Como trabalhamos",
+    "subheading": "Um processo claro, da primeira reunião ao suporte contínuo.",
+    "steps": [
+      {
+        "title": "Diagnóstico",
+        "desc": "Compreendemos a tua operação, os teus desafios e os teus objetivos."
+      },
+      {
+        "title": "Proposta à medida",
+        "desc": "Desenhamos a combinação de soluções que melhor se ajusta ao teu caso."
+      },
+      {
+        "title": "Implementação",
+        "desc": "Implementamos, integramos e damos formação à tua equipa."
+      },
+      {
+        "title": "Suporte contínuo",
+        "desc": "Acompanhamento, otimização e melhoria permanente."
+      }
+    ]
+  },
+  "industries": {
+    "heading": "Setores que potenciamos",
+    "subheading": "Soluções que se adaptam às exigências de cada indústria.",
+    "items": [
+      "Saúde",
+      "Indústria",
+      "Mineração",
+      "Serviços",
+      "Hotelaria",
+      "Construção",
+      "Educação",
+      "Restauração",
+      "Entretenimento",
+      "Banca/Fintech"
+    ]
+  },
+  "finalCta": {
+    "title": "Falemos do teu próximo projeto",
+    "subtitle": "Conta-nos o teu desafio e mostramos-te como a estratégia, o design e a tecnologia podem transformar a tua organização.",
+    "button": "Falemos"
+  }
+}

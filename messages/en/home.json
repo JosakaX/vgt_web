@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Valadares Global Tech — Strategy, Design & Technology",
+    "description": "Digital agency for marketing, design, and technology serving companies and institutions. End-to-end solutions: strategy, branding, web and app development, cybersecurity, and more."
+  },
+  "hero": {
+    "badge": "Marketing · Design · Technology",
+    "title": "Strategy, design, and technology that transform organizations.",
+    "subtitle": "End-to-end digital solutions for companies and institutions seeking innovation, growth, and results.",
+    "ctaPrimary": "Our services",
+    "ctaSecondary": "Let's talk"
+  },
+  "servicesPreview": {
+    "eyebrow": "Services",
+    "title": "What we do for your organization",
+    "subtitle": "Strategy, design, and technology, combined around what you need.",
+    "viewAll": "View all services"
+  },
+  "projectsPreview": {
+    "eyebrow": "Portfolio",
+    "title": "Featured projects",
+    "subtitle": "A glimpse of how we combine creativity and technology to deliver results.",
+    "viewAll": "View all projects"
+  },
+  "trustBar": {
+    "title": "Solutions powered by our technology partners"
+  },
+  "solutions": {
+    "heading": "Specialized solutions",
+    "subheading": "Beyond our agency services, we distribute two leading platforms as an authorized partner.",
+    "veritempo": {
+      "name": "Attendance & Access Management",
+      "category": "Time and access control",
+      "summary": "An all-in-one platform to streamline time management, attendance, and access control for your employees, in a secure and intuitive environment.",
+      "cta": "Learn more"
+    },
+    "veriscudo": {
+      "name": "Managed Cybersecurity",
+      "category": "Cybersecurity as a Service (CSaaS)",
+      "summary": "Cross-functional cybersecurity as a service (CSaaS): governance and compliance, monitoring and response, proactive defense, forensics, and offensive operations.",
+      "cta": "Learn more"
+    }
+  },
+  "why": {
+    "heading": "Why VGT",
+    "subheading": "A partner who understands your operation and the technology that powers it.",
+    "pillars": [
+      {
+        "title": "One partner, multiple solutions",
+        "desc": "Centralize your company's workforce management and cybersecurity with a single point of contact."
+      },
+      {
+        "title": "Local support across Latin America",
+        "desc": "Implementation, language, and hands-on support, tailored to the reality of your region."
+      },
+      {
+        "title": "Ongoing support and consulting",
+        "desc": "We don't walk away after installation: continuous optimization and advisory."
+      },
+      {
+        "title": "Solutions proven at international scale",
+        "desc": "Technology from leading providers, used by organizations in dozens of countries."
+      }
+    ]
+  },
+  "how": {
+    "heading": "How we work",
+    "subheading": "A clear process, from the first meeting to ongoing support.",
+    "steps": [
+      {
+        "title": "Assessment",
+        "desc": "We get to know your operation, your challenges, and your goals."
+      },
+      {
+        "title": "Tailored proposal",
+        "desc": "We design the combination of solutions that best fits your case."
+      },
+      {
+        "title": "Implementation",
+        "desc": "We deploy, integrate, and train your team."
+      },
+      {
+        "title": "Ongoing support",
+        "desc": "Continuous guidance, optimization, and improvement."
+      }
+    ]
+  },
+  "industries": {
+    "heading": "Industries we empower",
+    "subheading": "Solutions that adapt to the demands of every industry.",
+    "items": [
+      "Healthcare",
+      "Manufacturing",
+      "Mining",
+      "Services",
+      "Hospitality",
+      "Construction",
+      "Education",
+      "Restaurants",
+      "Entertainment",
+      "Banking/Fintech"
+    ]
+  },
+  "finalCta": {
+    "title": "Let's talk about your next project",
+    "subtitle": "Tell us about your challenge and we'll show you how strategy, design, and technology can transform your organization.",
+    "button": "Let's talk"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "brand": {
+    "name": "Valadares Global Tech",
+    "shortName": "VGT",
+    "tagline": "Marketing · Design · Technology",
+    "legalName": "Valadares Global Tech LLC",
+    "partnerNote": "Valadares Global Tech LLC — LATAM · USA · EUROPE"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "servicesMenu": {
+      "marketing": "Marketing & Digital Strategy",
+      "marketingDesc": "Strategy, social media, content, campaigns, and analytics",
+      "branding": "Design & Branding",
+      "brandingDesc": "Brand identity, logo, and visual system",
+      "desarrollo": "Web, App & SaaS Development",
+      "desarrolloDesc": "Websites, apps, SaaS, databases, and custom systems",
+      "agentes": "AI Agents, Chatbots & Automation",
+      "agentesDesc": "Chatbots, 24/7 agents, WhatsApp, calls, and workflows",
+      "consultoria": "AI & Digital Transformation Consulting",
+      "consultoriaDesc": "Assessment and roadmap to grow with AI",
+      "datos": "Data, Analytics & Dashboards",
+      "datosDesc": "Dashboards, KPIs, and reports for data-driven decisions",
+      "veritempo": "Attendance & Access Management",
+      "veritempoDesc": "Time, attendance, and access control with biometrics",
+      "veriscudo": "Managed Cybersecurity",
+      "veriscudoDesc": "End-to-end protection as a managed service (CSaaS)"
+    },
+    "about": "About us",
+    "projects": "Projects",
+    "contact": "Contact",
+    "ctaDemo": "Book a demo",
+    "talk": "Let's talk",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light theme",
+    "dark": "Dark theme"
+  },
+  "lang": {
+    "label": "Language",
+    "current": "English",
+    "soon": "Coming soon",
+    "es": "Español",
+    "en": "English",
+    "pt": "Português"
+  },
+  "cta": {
+    "demo": "Book a demo",
+    "services": "View services",
+    "quote": "Request a quote",
+    "learnMore": "Learn more",
+    "contact": "Contact us",
+    "send": "Send"
+  },
+  "contactInfo": {
+    "web": "www.valadaresglobaltech.com",
+    "webUrl": "https://www.valadaresglobaltech.com",
+    "email": "contacto@valadaresglobaltech.com",
+    "phones": {
+      "us": "+1 (USA)",
+      "usNote": "United States",
+      "ve": "+58 424 612 5993",
+      "veNote": "Venezuela",
+      "pt": "+351 932 742 678",
+      "ptNote": "Portugal"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "cols": {
+      "services": "Services",
+      "company": "Company",
+      "legal": "Legal",
+      "contact": "Contact"
+    },
+    "links": {
+      "veritempo": "Attendance & Access Management",
+      "veriscudo": "Managed Cybersecurity",
+      "allServices": "All services",
+      "about": "About us",
+      "projects": "Projects",
+      "contactPage": "Contact",
+      "quote": "Request a quote",
+      "privacy": "Privacy policy",
+      "terms": "Terms and conditions",
+      "cookies": "Cookie policy"
+    },
+    "newsletter": {
+      "title": "Stay in the loop",
+      "desc": "Trends in business technology and cybersecurity, no spam.",
+      "placeholder": "Your email address",
+      "button": "Subscribe",
+      "success": "Done! Check your inbox to confirm.",
+      "error": "We couldn't process your subscription. Please try again.",
+      "invalid": "Enter a valid email address."
+    },
+    "social": {
+      "title": "Follow us",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "x": "X (Twitter)",
+      "youtube": "YouTube"
+    }
+  },
+  "newsletter": {
+    "placeholder": "Your email address",
+    "button": "Subscribe"
+  }
+}
