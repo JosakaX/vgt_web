@@ -40,9 +40,15 @@
       "servicio": {
         "label": "Servicio de interés *",
         "placeholder": "Selecciona una opción",
+        "marketing": "Marketing & Estrategia Digital",
+        "branding": "Diseño & Branding",
+        "desarrollo": "Desarrollo Web, Apps & SaaS",
+        "agentes": "Agentes de IA, Chatbots y Automatización",
+        "consultoria": "Consultoría en IA & Transformación Digital",
+        "datos": "Datos, Analítica & Dashboards",
         "veritempo": "Veritempo — Gestión de asistencia y acceso",
         "veriscudo": "Veriscudo — Ciberseguridad",
-        "ambos": "Ambos servicios"
+        "otro": "Otro / Varios servicios"
       },
       "empleados": {
         "label": "Número de empleados",

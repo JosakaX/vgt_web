@@ -9,7 +9,17 @@ import { z } from "zod";
 // Enums reutilizables
 // ---------------------------------------------------------------------------
 
-export const SERVICIOS = ["veritempo", "veriscudo", "ambos"] as const;
+export const SERVICIOS = [
+  "marketing",
+  "branding",
+  "desarrollo",
+  "agentes",
+  "consultoria",
+  "datos",
+  "veritempo",
+  "veriscudo",
+  "otro",
+] as const;
 export const EMPLEADOS_RANGOS = ["1-50", "51-200", "201-1000", "+1000"] as const;
 
 const servicioEnum = z.enum(SERVICIOS, {

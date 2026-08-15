@@ -40,9 +40,15 @@
       "servicio": {
         "label": "Service of interest *",
         "placeholder": "Select an option",
+        "marketing": "Marketing & Digital Strategy",
+        "branding": "Design & Branding",
+        "desarrollo": "Web, App & SaaS Development",
+        "agentes": "AI Agents, Chatbots & Automation",
+        "consultoria": "AI Consulting & Digital Transformation",
+        "datos": "Data, Analytics & Dashboards",
         "veritempo": "Veritempo — Attendance and access management",
         "veriscudo": "Veriscudo — Cybersecurity",
-        "ambos": "Both services"
+        "otro": "Other / Multiple services"
       },
       "empleados": {
         "label": "Number of employees",

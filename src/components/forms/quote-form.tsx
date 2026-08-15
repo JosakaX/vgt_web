@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 import { Loader2, CheckCircle2, AlertCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { formQuoteSchema, type FormQuoteValues } from "@/lib/schemas";
+import { SERVICIOS, formQuoteSchema, type FormQuoteValues } from "@/lib/schemas";
 
 // ---------------------------------------------------------------------------
 // Estilos base
@@ -230,9 +230,11 @@ export function QuoteForm() {
             <option value="" disabled>
               {t("form.fields.servicio.placeholder")}
             </option>
-            <option value="veritempo">{t("form.fields.servicio.veritempo")}</option>
-            <option value="veriscudo">{t("form.fields.servicio.veriscudo")}</option>
-            <option value="ambos">{t("form.fields.servicio.ambos")}</option>
+            {SERVICIOS.map((s) => (
+              <option key={s} value={s}>
+                {t(`form.fields.servicio.${s}`)}
+              </option>
+            ))}
           </select>
           {errors.servicio && (
             <p id="quote-servicio-error" role="alert" className="mt-1 text-xs text-danger">

@@ -90,15 +90,6 @@
       "terms": "Términos y condiciones",
       "cookies": "Política de cookies"
     },
-    "newsletter": {
-      "title": "Recibe novedades",
-      "desc": "Tendencias en tecnología empresarial y ciberseguridad, sin spam.",
-      "placeholder": "Tu correo electrónico",
-      "button": "Suscribirme",
-      "success": "¡Listo! Revisa tu correo para confirmar.",
-      "error": "No pudimos procesar tu suscripción. Inténtalo de nuevo.",
-      "invalid": "Introduce un correo válido."
-    },
     "social": {
       "title": "Síguenos",
       "linkedin": "LinkedIn",
@@ -106,9 +97,5 @@
       "x": "X (Twitter)",
       "youtube": "YouTube"
     }
-  },
-  "newsletter": {
-    "placeholder": "Tu correo electrónico",
-    "button": "Suscribirme"
   }
 }
