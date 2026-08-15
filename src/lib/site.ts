@@ -12,8 +12,8 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.valadaresglobaltech.com",
   email: "info@valadaresglobaltech.com",
   phones: {
-    // magicApp (magicJack), Miami — el mismo número registrado en Atlas/Mercury/D&B.
-    us: { display: "+1 (305) 514-9099", href: "tel:+13055149099" },
+    // Quo (OpenPhone), Ft. Lauderdale — el número oficial de la LLC (Atlas/Mercury/D&B/411).
+    us: { display: "+1 (954) 758-8897", href: "tel:+19547588897" },
     pt: { display: "+351 932 742 678", href: "tel:+351932742678" },
   },
   // TODO: confirmar/activar perfiles sociales reales
