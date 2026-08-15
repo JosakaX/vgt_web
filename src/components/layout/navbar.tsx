@@ -58,7 +58,6 @@ export function Navbar() {
     { href: routes.home, label: t("home") },
     { href: routes.about, label: t("about") },
     { href: routes.projects, label: t("projects") },
-    { href: routes.blog, label: t("blog") },
     { href: routes.contact, label: t("contact") },
   ];
 
@@ -197,9 +196,6 @@ export function Navbar() {
 
             <NavItem href={routes.projects} active={isActive(routes.projects)}>
               {t("projects")}
-            </NavItem>
-            <NavItem href={routes.blog} active={isActive(routes.blog)}>
-              {t("blog")}
             </NavItem>
             <NavItem href={routes.contact} active={isActive(routes.contact)}>
               {t("contact")}

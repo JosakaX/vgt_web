@@ -25,7 +25,6 @@ export async function Footer() {
       links: [
         { label: t("footer.links.about"), href: routes.about },
         { label: t("footer.links.projects"), href: routes.projects },
-        { label: t("footer.links.blog"), href: routes.blog },
         { label: t("footer.links.contactPage"), href: routes.contact },
         { label: t("footer.links.quote"), href: routes.quote },
       ],

@@ -47,7 +47,6 @@ export const routes = {
     terms: "/legal/terminos",
     cookies: "/legal/cookies",
   },
-  blog: "/blog",
   // Fase 2 (previstas, aún no implementadas)
   affiliates: "/afiliados",
 } as const;

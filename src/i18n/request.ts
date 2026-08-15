@@ -11,7 +11,6 @@ import contact from "../../messages/es/contact.json";
 import quote from "../../messages/es/quote.json";
 import legal from "../../messages/es/legal.json";
 import projects from "../../messages/es/projects.json";
-import blog from "../../messages/es/blog.json";
 import marketing from "../../messages/es/marketing.json";
 import branding from "../../messages/es/branding.json";
 import desarrollo from "../../messages/es/desarrollo.json";
@@ -39,7 +38,6 @@ const messages = {
   quote,
   legal,
   projects,
-  blog,
   marketing,
   branding,
   desarrollo,
