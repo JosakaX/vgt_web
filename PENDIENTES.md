@@ -4,11 +4,12 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 Última actualización: 2026-08-15.
 
 ## 🔴 Decisiones / acciones de JosakaX (tú)
-- [ ] **Portafolio — 3 sitios pendientes de estar en vivo (2026-08-15):** GEDEVAL (`gedeval.org`)
-      y Solo Una Vida (`solounavida.ong` — dominio correcto, .ong) aún no tienen sitio publicado;
-      JosakaX ya compró ambos dominios y decidió dejar las cards apuntando. OHGDA está en página
-      de mantenimiento. Las 3 cards usan el visual de gradiente → **capturar miniatura real de
-      cada uno cuando esté en vivo** (Veritempo y Red Gobierno con Valores ya tienen la suya).
+- [ ] **Portafolio — 4 sitios pendientes de estar en vivo (2026-08-15):** GEDEVAL (`gedeval.org`)
+      y Solo Una Vida (`solounavida.ong` — dominio correcto, .ong) aún no tienen sitio publicado
+      (dominios ya comprados, cards apuntando por decisión de JosakaX); OHGDA está en página de
+      mantenimiento; y Veriscudo apunta a `veriscudo.com` que aún NO está registrado ni tiene
+      sitio. Las 4 cards usan el visual de gradiente → **capturar miniatura real de cada uno
+      cuando esté en vivo** (Veritempo y Red Gobierno con Valores ya tienen la suya).
 - [ ] **Proveedores de servicios de agencia:** conseguir las empresas/aliados que prestarán
       Marketing & Estrategia, Diseño & Branding y Desarrollo Web/SaaS (el contenido de las landings
       se ajustará a lo que ellos ofrezcan).

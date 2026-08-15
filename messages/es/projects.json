@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Proyectos destacados — Valadares Global Tech",
-    "description": "Sitios web y productos digitales desarrollados por VGT: Veritempo, Red Gobierno con Valores, OHGDA, GEDEVAL y Solo Una Vida."
+    "description": "Sitios web y productos digitales desarrollados por VGT: Veritempo, Veriscudo, Red Gobierno con Valores, OHGDA, GEDEVAL y Solo Una Vida."
   },
   "hero": {
     "eyebrow": "Portafolio",
@@ -18,6 +18,12 @@
       "url": "https://veritempo.eu",
       "domain": "veritempo.eu",
       "image": "/projects/veritempo.webp"
+    },
+    {
+      "title": "Veriscudo",
+      "category": "Producto VGT · Ciberseguridad",
+      "url": "https://veriscudo.com",
+      "domain": "veriscudo.com"
     },
     {
       "title": "Red Gobierno con Valores",
