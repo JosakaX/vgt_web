@@ -60,12 +60,10 @@
   "contactInfo": {
     "web": "www.valadaresglobaltech.com",
     "webUrl": "https://www.valadaresglobaltech.com",
-    "email": "contacto@valadaresglobaltech.com",
+    "email": "info@valadaresglobaltech.com",
     "phones": {
-      "us": "+1 (USA)",
+      "us": "+1 (305) 514-9099",
       "usNote": "Estados Unidos",
-      "ve": "+58 424 612 5993",
-      "veNote": "Venezuela",
       "pt": "+351 932 742 678",
       "ptNote": "Portugal"
     }

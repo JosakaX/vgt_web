@@ -102,21 +102,12 @@ export default async function ContactoPage() {
                         {t("info.phoneLabel")}
                       </p>
                       <ul className="flex flex-col gap-1">
-                        {/* TODO: confirmar número de Estados Unidos */}
                         <li>
                           <a
                             href={siteConfig.phones.us.href}
                             className="text-sm text-foreground hover:text-accent"
                           >
                             {siteConfig.phones.us.display}
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href={siteConfig.phones.ve.href}
-                            className="text-sm text-foreground hover:text-accent"
-                          >
-                            {siteConfig.phones.ve.display}
                           </a>
                         </li>
                         <li>

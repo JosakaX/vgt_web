@@ -101,11 +101,11 @@ export async function Footer() {
             {t("contactInfo.email")}
           </a>
           <a
-            href={siteConfig.phones.ve.href}
+            href={siteConfig.phones.us.href}
             className="flex items-center gap-2 transition-colors hover:text-accent"
           >
             <Phone className="h-4 w-4 shrink-0 text-accent" aria-hidden="true" />
-            {t("contactInfo.phones.ve")} · {t("contactInfo.phones.veNote")}
+            {t("contactInfo.phones.us")} · {t("contactInfo.phones.usNote")}
           </a>
           <a
             href={siteConfig.phones.pt.href}

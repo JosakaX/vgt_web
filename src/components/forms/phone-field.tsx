@@ -48,7 +48,7 @@ type PhoneFieldProps = {
   /** Etiqueta accesible del selector de país/indicativo. */
   dialLabel: string;
   placeholder?: string;
-  /** Valor combinado ("+58 424 1234567") — pensado para RHF Controller. */
+  /** Valor combinado ("+1 305 1234567") — pensado para RHF Controller. */
   value: string;
   onChange: (value: string) => void;
 };

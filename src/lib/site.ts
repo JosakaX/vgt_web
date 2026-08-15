@@ -10,11 +10,10 @@ export const siteConfig = {
   legalName: "Valadares Global Tech LLC",
   // En producción usar la variable de entorno; fallback al dominio oficial.
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.valadaresglobaltech.com",
-  email: "contacto@valadaresglobaltech.com",
+  email: "info@valadaresglobaltech.com",
   phones: {
-    // TODO: confirmar número de Estados Unidos
-    us: { display: "+1 (USA)", href: "tel:+1" },
-    ve: { display: "+58 424 612 5993", href: "tel:+584246125993" },
+    // magicApp (magicJack), Miami — el mismo número registrado en Atlas/Mercury/D&B.
+    us: { display: "+1 (305) 514-9099", href: "tel:+13055149099" },
     pt: { display: "+351 932 742 678", href: "tel:+351932742678" },
   },
   // TODO: confirmar/activar perfiles sociales reales
