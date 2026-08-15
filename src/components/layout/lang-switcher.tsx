@@ -37,7 +37,7 @@ export function LangSwitcher() {
         onClick={() => setOpen((v) => !v)}
         aria-haspopup="menu"
         aria-expanded={open}
-        aria-label={t("label")}
+        aria-label={`${t("label")}: ES`}
         className="inline-flex h-10 items-center gap-1.5 rounded-full border border-border bg-surface px-3 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
       >
         <Globe className="h-4 w-4" aria-hidden="true" />

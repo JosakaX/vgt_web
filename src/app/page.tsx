@@ -77,7 +77,7 @@ export default async function HomePage() {
               </span>
             </SlideUp>
             <SlideUp delay={0.05}>
-              <h1 className="font-display text-4xl font-extrabold uppercase leading-[1.1] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+              <h1 className="font-display text-3xl font-extrabold uppercase leading-[1.1] tracking-tight text-foreground min-[420px]:text-4xl sm:text-5xl lg:text-6xl">
                 {t("hero.title")}
               </h1>
             </SlideUp>

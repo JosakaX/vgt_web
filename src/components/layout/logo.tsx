@@ -18,7 +18,7 @@ type LogoProps = {
  */
 export function Logo({ className, showWordmark = true, href = "/" }: LogoProps) {
   const content = (
-    <span className={cn("inline-flex items-center gap-3", className)}>
+    <span className={cn("inline-flex min-w-0 items-center gap-2.5 sm:gap-3", className)}>
       <span
         aria-hidden="true"
         className="grid h-10 w-10 place-items-center rounded-xl bg-navy-grad font-display text-sm font-extrabold tracking-tight text-white shadow-sm"
@@ -26,11 +26,11 @@ export function Logo({ className, showWordmark = true, href = "/" }: LogoProps) 
         VGT
       </span>
       {showWordmark ? (
-        <span className="flex flex-col leading-none">
-          <span className="font-display text-base font-bold tracking-tight text-foreground">
+        <span className="flex min-w-0 flex-col leading-none">
+          <span className="truncate font-display text-sm font-bold tracking-tight text-foreground sm:text-base">
             VALADARES GLOBAL TECH
           </span>
-          <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.18em] text-muted">
+          <span className="mt-1 hidden text-[10px] font-medium uppercase tracking-[0.18em] text-muted sm:block">
             Marketing · Diseño · Tecnología
           </span>
         </span>
@@ -45,7 +45,7 @@ export function Logo({ className, showWordmark = true, href = "/" }: LogoProps) 
         // Si se muestra el wordmark, el texto visible ya provee el nombre accesible
         // (evita el desajuste label/content de WCAG). Sin wordmark, etiquetamos.
         aria-label={showWordmark ? undefined : "Valadares Global Tech — Inicio"}
-        className="shrink-0"
+        className="flex min-w-0"
       >
         {content}
       </Link>

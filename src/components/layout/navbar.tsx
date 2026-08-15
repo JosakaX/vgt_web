@@ -134,7 +134,7 @@ export function Navbar() {
       </a>
 
       <Container>
-        <div className="flex h-20 items-center justify-between gap-4">
+        <div className="flex h-20 items-center justify-between gap-2 sm:gap-4">
           <Logo />
 
           {/* Navegación desktop */}
@@ -207,7 +207,7 @@ export function Navbar() {
           </nav>
 
           {/* Acciones derecha */}
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
             <div className="hidden sm:block">
               <LangSwitcher />
             </div>
