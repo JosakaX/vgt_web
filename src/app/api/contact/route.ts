@@ -1,15 +1,17 @@
 import { NextResponse } from "next/server";
 import { incomingSchema } from "@/lib/schemas";
+import { createQuoContact } from "@/lib/quo";
 
 /**
- * Endpoint placeholder para los formularios de contacto y cotización.
+ * Endpoint de los formularios de contacto y cotización.
  *
  * Flujo:
  * 1. Parsea el JSON del body; 400 si es inválido.
  * 2. Valida con el schema discriminado (type: "contact" | "quote"); 422 si falla.
- * 3. Registra la solicitud con console.info y devuelve 200.
+ * 3. Crea el contacto en Quo (teléfono de la empresa) — si falla, no bloquea.
+ * 4. Registra la solicitud con console.info y devuelve 200.
  *
- * TODO: integrar CRM/email (Resend, HubSpot, etc.)
+ * TODO: integrar email (Resend) y CRM.
  */
 export async function POST(request: Request) {
   // 1. Parseo del JSON
@@ -36,7 +38,10 @@ export async function POST(request: Request) {
     );
   }
 
-  // 3. Log + respuesta exitosa.
+  // 3. Contacto en Quo: si el lead llama, su nombre aparece en la app.
+  await createQuoContact(parsed.data);
+
+  // 4. Log + respuesta exitosa.
   // No registramos PII ni texto del usuario en logs (evita exponer datos
   // personales e inyección de logs). `type` proviene de un enum controlado.
   console.info("[contact] nueva solicitud recibida", { type: parsed.data.type });
