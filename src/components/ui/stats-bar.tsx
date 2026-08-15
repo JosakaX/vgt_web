@@ -23,7 +23,9 @@ export function StatsBar({ stats }: StatsBarProps) {
                 <span className="font-display text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
                   {stat.value}
                 </span>
-                <span className="text-sm text-silver">{stat.label}</span>
+                <span aria-hidden="true" className="text-sm text-silver">
+                  {stat.label}
+                </span>
               </dd>
             </SlideUp>
           ))}
