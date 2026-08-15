@@ -29,7 +29,7 @@ const DIAL_CODES: Record<string, string> = {
 };
 
 /** Siempre al tope de la lista: mercados principales de VGT. El resto ordena por nombre. */
-const PINNED = ["VE", "US", "PT", "ES", "MX"];
+const PINNED = ["US", "VE", "PT", "ES", "MX"];
 
 /** País preseleccionado según el idioma activo del sitio. */
 const DEFAULT_BY_LOCALE: Record<string, string> = { es: "VE", en: "US", pt: "PT" };
@@ -69,7 +69,7 @@ export function PhoneField({
   onChange,
 }: PhoneFieldProps) {
   const locale = useLocale();
-  const [country, setCountry] = useState(DEFAULT_BY_LOCALE[locale] ?? "VE");
+  const [country, setCountry] = useState(DEFAULT_BY_LOCALE[locale] ?? "US");
   const [national, setNational] = useState("");
 
   // Reset externo (p. ej. reset() de RHF tras enviar): valor vacío limpia el número.
@@ -102,7 +102,7 @@ export function PhoneField({
 
   function emit(nextCountry: string, nextNational: string) {
     const n = nextNational.trim();
-    // El indicativo solo viaja si hay número: un "+58" solitario no es un teléfono.
+    // El indicativo solo viaja si hay número: un "+1" solitario no es un teléfono.
     onChange(n ? `${DIAL_CODES[nextCountry]} ${n}` : "");
   }
 
