@@ -106,9 +106,9 @@ export function Navbar() {
       icon: Clock,
     },
     {
-      href: routes.cybernova,
-      label: t("servicesMenu.cybernova"),
-      desc: t("servicesMenu.cybernovaDesc"),
+      href: routes.veriscudo,
+      label: t("servicesMenu.veriscudo"),
+      desc: t("servicesMenu.veriscudoDesc"),
       icon: ShieldCheck,
     },
   ];

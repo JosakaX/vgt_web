@@ -4,7 +4,7 @@
     "shortName": "VGT",
     "tagline": "Marketing · Diseño · Tecnología",
     "legalName": "Valadares Global Tech LLC",
-    "partnerNote": "Valadares Global Tech LLC — Veritempo es una marca de VGT · Partner autorizado de CyberNova."
+    "partnerNote": "Valadares Global Tech LLC — Veritempo y Veriscudo son marcas de VGT."
   },
   "nav": {
     "home": "Inicio",
@@ -24,8 +24,8 @@
       "datosDesc": "Dashboards, KPIs y reportes para decidir con datos",
       "veritempo": "Gestión de Asistencia y Acceso",
       "veritempoDesc": "Control de tiempo, asistencia y acceso con biometría",
-      "cybernova": "Ciberseguridad Gestionada",
-      "cybernovaDesc": "Protección integral como servicio gestionado (CSAAS)"
+      "veriscudo": "Ciberseguridad Gestionada",
+      "veriscudoDesc": "Protección integral como servicio gestionado (CSAAS)"
     },
     "about": "Nosotros",
     "projects": "Proyectos",
@@ -81,7 +81,7 @@
     },
     "links": {
       "veritempo": "Gestión de Asistencia y Acceso",
-      "cybernova": "Ciberseguridad Gestionada",
+      "veriscudo": "Ciberseguridad Gestionada",
       "allServices": "Todos los servicios",
       "about": "Nosotros",
       "projects": "Proyectos",

@@ -9,11 +9,11 @@ type CategoryItem = {
   content: string[];
 };
 
-type CyberNovaAccordionProps = {
+type VeriscudoAccordionProps = {
   items: CategoryItem[];
 };
 
-/** Thin wrapper that injects CyberNova category icons into the Accordion client component. */
+/** Thin wrapper that injects Veriscudo category icons into the Accordion client component. */
 const CATEGORY_ICONS: LucideIcon[] = [
   Scale,       // GRC
   Activity,    // Monitoreo, Detección y Respuesta
@@ -23,7 +23,7 @@ const CATEGORY_ICONS: LucideIcon[] = [
   BookOpen,    // e-Learning
 ];
 
-export function CyberNovaAccordion({ items }: CyberNovaAccordionProps) {
+export function VeriscudoAccordion({ items }: VeriscudoAccordionProps) {
   const enriched = items.map((item, i) => ({
     ...item,
     icon: CATEGORY_ICONS[i],

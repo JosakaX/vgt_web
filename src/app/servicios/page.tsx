@@ -125,11 +125,11 @@ export default async function ServicesPage() {
             </SlideUp>
             <SlideUp delay={0.1} className="h-full">
               <ServiceCard
-                name={t("solutions.cybernova.name")}
-                category={t("solutions.cybernova.category")}
-                summary={t("solutions.cybernova.summary")}
-                href={routes.cybernova}
-                cta={t("solutions.cybernova.cta")}
+                name={t("solutions.veriscudo.name")}
+                category={t("solutions.veriscudo.category")}
+                summary={t("solutions.veriscudo.summary")}
+                href={routes.veriscudo}
+                cta={t("solutions.veriscudo.cta")}
                 icon={ShieldCheck}
                 accent="teal"
               />

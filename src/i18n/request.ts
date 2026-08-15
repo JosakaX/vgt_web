@@ -5,7 +5,7 @@ import common from "../../messages/es/common.json";
 import home from "../../messages/es/home.json";
 import services from "../../messages/es/services.json";
 import veritempo from "../../messages/es/veritempo.json";
-import cybernova from "../../messages/es/cybernova.json";
+import veriscudo from "../../messages/es/veriscudo.json";
 import about from "../../messages/es/about.json";
 import contact from "../../messages/es/contact.json";
 import quote from "../../messages/es/quote.json";
@@ -33,7 +33,7 @@ const messages = {
   home,
   services,
   veritempo,
-  cybernova,
+  veriscudo,
   about,
   contact,
   quote,

@@ -20,7 +20,7 @@ type AccordionProps = {
   defaultOpen?: number;
 };
 
-/** Acordeón accesible (usado, p. ej., para las categorías de CyberNova). */
+/** Acordeón accesible (usado, p. ej., para las categorías de Veriscudo). */
 export function Accordion({ items, allowMultiple = false, defaultOpen }: AccordionProps) {
   const [open, setOpen] = useState<number[]>(
     typeof defaultOpen === "number" ? [defaultOpen] : [],

@@ -2,7 +2,7 @@ import { Clock, ShieldCheck } from "lucide-react";
 
 type Ally = {
   name: string;
-  kind: "veritempo" | "cybernova";
+  kind: "veritempo" | "veriscudo";
 };
 
 type LogoCloudProps = {
@@ -12,14 +12,14 @@ type LogoCloudProps = {
 
 /**
  * Barra de confianza de aliados tecnológicos.
- * Muestra los logos/marcas de los PARTNERS (Veritempo, CyberNova),
+ * Muestra los logos/marcas de los PARTNERS (Veritempo, Veriscudo),
  * NO clientes finales. Usa lockups de marca hasta tener los SVG oficiales.
  */
 export function LogoCloud({
   title,
   allies = [
     { name: "Veritempo", kind: "veritempo" },
-    { name: "CyberNova", kind: "cybernova" },
+    { name: "Veriscudo", kind: "veriscudo" },
   ],
 }: LogoCloudProps) {
   return (

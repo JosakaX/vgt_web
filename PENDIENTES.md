@@ -14,8 +14,10 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
       se ajustará a lo que ellos ofrezcan).
 - [x] ~~Nombre definitivo de Gestión de Asistencia~~ → **Veritempo** (renombrado en todo el sitio
       el 2026-08-15: ruta `/servicios/veritempo`, i18n y textos; MyIntelli ya no aparece).
-- [ ] **Nombre definitivo del servicio de ciberseguridad** (hoy "Ciberseguridad Gestionada" /
-      CyberNova) — JosakaX está eligiendo nombre propio (propuestas entregadas 2026-08-15).
+- [ ] **Nombre de ciberseguridad: "Veriscudo" es PROVISIONAL** (decisión de JosakaX 2026-08-15,
+      "esto es momentáneo"). CyberNova ya no aparece en el sitio (ruta `/servicios/veriscudo`).
+      Cuando haya nombre definitivo, repetir el renombre (es un sed + git mv, 10 min).
+      ⚠️ Registrar `veriscudo.com`/`.eu` si se confirma (estaban LIBRES el 2026-08-15).
 - [ ] **Métricas:** confirmar qué cifras puede mostrar VGT como propias vs. las del proveedor
       (hoy se usan +1.000 clientes, +12 años, etc. de la plataforma de asistencia).
 - [ ] **¿Quitar marcas dentro de las páginas de detalle?** Decidir si las landings de detalle

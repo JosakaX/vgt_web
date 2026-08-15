@@ -15,16 +15,16 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { FeatureCard } from "@/components/ui/feature-card";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { Button } from "@/components/ui/button";
-import { CyberNovaAccordion } from "@/components/ui/cybernova-accordion";
+import { VeriscudoAccordion } from "@/components/ui/veriscudo-accordion";
 import { FadeIn, SlideUp, Stagger, StaggerItem } from "@/components/motion/reveal";
 import { routes } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("cybernova.meta");
+  const t = await getTranslations("veriscudo.meta");
   return {
     title: t("title"),
     description: t("description"),
-    alternates: { canonical: routes.cybernova },
+    alternates: { canonical: routes.veriscudo },
     openGraph: {
       title: t("title"),
       description: t("description"),
@@ -34,8 +34,8 @@ export async function generateMetadata(): Promise<Metadata> {
 
 const INTRO_ICONS: LucideIcon[] = [Wallet, TrendingUp, Users, Clock];
 
-export default async function CyberNovaPage() {
-  const t = await getTranslations("cybernova");
+export default async function VeriscudoPage() {
+  const t = await getTranslations("veriscudo");
 
   const introItems = t.raw("intro.items") as { title: string; description: string }[];
   const categories = t.raw("services.categories") as { title: string; content: string[] }[];
@@ -75,7 +75,7 @@ export default async function CyberNovaPage() {
               </SlideUp>
             </div>
 
-            {/* Visual abstracto CyberNova */}
+            {/* Visual abstracto Veriscudo */}
             <FadeIn delay={0.2} className="relative hidden lg:block">
               <div className="relative mx-auto aspect-square w-full max-w-md">
                 <div className="absolute inset-0 rounded-[2rem] bg-navy-grad shadow-card-hover" />
@@ -93,7 +93,7 @@ export default async function CyberNovaPage() {
                 </div>
                 <div className="absolute inset-0 grid place-items-center">
                   <span className="font-display text-5xl font-extrabold tracking-tight text-white/90">
-                    CyberNova
+                    Veriscudo
                   </span>
                 </div>
               </div>
@@ -136,7 +136,7 @@ export default async function CyberNovaPage() {
             subtitle={t("services.subtitle")}
           />
           <SlideUp className="mt-10">
-            <CyberNovaAccordion items={categories} />
+            <VeriscudoAccordion items={categories} />
           </SlideUp>
         </Container>
       </section>

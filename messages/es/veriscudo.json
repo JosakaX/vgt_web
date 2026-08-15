@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "CyberNova — Ciberseguridad transversal como servicio (CSAAS) | VGT",
+    "title": "Veriscudo — Ciberseguridad transversal como servicio (CSAAS) | VGT",
     "description": "Protección integral: gobierno y cumplimiento, monitoreo y respuesta, defensa proactiva, análisis forense y operaciones ofensivas, como servicio gestionado."
   },
   "hero": {
-    "eyebrow": "CyberNova",
+    "eyebrow": "Veriscudo",
     "title": "Ciberseguridad transversal como servicio (CSAAS)",
-    "subtitle": "CyberNova ofrece protección integral para tu organización: desde el gobierno del riesgo y el cumplimiento normativo hasta la defensa activa, el análisis forense y las operaciones ofensivas, todo como servicio gestionado.",
+    "subtitle": "Veriscudo ofrece protección integral para tu organización: desde el gobierno del riesgo y el cumplimiento normativo hasta la defensa activa, el análisis forense y las operaciones ofensivas, todo como servicio gestionado.",
     "ctaPrimary": "Solicitar evaluación de seguridad",
     "ctaSecondary": "Ver portafolio"
   },
@@ -36,7 +36,7 @@
   "services": {
     "eyebrow": "Portafolio de servicios",
     "title": "Protección en cada capa de tu organización",
-    "subtitle": "CyberNova estructura sus servicios en seis categorías que cubren todo el ciclo de la ciberseguridad empresarial.",
+    "subtitle": "Veriscudo estructura sus servicios en seis categorías que cubren todo el ciclo de la ciberseguridad empresarial.",
     "categories": [
       {
         "title": "Gobierno, Riesgo y Cumplimiento (GRC)",

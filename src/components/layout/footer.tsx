@@ -16,7 +16,7 @@ export async function Footer() {
       title: t("footer.cols.services"),
       links: [
         { label: t("footer.links.veritempo"), href: routes.veritempo },
-        { label: t("footer.links.cybernova"), href: routes.cybernova },
+        { label: t("footer.links.veriscudo"), href: routes.veriscudo },
         { label: t("footer.links.allServices"), href: routes.services },
       ],
     },

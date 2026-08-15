@@ -40,7 +40,7 @@
         "label": "Servicio de interés *",
         "placeholder": "Selecciona una opción",
         "veritempo": "Veritempo — Gestión de asistencia y acceso",
-        "cybernova": "CyberNova — Ciberseguridad",
+        "veriscudo": "Veriscudo — Ciberseguridad",
         "ambos": "Ambos servicios"
       },
       "empleados": {
@@ -71,7 +71,7 @@
     "phoneLabel": "Teléfonos",
     "demo": {
       "heading": "¿Prefieres una demo en vivo?",
-      "body": "Agenda una llamada con nuestro equipo y descubre cómo Veritempo o CyberNova se adapta a tu operación.",
+      "body": "Agenda una llamada con nuestro equipo y descubre cómo Veritempo o Veriscudo se adapta a tu operación.",
       "button": "Agendar demo"
     }
   }

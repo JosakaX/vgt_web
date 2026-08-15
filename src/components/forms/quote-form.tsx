@@ -231,7 +231,7 @@ export function QuoteForm() {
               {t("form.fields.servicio.placeholder")}
             </option>
             <option value="veritempo">{t("form.fields.servicio.veritempo")}</option>
-            <option value="cybernova">{t("form.fields.servicio.cybernova")}</option>
+            <option value="veriscudo">{t("form.fields.servicio.veriscudo")}</option>
             <option value="ambos">{t("form.fields.servicio.ambos")}</option>
           </select>
           {errors.servicio && (

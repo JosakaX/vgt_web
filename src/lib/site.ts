@@ -37,7 +37,7 @@ export const routes = {
   consultoria: "/servicios/consultoria",
   datos: "/servicios/datos",
   veritempo: "/servicios/veritempo",
-  cybernova: "/servicios/cybernova",
+  veriscudo: "/servicios/veriscudo",
   about: "/nosotros",
   projects: "/proyectos",
   contact: "/contacto",
