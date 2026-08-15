@@ -11,13 +11,6 @@
     "ctaPrimary": "Solicitar demo",
     "ctaSecondary": "Ver módulos"
   },
-  "stats": [
-    { "value": "+1.000", "label": "Clientes activos" },
-    { "value": "+10", "label": "Países" },
-    { "value": "+12 años", "label": "De trayectoria" },
-    { "value": "+200.000", "label": "Usuarios en plataforma" },
-    { "value": "+500.000", "label": "Horas procesadas por día" }
-  ],
   "modules": {
     "eyebrow": "Módulos",
     "title": "Una solución para cada área de tu negocio",
