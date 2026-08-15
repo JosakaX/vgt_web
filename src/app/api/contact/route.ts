@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
+import { cookies } from "next/headers";
 import { incomingSchema } from "@/lib/schemas";
 import { createQuoContact } from "@/lib/quo";
+import { sendLeadNotification, sendLeadAcknowledgement } from "@/lib/email";
 
 /**
  * Endpoint de los formularios de contacto y cotización.
@@ -38,8 +40,14 @@ export async function POST(request: Request) {
     );
   }
 
-  // 3. Contacto en Quo: si el lead llama, su nombre aparece en la app.
-  await createQuoContact(parsed.data);
+  // 3. Integraciones (ninguna bloquea el alta del lead):
+  //    contacto en Quo + aviso a info@ + acuse al lead en su idioma.
+  const locale = (await cookies()).get("NEXT_LOCALE")?.value ?? "es";
+  await Promise.all([
+    createQuoContact(parsed.data),
+    sendLeadNotification(parsed.data),
+    sendLeadAcknowledgement(parsed.data, locale),
+  ]);
 
   // 4. Log + respuesta exitosa.
   // No registramos PII ni texto del usuario en logs (evita exponer datos
