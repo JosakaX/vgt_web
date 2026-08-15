@@ -36,12 +36,13 @@ const empleadosEnum = z.preprocess(
 // Campos base compartidos por ambos formularios (sin el discriminador `type`)
 // ---------------------------------------------------------------------------
 
+// Topes de longitud: pilares de seguridad — sin payloads gigantes al servidor.
 const baseFormFields = {
-  nombre: z.string().min(1, "nombreRequired"),
-  empresa: z.string().optional(),
-  pais: z.string().optional(),
-  email: z.string().min(1, "emailRequired").email("emailInvalid"),
-  telefono: z.string().optional(),
+  nombre: z.string().min(1, "nombreRequired").max(200),
+  empresa: z.string().max(200).optional(),
+  pais: z.string().max(100).optional(),
+  email: z.string().min(1, "emailRequired").max(320).email("emailInvalid"),
+  telefono: z.string().max(50).optional(),
   servicio: servicioEnum,
   empleados: empleadosEnum,
 };
@@ -53,15 +54,15 @@ const baseFormFields = {
 /** Esquema del formulario de contacto (validación en el cliente). */
 export const formContactSchema = z.object({
   ...baseFormFields,
-  mensaje: z.string().min(1, "mensajeRequired").min(10, "mensajeMinLength"),
+  mensaje: z.string().min(1, "mensajeRequired").min(10, "mensajeMinLength").max(5000),
 });
 
 /** Esquema del formulario de cotización (validación en el cliente). */
 export const formQuoteSchema = z.object({
   ...baseFormFields,
-  modulos: z.string().optional(),
-  objetivo: z.string().min(1, "objetivoRequired").min(10, "objetivoMinLength"),
-  mensaje: z.string().optional(),
+  modulos: z.string().max(1000).optional(),
+  objetivo: z.string().min(1, "objetivoRequired").min(10, "objetivoMinLength").max(5000),
+  mensaje: z.string().max(5000).optional(),
 });
 
 export type FormContactValues = z.infer<typeof formContactSchema>;

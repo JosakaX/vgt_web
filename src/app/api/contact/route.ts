@@ -3,6 +3,11 @@ import { cookies } from "next/headers";
 import { incomingSchema } from "@/lib/schemas";
 import { createQuoContact } from "@/lib/quo";
 import { sendLeadNotification, sendLeadAcknowledgement } from "@/lib/email";
+import { saveLead } from "@/lib/leads";
+import { originAllowed, clientIp, makeRateLimiter } from "@/lib/api-guard";
+
+// El formulario dispara correos y escrituras: mismo blindaje que /api/chat.
+const rateLimited = makeRateLimiter({ perIp: 5, global: 30 });
 
 /**
  * Endpoint de los formularios de contacto y cotización.
@@ -16,6 +21,14 @@ import { sendLeadNotification, sendLeadAcknowledgement } from "@/lib/email";
  * TODO: integrar email (Resend) y CRM.
  */
 export async function POST(request: Request) {
+  // 0. Guardas: origen del propio sitio (fail-closed) + rate limit.
+  if (!originAllowed(request.headers.get("origin"))) {
+    return NextResponse.json({ ok: false, error: "forbidden" }, { status: 403 });
+  }
+  if (rateLimited(clientIp(request))) {
+    return NextResponse.json({ ok: false, error: "rate_limited" }, { status: 429 });
+  }
+
   // 1. Parseo del JSON
   let body: unknown;
   try {
@@ -40,10 +53,11 @@ export async function POST(request: Request) {
     );
   }
 
-  // 3. Integraciones (ninguna bloquea el alta del lead):
+  // 3. Integraciones (ninguna bloquea el alta del lead): lead a Supabase +
   //    contacto en Quo + aviso a info@ + acuse al lead en su idioma.
   const locale = (await cookies()).get("NEXT_LOCALE")?.value ?? "es";
   await Promise.all([
+    saveLead(parsed.data),
     createQuoContact(parsed.data),
     sendLeadNotification(parsed.data),
     sendLeadAcknowledgement(parsed.data, locale),
