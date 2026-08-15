@@ -107,3 +107,52 @@ Decisiones de contenido:
 - Las landings de los 6 servicios tienen **contenido base informado por investigación**, editable
   cuando JosakaX consiga los proveedores que prestarán cada servicio.
 - El menú "Servicios" es un mega-menú de **2 columnas** (8 servicios).
+
+---
+
+## ⭐ D-007 — Cobro: TODO lo cobra VGT desde su cuenta principal de Stripe (2026-08-03)
+
+> Decisión de estructura, no de diseño. Espejo de la registrada en
+> `Marketing Ideas\chawi\chawi-app\DECISIONES.md` (D-007) — VGT es el origen, Chawi la consume.
+
+**Qué se decidió**: **una sola cuenta de Stripe — la principal de Valadares Global Tech LLC —
+cobra todo**: los servicios de la agencia y los productos propios (Chawi, Veritempo, y las apps
+que vengan). Cuenta verificada por API el 2026-08-03: `acct_1U0HHQRXgjAALchA`, 0 productos, limpia.
+
+**Los dos modelos de cobro conviven en la misma cuenta** (Stripe los soporta juntos):
+
+| Qué se cobra | Herramienta de Stripe |
+|---|---|
+| Los 6 servicios de agencia + las 2 soluciones integradas + proyectos (Costa Rica, etc.) — **por cotización** | **Invoices** |
+| Productos propios con ingreso recurrente — Chawi ($19/mes) y las apps siguientes | **Checkout + Subscriptions** |
+
+Esto es coherente con la regla inflexible de `docs/HANDOFF.md`: «Sin precios inventados. Usa CTAs
+de Solicitar cotización» — la web no publica precios; el monto lo fija la cotización y se cobra por
+factura. Los productos SaaS sí llevan precio público (ahí el precio vive en el código del producto).
+
+**Por qué una sola cuenta**: la propia doc de Stripe lo recomienda — «If you operate multiple
+accounts under the same legal entity, Stripe recommends using one account with appropriate public
+business information» (`docs.stripe.com/get-started/account/multiple-accounts`). Cuentas separadas
+son obligatorias solo con **distinta entidad legal o distinto tax ID**, y aquí todo es la misma LLC.
+
+**Identidad de cada marca sin cuentas separadas**: el Branding (logo/colores) es por CUENTA, pero
+el **`statement descriptor` es por PRODUCTO** («Overrides default descriptors») — así el cliente de
+Chawi ve `CHAWI.APP` en su banco aunque cobre VGT. El correo de soporte también es por marca
+(`support@chawi.app`, ya activo vía Cloudflare Email Routing).
+
+⚠️ **Higiene obligatoria**: cada producto lleva **metadata de marca** (`brand=chawi`,
+`brand=veritempo`, …) además de `plan_id`. Con muchas apps recurrentes en una cuenta, esa metadata
+es lo único que separa ingresos por marca en los reportes sin trabajo manual. **Desde el primer
+producto** — retro-etiquetar suscripciones vivas es manual y doloroso.
+
+**Camino de crecimiento**: **Stripe Organizations** (una organización VGT con una cuenta por marca,
+compartiendo datos, equipo y reportes consolidados). No se monta hoy.
+**Disparador**: dos o más marcas facturando de verdad Y el branding compartido molestando al
+cliente; o un producto que necesite entidad legal propia.
+
+**Orden de construcción**: **VGT → Chawi → Veritempo → siguientes**. La LLC es el cuello de botella:
+desbloquea la verificación de Meta (Chawi) y el cobro real. La home de VGT sigue en mantenimiento.
+
+⚠️ **Aprendido a la mala (2026-08-03)**: lo configurado en un **sandbox NO pasa a producción** —
+productos, precios, webhooks y llaves hay que recrearlos en modo live (Stripe recomienda reusar los
+mismos IDs). Y el branding de la cuenta principal es el de **VGT**, nunca el de una app.
