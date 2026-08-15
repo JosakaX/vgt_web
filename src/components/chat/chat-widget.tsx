@@ -102,7 +102,7 @@ export function ChatWidget() {
 
       {open && (
         <div
-          className="fixed bottom-24 right-4 z-50 flex max-h-[70dvh] w-[calc(100vw-2rem)] max-w-sm flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-card-hover animate-fade-in"
+          className="fixed bottom-24 right-4 z-50 flex h-[calc(100dvh-7.5rem)] max-h-[46rem] w-[calc(100vw-2rem)] max-w-sm flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-card-hover animate-fade-in"
           role="dialog"
           aria-label={t("name")}
         >
