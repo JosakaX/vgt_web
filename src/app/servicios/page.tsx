@@ -83,9 +83,9 @@ export default async function ServicesPage() {
             title={t("agency.title")}
             subtitle={t("agency.subtitle")}
           />
-          <Stagger className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <Stagger className="mt-12 grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
-              <StaggerItem key={service.key}>
+              <StaggerItem key={service.key} className="h-full">
                 <ServiceCard
                   name={service.name}
                   category={service.category}
@@ -112,18 +112,18 @@ export default async function ServicesPage() {
             subtitle={t("solutions.subtitle")}
           />
           <div className="mt-12 grid gap-6 md:grid-cols-2">
-            <SlideUp>
+            <SlideUp className="h-full">
               <ServiceCard
-                name={t("solutions.myintelli.name")}
-                category={t("solutions.myintelli.category")}
-                summary={t("solutions.myintelli.summary")}
-                href={routes.myintelli}
-                cta={t("solutions.myintelli.cta")}
+                name={t("solutions.veritempo.name")}
+                category={t("solutions.veritempo.category")}
+                summary={t("solutions.veritempo.summary")}
+                href={routes.veritempo}
+                cta={t("solutions.veritempo.cta")}
                 icon={Clock}
                 accent="blue"
               />
             </SlideUp>
-            <SlideUp delay={0.1}>
+            <SlideUp delay={0.1} className="h-full">
               <ServiceCard
                 name={t("solutions.cybernova.name")}
                 category={t("solutions.cybernova.category")}

@@ -100,9 +100,9 @@ export function Navbar() {
       icon: BarChart3,
     },
     {
-      href: routes.myintelli,
-      label: t("servicesMenu.myintelli"),
-      desc: t("servicesMenu.myintelliDesc"),
+      href: routes.veritempo,
+      label: t("servicesMenu.veritempo"),
+      desc: t("servicesMenu.veritempoDesc"),
       icon: Clock,
     },
     {

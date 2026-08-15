@@ -23,10 +23,10 @@
     "viewSolution": "Ver solución",
     "items": [
       {
-        "name": "MyIntelli",
-        "badge": "Partner autorizado",
-        "description": "Plataforma de gestión de asistencia, tiempo y control de acceso para empresas. Como partner autorizado, ofrecemos implementación, capacitación continua y soporte técnico directo.",
-        "href": "/servicios/myintelli"
+        "name": "Veritempo",
+        "badge": "Marca de VGT",
+        "description": "Nuestra plataforma de gestión de asistencia, tiempo y control de acceso para empresas. Implementación, capacitación continua y soporte técnico directo de nuestro equipo.",
+        "href": "/servicios/veritempo"
       },
       {
         "name": "CyberNova",

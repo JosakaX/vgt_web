@@ -36,7 +36,7 @@ export const routes = {
   agentes: "/servicios/agentes",
   consultoria: "/servicios/consultoria",
   datos: "/servicios/datos",
-  myintelli: "/servicios/myintelli",
+  veritempo: "/servicios/veritempo",
   cybernova: "/servicios/cybernova",
   about: "/nosotros",
   projects: "/proyectos",

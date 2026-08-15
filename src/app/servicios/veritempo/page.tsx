@@ -29,11 +29,11 @@ import { FadeIn, SlideUp, Stagger, StaggerItem } from "@/components/motion/revea
 import { routes } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("myintelli.meta");
+  const t = await getTranslations("veritempo.meta");
   return {
     title: t("title"),
     description: t("description"),
-    alternates: { canonical: routes.myintelli },
+    alternates: { canonical: routes.veritempo },
     openGraph: {
       title: t("title"),
       description: t("description"),
@@ -45,8 +45,8 @@ const MODULE_ICONS: LucideIcon[] = [Clock, KeyRound, UserCheck, CalendarCheck, U
 const MARKING_ICONS: LucideIcon[] = [Fingerprint, Smartphone, Monitor];
 const BENEFIT_ICONS: LucideIcon[] = [TrendingUp, Timer, ShieldCheck, LineChart];
 
-export default async function MyIntelliPage() {
-  const t = await getTranslations("myintelli");
+export default async function VeritempoPage() {
+  const t = await getTranslations("veritempo");
 
   const stats = t.raw("stats") as { value: string; label: string }[];
   const moduleItems = t.raw("modules.items") as { title: string; description: string }[];
@@ -93,7 +93,7 @@ export default async function MyIntelliPage() {
               </SlideUp>
             </div>
 
-            {/* Visual abstracto MyIntelli */}
+            {/* Visual abstracto Veritempo */}
             <FadeIn delay={0.2} className="relative hidden lg:block">
               <div className="relative mx-auto aspect-square w-full max-w-md">
                 <div className="absolute inset-0 rounded-[2rem] bg-hero-grad shadow-card-hover" />
@@ -111,7 +111,7 @@ export default async function MyIntelliPage() {
                 </div>
                 <div className="absolute inset-0 grid place-items-center">
                   <span className="font-display text-5xl font-extrabold tracking-tight text-white/90">
-                    MyIntelli
+                    Veritempo
                   </span>
                 </div>
               </div>

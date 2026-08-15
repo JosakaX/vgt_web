@@ -39,7 +39,7 @@
       "servicio": {
         "label": "Servicio de interés *",
         "placeholder": "Selecciona una opción",
-        "myintelli": "MyIntelli — Gestión de asistencia y acceso",
+        "veritempo": "Veritempo — Gestión de asistencia y acceso",
         "cybernova": "CyberNova — Ciberseguridad",
         "ambos": "Ambos servicios"
       },
@@ -71,7 +71,7 @@
     "phoneLabel": "Teléfonos",
     "demo": {
       "heading": "¿Prefieres una demo en vivo?",
-      "body": "Agenda una llamada con nuestro equipo y descubre cómo MyIntelli o CyberNova se adapta a tu operación.",
+      "body": "Agenda una llamada con nuestro equipo y descubre cómo Veritempo o CyberNova se adapta a tu operación.",
       "button": "Agendar demo"
     }
   }

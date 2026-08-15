@@ -56,12 +56,15 @@ export default async function HomePage() {
   const stats = ts.raw("stats.items") as { value: string; label: string }[];
   const whyus = ts.raw("whyus.items") as { title: string; description: string }[];
   const industries = t.raw("industries.items") as string[];
-  const projects = tp.raw("items") as {
-    title: string;
-    category: string;
-    url: string;
-    domain: string;
-  }[];
+  const projects = (
+    tp.raw("items") as {
+      title: string;
+      category: string;
+      url: string;
+      domain: string;
+      image?: string;
+    }[]
+  ).slice(0, 3);
 
   return (
     <>
@@ -127,9 +130,9 @@ export default async function HomePage() {
             title={t("servicesPreview.title")}
             subtitle={t("servicesPreview.subtitle")}
           />
-          <Stagger className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <Stagger className="mt-12 grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
-              <StaggerItem key={service.key}>
+              <StaggerItem key={service.key} className="h-full">
                 <ServiceCard
                   name={service.name}
                   category={service.category}
@@ -161,15 +164,16 @@ export default async function HomePage() {
             title={t("projectsPreview.title")}
             subtitle={t("projectsPreview.subtitle")}
           />
-          <Stagger className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <Stagger className="mt-12 grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((project) => (
-              <StaggerItem key={project.title}>
+              <StaggerItem key={project.title} className="h-full">
                 <ProjectCard
                   title={project.title}
                   category={project.category}
                   url={project.url}
                   domain={project.domain}
                   visitLabel={tp("visit")}
+                  image={project.image}
                 />
               </StaggerItem>
             ))}
@@ -183,7 +187,7 @@ export default async function HomePage() {
         </Container>
       </section>
 
-      {/* ===== SOLUCIONES ESPECIALIZADAS (MyIntelli / CyberNova) ===== */}
+      {/* ===== SOLUCIONES ESPECIALIZADAS (Veritempo / CyberNova) ===== */}
       <section className="border-y border-border bg-surface-2 py-20 sm:py-24">
         <Container>
           <SectionHeading
@@ -192,18 +196,18 @@ export default async function HomePage() {
             subtitle={t("solutions.subheading")}
           />
           <div className="mt-12 grid gap-6 md:grid-cols-2">
-            <SlideUp>
+            <SlideUp className="h-full">
               <ServiceCard
-                name={t("solutions.myintelli.name")}
-                category={t("solutions.myintelli.category")}
-                summary={t("solutions.myintelli.summary")}
-                href={routes.myintelli}
-                cta={t("solutions.myintelli.cta")}
+                name={t("solutions.veritempo.name")}
+                category={t("solutions.veritempo.category")}
+                summary={t("solutions.veritempo.summary")}
+                href={routes.veritempo}
+                cta={t("solutions.veritempo.cta")}
                 icon={Clock}
                 accent="blue"
               />
             </SlideUp>
-            <SlideUp delay={0.1}>
+            <SlideUp delay={0.1} className="h-full">
               <ServiceCard
                 name={t("solutions.cybernova.name")}
                 category={t("solutions.cybernova.category")}

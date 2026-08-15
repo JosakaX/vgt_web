@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "MyIntelli — Gestión de asistencia, tiempos y control de acceso | VGT",
+    "title": "Veritempo — Gestión de asistencia, tiempos y control de acceso | VGT",
     "description": "Plataforma todo-en-uno para optimizar la gestión del tiempo, la asistencia y el control de acceso de tus empleados, en un entorno seguro e intuitivo."
   },
   "hero": {
-    "eyebrow": "MyIntelli",
+    "eyebrow": "Veritempo",
     "badge": "Plataforma de gestión empresarial",
     "title": "Gestión de tiempo, asistencia y control de acceso todo-en-uno",
-    "subtitle": "MyIntelli es la plataforma que optimiza la gestión del tiempo, la asistencia y el control de acceso de tus empleados en un entorno seguro, intuitivo y centralizado. Con base en EE.UU. y más de 12 años de experiencia a nivel global.",
+    "subtitle": "Veritempo es la plataforma de VGT que optimiza la gestión del tiempo, la asistencia y el control de acceso de tus empleados en un entorno seguro, intuitivo y centralizado. Respaldada por tecnología con más de 12 años de experiencia a nivel global.",
     "ctaPrimary": "Solicitar demo",
     "ctaSecondary": "Ver módulos"
   },
@@ -48,7 +48,7 @@
   "marking": {
     "eyebrow": "Métodos de marcaje",
     "title": "Múltiples formas de registro para cualquier entorno",
-    "subtitle": "Desde dispositivos biométricos físicos hasta aplicaciones web y móviles, MyIntelli se adapta a cómo y dónde trabaja tu equipo.",
+    "subtitle": "Desde dispositivos biométricos físicos hasta aplicaciones web y móviles, Veritempo se adapta a cómo y dónde trabaja tu equipo.",
     "items": [
       {
         "title": "Biométrico",
@@ -87,7 +87,7 @@
   "integrations": {
     "eyebrow": "Integraciones",
     "title": "Conectado con tu ecosistema tecnológico",
-    "subtitle": "MyIntelli se integra de manera nativa con las principales plataformas de nómina y dispositivos biométricos del mercado.",
+    "subtitle": "Veritempo se integra de manera nativa con las principales plataformas de nómina y dispositivos biométricos del mercado.",
     "items": [
       "Oracle",
       "SAP",
@@ -100,7 +100,7 @@
   "benefits": {
     "eyebrow": "Beneficios",
     "title": "Resultados que se miden desde el primer mes",
-    "subtitle": "Organizaciones que implementan MyIntelli reportan mejoras concretas y medibles en sus operaciones de recursos humanos.",
+    "subtitle": "Organizaciones que implementan Veritempo reportan mejoras concretas y medibles en sus operaciones de recursos humanos.",
     "items": [
       {
         "title": "Mayor productividad",
@@ -121,8 +121,8 @@
     ]
   },
   "cta": {
-    "title": "¿Quieres ver MyIntelli en acción?",
-    "subtitle": "Solicita una demo personalizada sin costo y descubre cómo MyIntelli puede transformar la gestión de tu fuerza laboral.",
-    "button": "Solicitar demo de MyIntelli"
+    "title": "¿Quieres ver Veritempo en acción?",
+    "subtitle": "Solicita una demo personalizada sin costo y descubre cómo Veritempo puede transformar la gestión de tu fuerza laboral.",
+    "button": "Solicitar demo de Veritempo"
   }
 }

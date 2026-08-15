@@ -90,7 +90,7 @@ Define `NEXT_PUBLIC_SITE_URL` con el dominio de producción en el panel de Cloud
 
 `/` (Home) · `/servicios` (hub) · landings de servicio: `/servicios/marketing`,
 `/servicios/branding`, `/servicios/desarrollo`, `/servicios/agentes`, `/servicios/consultoria`,
-`/servicios/datos`, `/servicios/myintelli` (Gestión de Asistencia y Acceso),
+`/servicios/datos`, `/servicios/veritempo` (Gestión de Asistencia y Acceso),
 `/servicios/cybernova` (Ciberseguridad Gestionada) · `/nosotros` (incluye equipo directivo) ·
 `/proyectos` (portafolio) · `/blog` (Próximamente) · `/contacto` · `/cotizacion` ·
 `/legal/privacidad` · `/legal/terminos` · `/legal/cookies`.

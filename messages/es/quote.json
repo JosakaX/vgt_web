@@ -40,7 +40,7 @@
       "servicio": {
         "label": "Servicio de interés *",
         "placeholder": "Selecciona una opción",
-        "myintelli": "MyIntelli — Gestión de asistencia y acceso",
+        "veritempo": "Veritempo — Gestión de asistencia y acceso",
         "cybernova": "CyberNova — Ciberseguridad",
         "ambos": "Ambos servicios"
       },

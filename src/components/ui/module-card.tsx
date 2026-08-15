@@ -6,7 +6,7 @@ type ModuleCardProps = {
   icon: LucideIcon;
 };
 
-/** Card de módulo de producto (p. ej. los módulos de MyIntelli). */
+/** Card de módulo de producto (p. ej. los módulos de Veritempo). */
 export function ModuleCard({ title, description, icon: Icon }: ModuleCardProps) {
   return (
     <div className="group flex h-full flex-col gap-4 rounded-2xl border border-border bg-surface p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:shadow-card">

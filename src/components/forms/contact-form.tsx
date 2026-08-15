@@ -230,7 +230,7 @@ export function ContactForm() {
             <option value="" disabled>
               {t("form.fields.servicio.placeholder")}
             </option>
-            <option value="myintelli">{t("form.fields.servicio.myintelli")}</option>
+            <option value="veritempo">{t("form.fields.servicio.veritempo")}</option>
             <option value="cybernova">{t("form.fields.servicio.cybernova")}</option>
             <option value="ambos">{t("form.fields.servicio.ambos")}</option>
           </select>

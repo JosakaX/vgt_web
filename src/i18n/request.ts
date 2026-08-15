@@ -4,7 +4,7 @@ import type { AbstractIntlMessages } from "next-intl";
 import common from "../../messages/es/common.json";
 import home from "../../messages/es/home.json";
 import services from "../../messages/es/services.json";
-import myintelli from "../../messages/es/myintelli.json";
+import veritempo from "../../messages/es/veritempo.json";
 import cybernova from "../../messages/es/cybernova.json";
 import about from "../../messages/es/about.json";
 import contact from "../../messages/es/contact.json";
@@ -32,7 +32,7 @@ const messages = {
   common,
   home,
   services,
-  myintelli,
+  veritempo,
   cybernova,
   about,
   contact,

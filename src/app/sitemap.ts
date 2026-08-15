@@ -19,7 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { path: routes.agentes, priority: 0.8, changeFrequency: "monthly" },
       { path: routes.consultoria, priority: 0.8, changeFrequency: "monthly" },
       { path: routes.datos, priority: 0.8, changeFrequency: "monthly" },
-      { path: routes.myintelli, priority: 0.8, changeFrequency: "monthly" },
+      { path: routes.veritempo, priority: 0.8, changeFrequency: "monthly" },
       { path: routes.cybernova, priority: 0.8, changeFrequency: "monthly" },
       { path: routes.about, priority: 0.7, changeFrequency: "yearly" },
       { path: routes.projects, priority: 0.7, changeFrequency: "monthly" },
