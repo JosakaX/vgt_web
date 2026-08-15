@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Proyectos destacados — Valadares Global Tech",
-    "description": "Sitios web institucionales y de organizaciones desarrollados por VGT: Red Gobierno con Valores, OHGDA, GEDEVAL y Solo Una Vida."
+    "description": "Sitios web y productos digitales desarrollados por VGT: Veritempo, Red Gobierno con Valores, OHGDA, GEDEVAL y Solo Una Vida."
   },
   "hero": {
     "eyebrow": "Portafolio",
@@ -13,10 +13,18 @@
   "visit": "Visitar sitio",
   "items": [
     {
+      "title": "Veritempo",
+      "category": "Producto VGT · Gestión del tiempo",
+      "url": "https://veritempo.eu",
+      "domain": "veritempo.eu",
+      "image": "/projects/veritempo.webp"
+    },
+    {
       "title": "Red Gobierno con Valores",
       "category": "Institucional · Gobernanza",
       "url": "https://www.redgobiernoconvalores.com",
-      "domain": "redgobiernoconvalores.com"
+      "domain": "redgobiernoconvalores.com",
+      "image": "/projects/redgobiernoconvalores.webp"
     },
     {
       "title": "OHGDA",
@@ -33,8 +41,8 @@
     {
       "title": "Solo Una Vida",
       "category": "Organización social",
-      "url": "https://www.solounavida.org",
-      "domain": "solounavida.org"
+      "url": "https://solounavida.ong",
+      "domain": "solounavida.ong"
     }
   ]
 }

@@ -4,11 +4,18 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 Última actualización: 2026-08-15.
 
 ## 🔴 Decisiones / acciones de JosakaX (tú)
+- [ ] **Portafolio — 3 sitios pendientes de estar en vivo (2026-08-15):** GEDEVAL (`gedeval.org`)
+      y Solo Una Vida (`solounavida.ong` — dominio correcto, .ong) aún no tienen sitio publicado;
+      JosakaX ya compró ambos dominios y decidió dejar las cards apuntando. OHGDA está en página
+      de mantenimiento. Las 3 cards usan el visual de gradiente → **capturar miniatura real de
+      cada uno cuando esté en vivo** (Veritempo y Red Gobierno con Valores ya tienen la suya).
 - [ ] **Proveedores de servicios de agencia:** conseguir las empresas/aliados que prestarán
       Marketing & Estrategia, Diseño & Branding y Desarrollo Web/SaaS (el contenido de las landings
       se ajustará a lo que ellos ofrezcan).
-- [ ] **Nombres definitivos** de los 2 servicios especializados (hoy "Gestión de Asistencia y Acceso"
-      y "Ciberseguridad Gestionada") — confirmar con los proveedores (MyIntelli / CyberNova).
+- [x] ~~Nombre definitivo de Gestión de Asistencia~~ → **Veritempo** (renombrado en todo el sitio
+      el 2026-08-15: ruta `/servicios/veritempo`, i18n y textos; MyIntelli ya no aparece).
+- [ ] **Nombre definitivo del servicio de ciberseguridad** (hoy "Ciberseguridad Gestionada" /
+      CyberNova) — JosakaX está eligiendo nombre propio (propuestas entregadas 2026-08-15).
 - [ ] **Métricas:** confirmar qué cifras puede mostrar VGT como propias vs. las del proveedor
       (hoy se usan +1.000 clientes, +12 años, etc. de la plataforma de asistencia).
 - [ ] **¿Quitar marcas dentro de las páginas de detalle?** Decidir si las landings de detalle

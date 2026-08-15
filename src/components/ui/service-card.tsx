@@ -31,7 +31,7 @@ export function ServiceCard({
   return (
     <Link
       href={href}
-      className="group relative flex flex-col gap-5 overflow-hidden rounded-3xl border border-border bg-surface p-7 shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:shadow-card-hover sm:p-8"
+      className="group relative flex h-full flex-col gap-5 overflow-hidden rounded-3xl border border-border bg-surface p-7 shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:shadow-card-hover sm:p-8"
     >
       <div
         className={cn(

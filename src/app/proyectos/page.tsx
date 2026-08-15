@@ -26,6 +26,7 @@ export default async function ProjectsPage() {
     category: string;
     url: string;
     domain: string;
+    image?: string;
   }[];
 
   return (
@@ -46,15 +47,16 @@ export default async function ProjectsPage() {
           <FadeIn className="mx-auto mb-12 max-w-2xl text-center text-base leading-relaxed text-muted">
             {t("intro")}
           </FadeIn>
-          <Stagger className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <Stagger className="grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((project) => (
-              <StaggerItem key={project.title}>
+              <StaggerItem key={project.title} className="h-full">
                 <ProjectCard
                   title={project.title}
                   category={project.category}
                   url={project.url}
                   domain={project.domain}
                   visitLabel={t("visit")}
+                  image={project.image}
                 />
               </StaggerItem>
             ))}
