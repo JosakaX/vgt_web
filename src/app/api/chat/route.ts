@@ -93,8 +93,10 @@ function rateLimited(ip: string): boolean {
 }
 
 export async function POST(request: Request) {
+  // Fail-closed: sin Origin válido no hay servicio. El widget (fetch del
+  // propio sitio) siempre lo envía; scripts sin navegador quedan fuera.
   const origin = request.headers.get("origin");
-  if (origin && !ALLOWED_ORIGINS.has(origin)) {
+  if (!origin || !ALLOWED_ORIGINS.has(origin)) {
     return NextResponse.json({ ok: false, error: "forbidden" }, { status: 403 });
   }
 
