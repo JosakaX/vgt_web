@@ -1,17 +1,16 @@
 {
   "meta": {
     "title": "Veritempo — Gestión de asistencia, tiempos y control de acceso | VGT",
-    "description": "Veritempo, la solución de VGT para la gestión del tiempo, la asistencia y el control de acceso de tus empleados, sobre una plataforma internacional probada en más de 10 países."
+    "description": "Veritempo, la solución de VGT para el control del tiempo, la asistencia y el acceso de tus empleados. Biometría, app móvil y web, e integración con tu nómina."
   },
   "hero": {
     "eyebrow": "Veritempo",
     "badge": "Solución de gestión empresarial",
     "title": "Gestión de tiempo, asistencia y control de acceso todo-en-uno",
-    "subtitle": "Veritempo es la solución de VGT para la gestión del tiempo, la asistencia y el control de acceso de tus empleados, en un entorno seguro, intuitivo y centralizado. Está construida sobre una plataforma internacional con más de una década de trayectoria y clientes en más de 10 países — con la implementación, capacitación y soporte cercano de nuestro equipo.",
+    "subtitle": "Veritempo es la solución de VGT para el control del tiempo, la asistencia y el acceso de tus empleados, en un entorno seguro, intuitivo y centralizado. Te acompañamos desde la implementación hasta el soporte continuo.",
     "ctaPrimary": "Solicitar demo",
     "ctaSecondary": "Ver módulos"
   },
-  "statsIntro": "La plataforma detrás de Veritempo, en números",
   "stats": [
     { "value": "+1.000", "label": "Clientes activos" },
     { "value": "+10", "label": "Países" },
