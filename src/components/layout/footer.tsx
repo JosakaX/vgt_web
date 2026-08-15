@@ -4,6 +4,7 @@ import { Globe, Mail, Phone, Linkedin, Instagram, Twitter, Youtube } from "lucid
 
 import { Logo } from "./logo";
 import { Container } from "@/components/ui/container";
+import { NewsletterForm } from "@/components/forms/newsletter-form";
 import { siteConfig, routes } from "@/lib/site";
 
 export async function Footer() {
@@ -49,10 +50,16 @@ export async function Footer() {
     <footer className="border-t border-border bg-surface-2">
       <Container className="py-14 lg:py-16">
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr] lg:gap-8">
-          {/* Marca */}
+          {/* Marca + newsletter */}
           <div className="flex flex-col gap-5">
             <Logo />
             <p className="max-w-xs text-sm text-muted">{t("brand.tagline")}</p>
+            <div className="max-w-xs">
+              <p className="mb-2 text-sm font-semibold text-foreground">
+                {t("footer.newsletter.title")}
+              </p>
+              <NewsletterForm />
+            </div>
           </div>
 
           {/* Columnas de enlaces */}
