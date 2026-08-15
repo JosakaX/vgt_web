@@ -108,5 +108,18 @@
   "newsletter": {
     "placeholder": "O teu e-mail",
     "button": "Subscrever"
+  },
+  "chat": {
+    "openLabel": "Abrir chat",
+    "closeLabel": "Fechar chat",
+    "title": "Assistente VGT",
+    "subtitle": "Respostas imediatas sobre os nossos serviços",
+    "greeting": "Olá! Sou o assistente da Valadares Global Tech. Conte-me o que a sua empresa precisa e oriento-o sobre os nossos serviços.",
+    "placeholder": "Escreva a sua pergunta…",
+    "send": "Enviar",
+    "typing": "A escrever…",
+    "error": "Não consegui responder neste momento. Tente novamente ou escreva-nos pelo formulário.",
+    "fallback": "O assistente não está disponível neste momento. Escreva-nos pelo formulário e respondemos em menos de 24 horas úteis.",
+    "contactLink": "Ir para o formulário de contacto"
   }
 }

@@ -6,6 +6,7 @@ import { getLocale, getMessages, getTranslations } from "next-intl/server";
 import { Providers } from "@/components/providers";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { ChatWidget } from "@/components/chat/chat-widget";
 import { OrganizationJsonLd } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
@@ -77,6 +78,7 @@ export default async function RootLayout({
             <Navbar />
             <main id="contenido">{children}</main>
             <Footer />
+            <ChatWidget />
           </Providers>
         </NextIntlClientProvider>
       </body>

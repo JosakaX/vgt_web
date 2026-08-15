@@ -156,3 +156,24 @@ desbloquea la verificación de Meta (Chawi) y el cobro real. La home de VGT sigu
 ⚠️ **Aprendido a la mala (2026-08-03)**: lo configurado en un **sandbox NO pasa a producción** —
 productos, precios, webhooks y llaves hay que recrearlos en modo live (Stripe recomienda reusar los
 mismos IDs). Y el branding de la cuenta principal es el de **VGT**, nunca el de una app.
+
+---
+
+## D-008 — Chatbot de ventas acotado en la web (VIGENTE, 2026-08-15)
+
+- **Puerta**: dos sentidos (quitar el widget = borrar un componente y una ruta; no toca datos guardados).
+- **Qué se decidió**: agregar un **chatbot de VENTAS acotado** — canal de comunicación que responde
+  SOLO sobre los 8 servicios del hub y deriva al formulario de contacto/cotización. NO es una app ni
+  un wizard: **matiza (no deroga)** la regla del 2026-08-12 de "hub informativo sin apps" — el chatbot
+  entra en la categoría del formulario (canal de contacto), no en la de funcionalidad de producto.
+  Motivo de negocio dictado por JosakaX: "vendemos agentes de IA — no tener uno resta credibilidad".
+- **Evidencia**: patrón de canal ya existente en `src/app/api/contact/route.ts` (zod + integración Quo);
+  sin dependencias nuevas (API de Anthropic por fetch). Controles de costo/seguridad en la
+  implementación: system prompt acotado, historial corto, límite de tokens y de mensajes por request.
+- **Por qué**: (1) credibilidad comercial directa — demo viva del servicio "Agentes IA"; (2) 100%
+  reversible, sin datos migrados; (3) complejidad hoy baja: 1 componente + 1 ruta.
+- **Enchufe que queda puesto**: modelo y llave por env vars (`ANTHROPIC_API_KEY`, `CHAT_MODEL`);
+  sin llave, el widget degrada a ofrecer el formulario. Las conversaciones NO se persisten en esta fase.
+- **Disparador de revisión**: (a) conversaciones produciendo leads reales → registro append-only de
+  conversaciones + aviso a info@; (b) costo de API > ~$20/mes o señales de abuso → rate limiting por
+  IP; (c) pedirle al bot MÁS que informar y derivar (agendar, cotizar) → nueva decisión.

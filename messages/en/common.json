@@ -108,5 +108,18 @@
   "newsletter": {
     "placeholder": "Your email address",
     "button": "Subscribe"
+  },
+  "chat": {
+    "openLabel": "Open chat",
+    "closeLabel": "Close chat",
+    "title": "VGT Assistant",
+    "subtitle": "Instant answers about our services",
+    "greeting": "Hi! I'm the Valadares Global Tech assistant. Tell me what your company needs and I'll point you to the right service.",
+    "placeholder": "Type your question…",
+    "send": "Send",
+    "typing": "Typing…",
+    "error": "I couldn't answer right now. Please try again or reach us through the form.",
+    "fallback": "The assistant is unavailable right now. Write to us through the contact form and we'll reply within 24 business hours.",
+    "contactLink": "Go to the contact form"
   }
 }
