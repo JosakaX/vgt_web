@@ -110,16 +110,20 @@
     "button": "Subscribe"
   },
   "chat": {
-    "openLabel": "Open chat",
+    "openLabel": "Open chat with Josaka",
     "closeLabel": "Close chat",
-    "title": "VGT Assistant",
-    "subtitle": "Instant answers about our services",
-    "greeting": "Hi! I'm the Valadares Global Tech assistant. Tell me what your company needs and I'll point you to the right service.",
-    "placeholder": "Type your question…",
+    "name": "Josaka",
+    "subtitle": "VGT Assistant",
+    "online": "Online",
+    "greeting": "Hi! I'm Josaka, VGT's assistant.\nTell me what your company needs and I'll tell you how we solve it.",
+    "s1": "I want to automate something",
+    "s2": "I need an app or a website",
+    "s3": "Just exploring",
+    "placeholder": "Tell me what you need…",
     "send": "Send",
     "typing": "Typing…",
     "error": "I couldn't answer right now. Please try again or reach us through the form.",
-    "fallback": "The assistant is unavailable right now. Write to us through the contact form and we'll reply within 24 business hours.",
-    "contactLink": "Go to the contact form"
+    "contactLink": "Go to the contact form",
+    "balloonClose": "Hide greeting"
   }
 }
