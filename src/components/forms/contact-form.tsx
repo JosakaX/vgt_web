@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { useForm } from "react-hook-form";
+import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
 import { Loader2, CheckCircle2, AlertCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { PhoneField } from "@/components/forms/phone-field";
 import { SERVICIOS, formContactSchema, type FormContactValues } from "@/lib/schemas";
 
 // ---------------------------------------------------------------------------
@@ -33,6 +34,7 @@ export function ContactForm() {
     register,
     handleSubmit,
     reset,
+    control,
     formState: { errors },
   } = useForm<FormContactValues>({
     resolver: zodResolver(formContactSchema),
@@ -152,23 +154,21 @@ export function ContactForm() {
           )}
         </div>
 
-        {/* Teléfono */}
-        <div>
-          <label
-            htmlFor="contact-telefono"
-            className="mb-1.5 block text-sm font-medium text-foreground"
-          >
-            {t("form.fields.telefono.label")}
-          </label>
-          <input
-            id="contact-telefono"
-            type="tel"
-            autoComplete="tel"
-            placeholder={t("form.fields.telefono.placeholder")}
-            {...register("telefono")}
-            className={cn(inputBase, "border-border")}
-          />
-        </div>
+        {/* Teléfono (bandera + indicativo, como el LeadForm de Veritempo) */}
+        <Controller
+          control={control}
+          name="telefono"
+          render={({ field }) => (
+            <PhoneField
+              id="contact-telefono"
+              label={t("form.fields.telefono.label")}
+              dialLabel={t("form.fields.telefono.dial")}
+              placeholder={t("form.fields.telefono.placeholder")}
+              value={field.value ?? ""}
+              onChange={field.onChange}
+            />
+          )}
+        />
 
         {/* País */}
         <div>
@@ -272,8 +272,6 @@ export function ContactForm() {
           )}
         </div>
       </div>
-
-      <p className="mt-4 text-xs text-muted">{t("form.required")}</p>
 
       {status === "error" && (
         <div

@@ -21,7 +21,7 @@ export const siteConfig = {
   social: {
     linkedin: "#",
     instagram: "#",
-    x: "#",
+    facebook: "#",
     youtube: "#",
   },
 } as const;

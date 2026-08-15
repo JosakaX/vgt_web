@@ -15,30 +15,30 @@
     "submitting": "Sending…",
     "success": "Request received! Our team will prepare your proposal and get in touch soon.",
     "error": "We couldn't send your request. Please try again.",
-    "required": "* Required field",
     "fields": {
       "nombre": {
-        "label": "Full name *",
+        "label": "Full name",
         "placeholder": "What's your name?"
       },
       "empresa": {
-        "label": "Company",
+        "label": "Company (optional)",
         "placeholder": "Your organization's name"
       },
       "pais": {
-        "label": "Country",
+        "label": "Country (optional)",
         "placeholder": "E.g. Venezuela, Mexico, Spain…"
       },
       "email": {
-        "label": "Email address *",
+        "label": "Email address",
         "placeholder": "you@company.com"
       },
       "telefono": {
-        "label": "Phone",
-        "placeholder": "+1 555 000 0000"
+        "label": "Phone (optional)",
+        "dial": "Country code",
+        "placeholder": "555 000 0000"
       },
       "servicio": {
-        "label": "Service of interest *",
+        "label": "Service of interest",
         "placeholder": "Select an option",
         "marketing": "Marketing & Digital Strategy",
         "branding": "Design & Branding",
@@ -51,7 +51,7 @@
         "otro": "Other / Multiple services"
       },
       "empleados": {
-        "label": "Number of employees",
+        "label": "Number of employees (optional)",
         "placeholder": "Select a range",
         "r1": "1 – 50 employees",
         "r2": "51 – 200 employees",
@@ -59,15 +59,15 @@
         "r4": "More than 1,000 employees"
       },
       "modulos": {
-        "label": "Modules or features of interest",
+        "label": "Modules or features of interest (optional)",
         "placeholder": "E.g. inventory management, threat monitoring, real-time reports…"
       },
       "objetivo": {
-        "label": "Main goal or need *",
+        "label": "Main goal or need",
         "placeholder": "Describe the challenge you want to solve with our solution…"
       },
       "mensaje": {
-        "label": "Additional comments",
+        "label": "Additional comments (optional)",
         "placeholder": "Any details you'd like to share with our team…"
       }
     }

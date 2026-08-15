@@ -14,30 +14,30 @@
     "submitting": "Sending…",
     "success": "Message received! We'll get back to you within 24 hours.",
     "error": "We couldn't send your message. Please try again.",
-    "required": "* Required field",
     "fields": {
       "nombre": {
-        "label": "Full name *",
+        "label": "Full name",
         "placeholder": "What's your name?"
       },
       "empresa": {
-        "label": "Company",
+        "label": "Company (optional)",
         "placeholder": "Your organization's name"
       },
       "pais": {
-        "label": "Country",
+        "label": "Country (optional)",
         "placeholder": "E.g. Venezuela, Mexico, Spain…"
       },
       "email": {
-        "label": "Email address *",
+        "label": "Email address",
         "placeholder": "you@company.com"
       },
       "telefono": {
-        "label": "Phone",
-        "placeholder": "+1 555 000 0000"
+        "label": "Phone (optional)",
+        "dial": "Country code",
+        "placeholder": "555 000 0000"
       },
       "servicio": {
-        "label": "Service of interest *",
+        "label": "Service of interest",
         "placeholder": "Select an option",
         "marketing": "Marketing & Digital Strategy",
         "branding": "Design & Branding",
@@ -50,7 +50,7 @@
         "otro": "Other / Multiple services"
       },
       "empleados": {
-        "label": "Number of employees",
+        "label": "Number of employees (optional)",
         "placeholder": "Select a range",
         "r1": "1 – 50 employees",
         "r2": "51 – 200 employees",
@@ -58,7 +58,7 @@
         "r4": "More than 1,000 employees"
       },
       "mensaje": {
-        "label": "Message *",
+        "label": "Message",
         "placeholder": "Briefly tell us what you need or the challenge you want to solve…"
       }
     }

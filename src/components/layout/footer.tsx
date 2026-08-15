@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import { Globe, Mail, Phone, Linkedin, Instagram, Twitter, Youtube } from "lucide-react";
+import { Globe, Mail, Phone, Linkedin, Instagram, Facebook, Youtube } from "lucide-react";
 
 import { Logo } from "./logo";
 import { Container } from "@/components/ui/container";
@@ -42,7 +42,7 @@ export async function Footer() {
   const socials = [
     { icon: Linkedin, href: siteConfig.social.linkedin, label: t("footer.social.linkedin") },
     { icon: Instagram, href: siteConfig.social.instagram, label: t("footer.social.instagram") },
-    { icon: Twitter, href: siteConfig.social.x, label: t("footer.social.x") },
+    { icon: Facebook, href: siteConfig.social.facebook, label: t("footer.social.facebook") },
     { icon: Youtube, href: siteConfig.social.youtube, label: t("footer.social.youtube") },
   ];
 

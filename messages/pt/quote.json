@@ -15,30 +15,30 @@
     "submitting": "A enviar…",
     "success": "Pedido recebido! A nossa equipa vai preparar a tua proposta e contactar-te em breve.",
     "error": "Não conseguimos enviar o teu pedido. Por favor, tenta novamente.",
-    "required": "* Campo obrigatório",
     "fields": {
       "nombre": {
-        "label": "Nome completo *",
+        "label": "Nome completo",
         "placeholder": "Como te chamas?"
       },
       "empresa": {
-        "label": "Empresa",
+        "label": "Empresa (opcional)",
         "placeholder": "Nome da tua organização"
       },
       "pais": {
-        "label": "País",
+        "label": "País (opcional)",
         "placeholder": "Ex.: Portugal, Espanha, Venezuela…"
       },
       "email": {
-        "label": "E-mail *",
+        "label": "E-mail",
         "placeholder": "tu@empresa.com"
       },
       "telefono": {
-        "label": "Telefone",
-        "placeholder": "+351 900 000 000"
+        "label": "Telefone (opcional)",
+        "dial": "Indicativo do país",
+        "placeholder": "932 000 000"
       },
       "servicio": {
-        "label": "Serviço de interesse *",
+        "label": "Serviço de interesse",
         "placeholder": "Seleciona uma opção",
         "marketing": "Marketing & Estratégia Digital",
         "branding": "Design & Branding",
@@ -51,7 +51,7 @@
         "otro": "Outro / Vários serviços"
       },
       "empleados": {
-        "label": "Número de colaboradores",
+        "label": "Número de colaboradores (opcional)",
         "placeholder": "Seleciona um intervalo",
         "r1": "1 – 50 colaboradores",
         "r2": "51 – 200 colaboradores",
@@ -59,15 +59,15 @@
         "r4": "Mais de 1 000 colaboradores"
       },
       "modulos": {
-        "label": "Módulos ou funcionalidades de interesse",
+        "label": "Módulos ou funcionalidades de interesse (opcional)",
         "placeholder": "Ex.: gestão de inventário, monitorização de ameaças, relatórios em tempo real…"
       },
       "objetivo": {
-        "label": "Objetivo ou necessidade principal *",
+        "label": "Objetivo ou necessidade principal",
         "placeholder": "Descreve o desafio que queres resolver com a nossa solução…"
       },
       "mensaje": {
-        "label": "Comentários adicionais",
+        "label": "Comentários adicionais (opcional)",
         "placeholder": "Qualquer detalhe que queiras partilhar com a nossa equipa…"
       }
     }
