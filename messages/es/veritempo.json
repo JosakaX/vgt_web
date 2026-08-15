@@ -1,20 +1,21 @@
 {
   "meta": {
     "title": "Veritempo — Gestión de asistencia, tiempos y control de acceso | VGT",
-    "description": "Plataforma todo-en-uno para optimizar la gestión del tiempo, la asistencia y el control de acceso de tus empleados, en un entorno seguro e intuitivo."
+    "description": "Veritempo, la solución de VGT para la gestión del tiempo, la asistencia y el control de acceso de tus empleados, sobre una plataforma internacional probada en más de 10 países."
   },
   "hero": {
     "eyebrow": "Veritempo",
-    "badge": "Plataforma de gestión empresarial",
+    "badge": "Solución de gestión empresarial",
     "title": "Gestión de tiempo, asistencia y control de acceso todo-en-uno",
-    "subtitle": "Veritempo es la plataforma de VGT que optimiza la gestión del tiempo, la asistencia y el control de acceso de tus empleados en un entorno seguro, intuitivo y centralizado. Respaldada por tecnología con más de 12 años de experiencia a nivel global.",
+    "subtitle": "Veritempo es la solución de VGT para la gestión del tiempo, la asistencia y el control de acceso de tus empleados, en un entorno seguro, intuitivo y centralizado. Está construida sobre una plataforma internacional con más de una década de trayectoria y clientes en más de 10 países — con la implementación, capacitación y soporte cercano de nuestro equipo.",
     "ctaPrimary": "Solicitar demo",
     "ctaSecondary": "Ver módulos"
   },
+  "statsIntro": "La plataforma detrás de Veritempo, en números",
   "stats": [
     { "value": "+1.000", "label": "Clientes activos" },
     { "value": "+10", "label": "Países" },
-    { "value": "+12 años", "label": "De experiencia" },
+    { "value": "+12 años", "label": "De trayectoria" },
     { "value": "+200.000", "label": "Usuarios en plataforma" },
     { "value": "+500.000", "label": "Horas procesadas por día" }
   ],
@@ -24,23 +25,23 @@
     "subtitle": "Cada módulo opera de forma independiente o integrada, adaptándose exactamente a las necesidades de tu organización.",
     "items": [
       {
-        "title": "Intelli Time",
+        "title": "Time",
         "description": "Control y seguimiento del tiempo de trabajo: gestión de turnos y planificación, hoja de horas automática, registro de novedades e incidencias, gestión de tiempo libre, permisos y medición de productividad."
       },
       {
-        "title": "Intelli Access",
+        "title": "Access",
         "description": "Control de acceso a instalaciones con historial completo de movimientos, reconocimiento biométrico (huella dactilar, rostro e iris) y registro y control de acceso de vehículos."
       },
       {
-        "title": "Intelli Guest",
+        "title": "Guest",
         "description": "Gestión integral de visitantes: registro de información biométrica, programación de visitas de personas y vehículos, y control de activos entregados."
       },
       {
-        "title": "Intelli Coworking",
+        "title": "Coworking",
         "description": "Control de aforo y reserva de espacios de trabajo: agendamiento web, control de aforo en tiempo real y monitoreo de ocupación de instalaciones."
       },
       {
-        "title": "Intelli Lunch",
+        "title": "Lunch",
         "description": "Gestión del comedor corporativo: planificación de menús, administración de turnos de entrega, integración con asistencia e identificación biométrica para el acceso."
       }
     ]

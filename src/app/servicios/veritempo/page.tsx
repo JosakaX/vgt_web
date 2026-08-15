@@ -124,6 +124,9 @@ export default async function VeritempoPage() {
       <section className="py-16 sm:py-20">
         <Container>
           <FadeIn>
+            <p className="mb-10 text-center text-sm font-semibold uppercase tracking-widest text-muted">
+              {t("statsIntro")}
+            </p>
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
               {stats.map((stat) => (
                 <StatBlock key={stat.label} value={stat.value} label={stat.label} />
