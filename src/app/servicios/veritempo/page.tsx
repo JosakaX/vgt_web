@@ -21,6 +21,7 @@ import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { ModuleCard } from "@/components/ui/module-card";
 import { FeatureCard } from "@/components/ui/feature-card";
+import { StatBlock } from "@/components/ui/stat-block";
 import { IndustryChip } from "@/components/ui/industry-chip";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { Button } from "@/components/ui/button";
@@ -47,6 +48,7 @@ const BENEFIT_ICONS: LucideIcon[] = [TrendingUp, Timer, ShieldCheck, LineChart];
 export default async function VeritempoPage() {
   const t = await getTranslations("veritempo");
 
+  const stats = t.raw("stats") as { value: string; label: string }[];
   const moduleItems = t.raw("modules.items") as { title: string; description: string }[];
   const markingItems = t.raw("marking.items") as {
     title: string;
@@ -118,8 +120,24 @@ export default async function VeritempoPage() {
         </Container>
       </section>
 
+      {/* ===== MÉTRICAS ===== */}
+      <section className="py-16 sm:py-20">
+        <Container>
+          <FadeIn>
+            <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
+              {stats.map((stat) => (
+                <StatBlock key={stat.label} value={stat.value} label={stat.label} />
+              ))}
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
       {/* ===== MÓDULOS ===== */}
-      <section id="modulos" className="py-20 sm:py-24">
+      <section
+        id="modulos"
+        className="border-t border-border bg-surface-2 py-20 sm:py-24"
+      >
         <Container>
           <SectionHeading
             eyebrow={t("modules.eyebrow")}
