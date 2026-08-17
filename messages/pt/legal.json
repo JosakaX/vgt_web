@@ -54,7 +54,7 @@
         "list": [
           "Fornecedores de alojamento e infraestrutura tecnológica que alojam o sítio web.",
           "Plataformas de envio de correio eletrónico para a gestão da newsletter e a resposta a consultas.",
-          "Fornecedores tecnológicos que suportam as nossas soluções (como Veritempo e Veriscudo) quando o pedido esteja relacionado com elas, unicamente na medida necessária para dar resposta à sua solicitação."
+          "Fornecedores tecnológicos externos que suportam alguns dos nossos serviços, quando o pedido esteja relacionado com eles, unicamente na medida necessária para dar resposta à sua solicitação."
         ],
         "footer": "A VGT não vende, aluga nem cede os seus dados pessoais a terceiros para fins publicitários ou comerciais próprios."
       },
@@ -95,18 +95,18 @@
       {
         "heading": "1. Objeto do sítio",
         "paragraphs": [
-          "Este sítio web tem como finalidade apresentar os serviços da VGT, facilitar o contacto com potenciais clientes e disponibilizar informação sobre as soluções tecnológicas que distribuímos e integramos.",
+          "Este sítio web tem como finalidade apresentar os serviços da VGT, facilitar o contacto com potenciais clientes e disponibilizar informação sobre os serviços e soluções tecnológicas que oferecemos.",
           "O conteúdo publicado tem caráter informativo e não constitui uma oferta vinculativa de contratação. Qualquer proposta comercial formal será formalizada através de documentação contratual independente, assinada pelas partes."
         ]
       },
       {
-        "heading": "2. Papel da VGT como partner e distribuidor autorizado",
+        "heading": "2. Serviços e tecnologia de terceiros",
         "paragraphs": [
-          "A VGT comercializa sob as suas marcas próprias (entre elas Veritempo e Veriscudo) soluções que integram tecnologia de fornecedores externos, atuando como partner e distribuidor autorizado desses fornecedores. Isto significa que:",
-          "(a) As soluções tecnológicas referidas neste sítio são desenvolvidas e mantidas pelos respetivos fabricantes ou titulares.",
+          "Alguns serviços da VGT podem apoiar-se em tecnologia de fornecedores externos. Nesses casos:",
+          "(a) As soluções tecnológicas de terceiros são desenvolvidas e mantidas pelos respetivos fabricantes ou titulares.",
           "(b) A VGT presta serviços de implementação, integração, formação e suporte como valor acrescentado, mas não é o fabricante dessas soluções.",
-          "(c) As marcas Veritempo e Veriscudo são propriedade da Valadares Global Tech LLC. As marcas, os logótipos e as tecnologias dos fornecedores subjacentes pertencem aos respetivos titulares e são utilizados no âmbito da relação comercial autorizada.",
-          "A VGT não garante resultados específicos decorrentes da utilização das soluções de terceiros. Os termos de utilização, licenças e garantias dessas soluções regem-se pelos contratos diretos entre o cliente e o fabricante, ou pelos acordos de distribuição aplicáveis."
+          "(c) As marcas, os logótipos e as tecnologias dos fornecedores externos pertencem aos respetivos titulares.",
+          "A VGT não garante resultados específicos decorrentes da utilização de soluções de terceiros. Os termos de utilização, licenças e garantias dessas soluções regem-se pelos contratos aplicáveis entre as partes."
         ]
       },
       {

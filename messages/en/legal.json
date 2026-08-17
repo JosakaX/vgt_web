@@ -54,7 +54,7 @@
         "list": [
           "Hosting and technology infrastructure providers that host the website.",
           "Email delivery platforms used to manage the newsletter and respond to inquiries.",
-          "Technology providers that back our solutions (such as Veritempo and Veriscudo) when a request relates to them, solely to the extent necessary to handle your request."
+          "External technology providers that back some of our services, when a request relates to them, solely to the extent necessary to handle your request."
         ],
         "footer": "VGT does not sell, rent, or transfer your personal data to third parties for their own advertising or commercial purposes."
       },
@@ -95,18 +95,18 @@
       {
         "heading": "1. Purpose of the site",
         "paragraphs": [
-          "The purpose of this website is to present VGT's services, facilitate contact with prospective clients, and provide information about the technology solutions we distribute and integrate.",
+          "The purpose of this website is to present VGT's services, facilitate contact with prospective clients, and provide information about the services and technology solutions we offer.",
           "The published content is informational in nature and does not constitute a binding offer to contract. Any formal commercial proposal will be formalized through separate contractual documentation signed by the parties."
         ]
       },
       {
-        "heading": "2. VGT's role as an authorized partner and distributor",
+        "heading": "2. Third-party services and technology",
         "paragraphs": [
-          "VGT markets, under its own brands (including Veritempo and Veriscudo), solutions that incorporate technology from external providers, acting as an authorized partner and distributor of those providers. This means that:",
-          "(a) The technology solutions referenced on this site are developed and maintained by their respective manufacturers or owners.",
+          "Some VGT services may rely on technology from external providers. In those cases:",
+          "(a) Third-party technology solutions are developed and maintained by their respective manufacturers or owners.",
           "(b) VGT provides implementation, integration, training, and support services as added value, but is not the manufacturer of those solutions.",
-          "(c) The Veritempo and Veriscudo trademarks are the property of Valadares Global Tech LLC. The trademarks, logos, and technologies of the underlying providers belong to their respective owners and are used within the framework of the authorized business relationship.",
-          "VGT does not guarantee specific results arising from the use of third-party solutions. The terms of use, licenses, and warranties of those solutions are governed by the direct contracts between the client and the manufacturer, or by the applicable distribution agreements."
+          "(c) The trademarks, logos, and technologies of external providers belong to their respective owners.",
+          "VGT does not guarantee specific results arising from the use of third-party solutions. The terms of use, licenses, and warranties of those solutions are governed by the applicable contracts between the parties."
         ]
       },
       {
