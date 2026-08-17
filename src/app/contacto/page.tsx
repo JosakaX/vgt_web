@@ -55,7 +55,9 @@ export default async function ContactoPage() {
 
             {/* Columna izquierda: formulario */}
             <SlideUp>
-              <ContactForm />
+              <div id="formulario" className="scroll-mt-24">
+                <ContactForm />
+              </div>
             </SlideUp>
 
             {/* Columna derecha: datos de contacto + demo */}
@@ -178,9 +180,10 @@ export default async function ContactoPage() {
                     {t("info.demo.body")}
                   </p>
 
+                  {/* La demo la agenda VGT: el botón lleva al formulario y el
+                      lead llega por correo (decisión CEO 2026-08-17). */}
                   <Button
-                    href={siteConfig.calDemoUrl}
-                    external
+                    href="#formulario"
                     variant="accent"
                     size="md"
                     className="relative w-full justify-center"
