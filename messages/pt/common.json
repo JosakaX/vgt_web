@@ -124,6 +124,8 @@
     "typing": "A escrever…",
     "error": "Não consegui responder neste momento. Tente novamente ou escreva-nos pelo formulário.",
     "contactLink": "Ir para o formulário de contacto",
-    "balloonClose": "Ocultar saudação"
+    "balloonClose": "Ocultar saudação",
+    "ctaQuote": "Pedir orçamento",
+    "ctaContact": "Falar connosco"
   }
 }

@@ -124,6 +124,8 @@
     "typing": "Typing…",
     "error": "I couldn't answer right now. Please try again or reach us through the form.",
     "contactLink": "Go to the contact form",
-    "balloonClose": "Hide greeting"
+    "balloonClose": "Hide greeting",
+    "ctaQuote": "Request a quote",
+    "ctaContact": "Contact us"
   }
 }

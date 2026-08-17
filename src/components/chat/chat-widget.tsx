@@ -17,6 +17,37 @@ import { routes } from "@/lib/site";
 
 type ChatMessage = { role: "user" | "assistant"; content: string };
 
+/**
+ * Rutas que Josaka menciona en texto plano ("/cotizacion") y el widget
+ * convierte en enlace inline + botón de acción bajo el mensaje (§13).
+ */
+const CHAT_ROUTES = [
+  { token: "/cotizacion", href: routes.quote, labelKey: "ctaQuote" },
+  { token: "/contacto", href: routes.contact, labelKey: "ctaContact" },
+] as const;
+
+/**
+ * Convierte la respuesta del asistente en nodos React: **negritas** reales y
+ * las rutas conocidas como enlaces. Sin HTML crudo — React escapa el resto.
+ */
+function renderAssistantText(content: string): React.ReactNode[] {
+  const pattern = /(\*\*[^*]+\*\*|\/cotizacion|\/contacto)/g;
+  return content.split(pattern).map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
+    }
+    const route = CHAT_ROUTES.find((r) => r.token === part);
+    if (route) {
+      return (
+        <Link key={i} href={route.href} className="font-semibold text-accent underline">
+          {part}
+        </Link>
+      );
+    }
+    return part;
+  });
+}
+
 const AVATAR_80 = "/agente/josaka-80-disco.png";
 const AVATAR_56 = "/agente/josaka-56-disco.png";
 const AVATAR_32 = "/agente/josaka-32-disco.png";
@@ -140,11 +171,18 @@ export function ChatWidget() {
                 </span>
               ))}
             </Bubble>
-            {messages.map((m, i) => (
-              <Bubble key={i} role={m.role}>
-                {m.content}
-              </Bubble>
-            ))}
+            {messages.map((m, i) =>
+              m.role === "user" ? (
+                <Bubble key={i} role="user">
+                  {m.content}
+                </Bubble>
+              ) : (
+                <div key={i} className="space-y-2">
+                  <Bubble role="assistant">{renderAssistantText(m.content)}</Bubble>
+                  <ChatActions content={m.content} />
+                </div>
+              ),
+            )}
             {loading && (
               <div className="flex items-end gap-2">
                 <Image src={AVATAR_32} alt="" width={24} height={24} className="rounded-full" />
@@ -225,6 +263,26 @@ export function ChatWidget() {
         )}
       </button>
     </>
+  );
+}
+
+/** Botones de acción bajo el mensaje cuando Josaka menciona /cotizacion o /contacto. */
+function ChatActions({ content }: { content: string }) {
+  const t = useTranslations("common.chat");
+  const mentioned = CHAT_ROUTES.filter((r) => content.includes(r.token));
+  if (mentioned.length === 0) return null;
+  return (
+    <div className="flex flex-wrap gap-2 pl-8">
+      {mentioned.map((r) => (
+        <Link
+          key={r.token}
+          href={r.href}
+          className="rounded-full bg-accent-solid px-3.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-accent-solid-hover"
+        >
+          {t(r.labelKey)}
+        </Link>
+      ))}
+    </div>
   );
 }
 
