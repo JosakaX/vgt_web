@@ -113,14 +113,6 @@ export default async function ContactoPage() {
                             {siteConfig.phones.us.display}
                           </a>
                         </li>
-                        <li>
-                          <a
-                            href={siteConfig.phones.pt.href}
-                            className="text-sm text-foreground hover:text-accent"
-                          >
-                            {siteConfig.phones.pt.display}
-                          </a>
-                        </li>
                       </ul>
                     </div>
                   </div>

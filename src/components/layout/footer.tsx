@@ -116,13 +116,6 @@ export async function Footer() {
             {t("contactInfo.phones.us")} · {t("contactInfo.phones.usNote")}
           </a>
           <a
-            href={siteConfig.phones.pt.href}
-            className="flex items-center gap-2 transition-colors hover:text-accent"
-          >
-            <Phone className="h-4 w-4 shrink-0 text-accent" aria-hidden="true" />
-            {t("contactInfo.phones.pt")} · {t("contactInfo.phones.ptNote")}
-          </a>
-          <a
             href={siteConfig.address.mapsUrl}
             target="_blank"
             rel="noopener noreferrer"

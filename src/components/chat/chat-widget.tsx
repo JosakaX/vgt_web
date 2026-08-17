@@ -96,11 +96,11 @@ export function ChatWidget() {
   const [failed, setFailed] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  // El globo de saludo aparece al abrir la página y se oculta SOLO a los 2 s
-  // (pedido del CEO 2026-08-17): saluda, invita y se aparta sin tapar nada.
+  // El globo de saludo aparece al abrir la página y se oculta SOLO a los 4 s
+  // (pedido del CEO 2026-08-18): tiempo de leerlo completo, y se aparta.
   useEffect(() => {
     const mostrar = setTimeout(() => setBalloon(true), 300);
-    const ocultar = setTimeout(() => setBalloon(false), 2300);
+    const ocultar = setTimeout(() => setBalloon(false), 4300);
     return () => {
       clearTimeout(mostrar);
       clearTimeout(ocultar);

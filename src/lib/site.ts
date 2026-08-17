@@ -21,8 +21,8 @@ export const siteConfig = {
   },
   phones: {
     // Quo (OpenPhone), Ft. Lauderdale — el número oficial de la LLC (Atlas/Mercury/D&B/411).
+    // El móvil portugués personal NO se publica (regla del CEO: solo 2FA/privado).
     us: { display: "+1 (954) 758-8897", href: "tel:+19547588897" },
-    pt: { display: "+351 932 742 678", href: "tel:+351932742678" },
   },
   // TODO: confirmar/activar perfiles sociales reales
   social: {
