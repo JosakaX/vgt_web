@@ -5,7 +5,7 @@ import { Globe, Mail, Phone, Linkedin, Instagram, Facebook, Youtube } from "luci
 import { Logo } from "./logo";
 import { Container } from "@/components/ui/container";
 import { NewsletterForm } from "@/components/forms/newsletter-form";
-import { siteConfig, routes } from "@/lib/site";
+import { siteConfig, routes, mostrarSoluciones } from "@/lib/site";
 
 export async function Footer() {
   const t = await getTranslations("common");
@@ -15,8 +15,13 @@ export async function Footer() {
     {
       title: t("footer.cols.services"),
       links: [
-        { label: t("footer.links.veritempo"), href: routes.veritempo },
-        { label: t("footer.links.veriscudo"), href: routes.veriscudo },
+        // Las soluciones de partners salen del footer hasta firmar los acuerdos.
+        ...(mostrarSoluciones
+          ? [
+              { label: t("footer.links.veritempo"), href: routes.veritempo },
+              { label: t("footer.links.veriscudo"), href: routes.veriscudo },
+            ]
+          : []),
         { label: t("footer.links.allServices"), href: routes.services },
       ],
     },

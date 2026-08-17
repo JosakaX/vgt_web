@@ -23,7 +23,7 @@ import { ThemeToggle } from "./theme-toggle";
 import { LangSwitcher } from "./lang-switcher";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
-import { routes } from "@/lib/site";
+import { routes, mostrarSoluciones } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
@@ -110,7 +110,12 @@ export function Navbar() {
       desc: t("servicesMenu.veriscudoDesc"),
       icon: ShieldCheck,
     },
-  ];
+    // Las soluciones de partners salen del menú hasta firmar los acuerdos.
+  ].filter(
+    (link) =>
+      mostrarSoluciones ||
+      (link.href !== routes.veritempo && link.href !== routes.veriscudo),
+  );
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);

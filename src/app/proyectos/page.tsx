@@ -5,7 +5,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { ProjectCard } from "@/components/ui/project-card";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { FadeIn, Stagger, StaggerItem } from "@/components/motion/reveal";
-import { routes } from "@/lib/site";
+import { routes, mostrarSoluciones } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("projects.meta");
@@ -21,13 +21,21 @@ export default async function ProjectsPage() {
   const t = await getTranslations("projects");
   const ts = await getTranslations("services");
 
-  const projects = t.raw("items") as {
-    title: string;
-    category: string;
-    url: string;
-    domain: string;
-    image?: string;
-  }[];
+  const projects = (
+    t.raw("items") as {
+      title: string;
+      category: string;
+      url: string;
+      domain: string;
+      image?: string;
+    }[]
+  )
+    // Los proyectos de las marcas partner se ocultan hasta firmar los acuerdos.
+    .filter(
+      (p) =>
+        mostrarSoluciones ||
+        (!p.url.includes("veritempo") && !p.url.includes("veriscudo")),
+    );
 
   return (
     <>

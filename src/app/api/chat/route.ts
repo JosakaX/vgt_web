@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 
+import { mostrarSoluciones } from "@/lib/site";
+
 /**
  * Endpoint del chatbot de ventas (decisión D-008).
  *
@@ -41,11 +43,16 @@ Servicios de agencia:
 - Consultoría en IA & Transformación Digital: diagnóstico, casos de uso y hoja de ruta priorizada.
 - Datos, Analítica & Dashboards: KPIs, reportes automatizados y business intelligence.
 
-Soluciones que distribuimos e implementamos como partner:
+${
+  // El bloque de partners se anuncia solo cuando las soluciones están publicadas.
+  mostrarSoluciones
+    ? `Soluciones que distribuimos e implementamos como partner:
 - Veritempo: control de asistencia, tiempos y acceso de empleados con biometría y app móvil.
 - Veriscudo: ciberseguridad integral como servicio gestionado (CSAAS).
 
-Reglas:
+`
+    : ""
+}Reglas:
 - Responde SOLO sobre VGT y sus servicios. Si preguntan otra cosa, redirige con amabilidad hacia los servicios o el formulario de contacto.
 - Responde SIEMPRE en el idioma del último mensaje del usuario (español, inglés o portugués).
 - Sé breve: 2 a 4 frases por respuesta, tono profesional y cercano.

@@ -25,6 +25,14 @@ export const siteConfig = {
   },
 } as const;
 
+/**
+ * Interruptor de lanzamiento (2026-08-17): oculta las soluciones de partners
+ * (Veritempo / Veriscudo) mientras no haya acuerdos firmados con los
+ * proveedores. Al ponerlo en true reaparecen tarjetas, menú de servicios,
+ * footer, sitemap, opciones de formulario, el bloque del chatbot y sus rutas.
+ */
+export const mostrarSoluciones: boolean = false;
+
 /** Rutas de navegación principal. */
 export const routes = {
   home: "/",

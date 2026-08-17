@@ -25,7 +25,8 @@ import { IndustryChip } from "@/components/ui/industry-chip";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { Button } from "@/components/ui/button";
 import { FadeIn, SlideUp, Stagger, StaggerItem } from "@/components/motion/reveal";
-import { routes } from "@/lib/site";
+import { notFound } from "next/navigation";
+import { routes, mostrarSoluciones } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("veritempo.meta");
@@ -45,6 +46,9 @@ const MARKING_ICONS: LucideIcon[] = [Fingerprint, Smartphone, Monitor];
 const BENEFIT_ICONS: LucideIcon[] = [TrendingUp, Timer, ShieldCheck, LineChart];
 
 export default async function VeritempoPage() {
+  // Página oculta hasta firmar el acuerdo con el proveedor.
+  if (!mostrarSoluciones) notFound();
+
   const t = await getTranslations("veritempo");
 
   const moduleItems = t.raw("modules.items") as { title: string; description: string }[];

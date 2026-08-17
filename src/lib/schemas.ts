@@ -5,6 +5,8 @@
  */
 import { z } from "zod";
 
+import { mostrarSoluciones } from "@/lib/site";
+
 // ---------------------------------------------------------------------------
 // Enums reutilizables
 // ---------------------------------------------------------------------------
@@ -21,6 +23,15 @@ export const SERVICIOS = [
   "otro",
 ] as const;
 export const EMPLEADOS_RANGOS = ["1-50", "51-200", "201-1000", "+1000"] as const;
+
+/**
+ * Opciones visibles en los <select> de los formularios: excluye las
+ * soluciones de partners mientras estén ocultas (mostrarSoluciones).
+ * El enum del servidor sigue aceptando todos los valores.
+ */
+export const SERVICIOS_VISIBLES = SERVICIOS.filter(
+  (s) => mostrarSoluciones || (s !== "veritempo" && s !== "veriscudo"),
+);
 
 const servicioEnum = z.enum(SERVICIOS, {
   errorMap: () => ({ message: "servicioRequired" }),

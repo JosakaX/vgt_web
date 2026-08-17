@@ -27,7 +27,7 @@ import { IndustryChip } from "@/components/ui/industry-chip";
 import { StatsBar } from "@/components/ui/stats-bar";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { FadeIn, SlideUp, Stagger, StaggerItem } from "@/components/motion/reveal";
-import { routes } from "@/lib/site";
+import { routes, mostrarSoluciones } from "@/lib/site";
 
 const SERVICE_ICONS: Record<string, LucideIcon> = {
   marketing: Target,
@@ -64,7 +64,14 @@ export default async function HomePage() {
       domain: string;
       image?: string;
     }[]
-  ).slice(0, 3);
+  )
+    // Los proyectos de las marcas partner se ocultan hasta firmar los acuerdos.
+    .filter(
+      (p) =>
+        mostrarSoluciones ||
+        (!p.url.includes("veritempo") && !p.url.includes("veriscudo")),
+    )
+    .slice(0, 3);
 
   return (
     <>
@@ -187,40 +194,43 @@ export default async function HomePage() {
         </Container>
       </section>
 
-      {/* ===== SOLUCIONES ESPECIALIZADAS (Veritempo / Veriscudo) ===== */}
-      <section className="border-y border-border bg-surface-2 py-20 sm:py-24">
-        <Container>
-          <SectionHeading
-            eyebrow="Soluciones"
-            title={t("solutions.heading")}
-            subtitle={t("solutions.subheading")}
-          />
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
-            <SlideUp className="h-full">
-              <ServiceCard
-                name={t("solutions.veritempo.name")}
-                category={t("solutions.veritempo.category")}
-                summary={t("solutions.veritempo.summary")}
-                href={routes.veritempo}
-                cta={t("solutions.veritempo.cta")}
-                icon={Clock}
-                accent="blue"
-              />
-            </SlideUp>
-            <SlideUp delay={0.1} className="h-full">
-              <ServiceCard
-                name={t("solutions.veriscudo.name")}
-                category={t("solutions.veriscudo.category")}
-                summary={t("solutions.veriscudo.summary")}
-                href={routes.veriscudo}
-                cta={t("solutions.veriscudo.cta")}
-                icon={ShieldCheck}
-                accent="teal"
-              />
-            </SlideUp>
-          </div>
-        </Container>
-      </section>
+      {/* ===== SOLUCIONES ESPECIALIZADAS (Veritempo / Veriscudo) =====
+          Ocultas hasta firmar los acuerdos con los proveedores (mostrarSoluciones). */}
+      {mostrarSoluciones && (
+        <section className="border-y border-border bg-surface-2 py-20 sm:py-24">
+          <Container>
+            <SectionHeading
+              eyebrow="Soluciones"
+              title={t("solutions.heading")}
+              subtitle={t("solutions.subheading")}
+            />
+            <div className="mt-12 grid gap-6 md:grid-cols-2">
+              <SlideUp className="h-full">
+                <ServiceCard
+                  name={t("solutions.veritempo.name")}
+                  category={t("solutions.veritempo.category")}
+                  summary={t("solutions.veritempo.summary")}
+                  href={routes.veritempo}
+                  cta={t("solutions.veritempo.cta")}
+                  icon={Clock}
+                  accent="blue"
+                />
+              </SlideUp>
+              <SlideUp delay={0.1} className="h-full">
+                <ServiceCard
+                  name={t("solutions.veriscudo.name")}
+                  category={t("solutions.veriscudo.category")}
+                  summary={t("solutions.veriscudo.summary")}
+                  href={routes.veriscudo}
+                  cta={t("solutions.veriscudo.cta")}
+                  icon={ShieldCheck}
+                  accent="teal"
+                />
+              </SlideUp>
+            </div>
+          </Container>
+        </section>
+      )}
 
       {/* ===== POR QUÉ ELEGIRNOS ===== */}
       <section className="py-20 sm:py-24">

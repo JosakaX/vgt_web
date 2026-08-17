@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { siteConfig, routes } from "@/lib/site";
+import { siteConfig, routes, mostrarSoluciones } from "@/lib/site";
 
 // Permite generarlo como archivo estático (necesario con output: export).
 export const dynamic = "force-static";
@@ -19,8 +19,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { path: routes.agentes, priority: 0.8, changeFrequency: "monthly" },
       { path: routes.consultoria, priority: 0.8, changeFrequency: "monthly" },
       { path: routes.datos, priority: 0.8, changeFrequency: "monthly" },
-      { path: routes.veritempo, priority: 0.8, changeFrequency: "monthly" },
-      { path: routes.veriscudo, priority: 0.8, changeFrequency: "monthly" },
+      // Las soluciones de partners se indexan solo cuando estén publicadas.
+      ...(mostrarSoluciones
+        ? [
+            { path: routes.veritempo, priority: 0.8, changeFrequency: "monthly" as const },
+            { path: routes.veriscudo, priority: 0.8, changeFrequency: "monthly" as const },
+          ]
+        : []),
       { path: routes.about, priority: 0.7, changeFrequency: "yearly" },
       { path: routes.projects, priority: 0.7, changeFrequency: "monthly" },
       { path: routes.contact, priority: 0.8, changeFrequency: "yearly" },

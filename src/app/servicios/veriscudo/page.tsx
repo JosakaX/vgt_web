@@ -17,7 +17,8 @@ import { CTABanner } from "@/components/ui/cta-banner";
 import { Button } from "@/components/ui/button";
 import { VeriscudoAccordion } from "@/components/ui/veriscudo-accordion";
 import { FadeIn, SlideUp, Stagger, StaggerItem } from "@/components/motion/reveal";
-import { routes } from "@/lib/site";
+import { notFound } from "next/navigation";
+import { routes, mostrarSoluciones } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("veriscudo.meta");
@@ -35,6 +36,9 @@ export async function generateMetadata(): Promise<Metadata> {
 const INTRO_ICONS: LucideIcon[] = [Wallet, TrendingUp, Users, Clock];
 
 export default async function VeriscudoPage() {
+  // Página oculta hasta firmar el acuerdo con el proveedor.
+  if (!mostrarSoluciones) notFound();
+
   const t = await getTranslations("veriscudo");
 
   const introItems = t.raw("intro.items") as { title: string; description: string }[];

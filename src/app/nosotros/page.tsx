@@ -17,7 +17,7 @@ import { TeamCard } from "@/components/ui/team-card";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { Button } from "@/components/ui/button";
 import { FadeIn, SlideUp, Stagger, StaggerItem } from "@/components/motion/reveal";
-import { routes } from "@/lib/site";
+import { routes, mostrarSoluciones } from "@/lib/site";
 import type { LucideIcon } from "lucide-react";
 
 // Íconos para los tres pilares de valor (Marketing · Diseño · Tecnología)
@@ -90,41 +90,44 @@ export default async function NosotrosPage() {
         </Container>
       </section>
 
-      {/* ===== MODELO PARTNER ===== */}
-      <section className="border-y border-border bg-surface-2 py-20 sm:py-24">
-        <Container>
-          <SectionHeading
-            as="h2"
-            eyebrow={t("partner.eyebrow")}
-            title={t("partner.title")}
-            subtitle={t("partner.subtitle")}
-          />
-          <Stagger className="mt-12 grid gap-6 md:grid-cols-2">
-            {partnerItems.map((item) => (
-              <StaggerItem key={item.name}>
-                <div className="flex h-full flex-col gap-4 rounded-2xl border border-border bg-surface p-6 shadow-card transition-shadow hover:shadow-card-hover">
-                  <div className="flex items-start justify-between gap-4">
-                    <h3 className="font-display text-xl font-bold text-foreground">
-                      {item.name}
-                    </h3>
-                    <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
-                      <BadgeCheck className="h-3.5 w-3.5" aria-hidden="true" />
-                      {item.badge}
-                    </span>
+      {/* ===== MODELO PARTNER =====
+          Oculto hasta firmar los acuerdos con los proveedores (mostrarSoluciones). */}
+      {mostrarSoluciones && (
+        <section className="border-y border-border bg-surface-2 py-20 sm:py-24">
+          <Container>
+            <SectionHeading
+              as="h2"
+              eyebrow={t("partner.eyebrow")}
+              title={t("partner.title")}
+              subtitle={t("partner.subtitle")}
+            />
+            <Stagger className="mt-12 grid gap-6 md:grid-cols-2">
+              {partnerItems.map((item) => (
+                <StaggerItem key={item.name}>
+                  <div className="flex h-full flex-col gap-4 rounded-2xl border border-border bg-surface p-6 shadow-card transition-shadow hover:shadow-card-hover">
+                    <div className="flex items-start justify-between gap-4">
+                      <h3 className="font-display text-xl font-bold text-foreground">
+                        {item.name}
+                      </h3>
+                      <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
+                        <BadgeCheck className="h-3.5 w-3.5" aria-hidden="true" />
+                        {item.badge}
+                      </span>
+                    </div>
+                    <p className="flex-1 text-sm leading-relaxed text-muted">
+                      {item.description}
+                    </p>
+                    <Button href={item.href} variant="ghost" size="sm" className="self-start">
+                      {t("partner.viewSolution")}
+                      <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                    </Button>
                   </div>
-                  <p className="flex-1 text-sm leading-relaxed text-muted">
-                    {item.description}
-                  </p>
-                  <Button href={item.href} variant="ghost" size="sm" className="self-start">
-                    {t("partner.viewSolution")}
-                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                  </Button>
-                </div>
-              </StaggerItem>
-            ))}
-          </Stagger>
-        </Container>
-      </section>
+                </StaggerItem>
+              ))}
+            </Stagger>
+          </Container>
+        </section>
+      )}
 
       {/* ===== PROPUESTA DE VALOR ===== */}
       <section className="py-20 sm:py-24">

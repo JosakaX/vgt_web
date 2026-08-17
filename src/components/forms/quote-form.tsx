@@ -8,7 +8,7 @@ import { Loader2, CheckCircle2, AlertCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { PhoneField } from "@/components/forms/phone-field";
-import { SERVICIOS, formQuoteSchema, type FormQuoteValues } from "@/lib/schemas";
+import { SERVICIOS_VISIBLES, formQuoteSchema, type FormQuoteValues } from "@/lib/schemas";
 
 // ---------------------------------------------------------------------------
 // Estilos base
@@ -230,7 +230,7 @@ export function QuoteForm() {
             <option value="" disabled>
               {t("form.fields.servicio.placeholder")}
             </option>
-            {SERVICIOS.map((s) => (
+            {SERVICIOS_VISIBLES.map((s) => (
               <option key={s} value={s}>
                 {t(`form.fields.servicio.${s}`)}
               </option>
