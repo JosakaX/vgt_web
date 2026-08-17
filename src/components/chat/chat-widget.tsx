@@ -8,11 +8,11 @@
  * al primer mensaje. El saludo lo escribe el widget (no gasta API).
  */
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
-import { Send, X } from "lucide-react";
+import { Bot, Send, X } from "lucide-react";
 
+import { cn } from "@/lib/utils";
 import { routes } from "@/lib/site";
 
 type ChatMessage = { role: "user" | "assistant"; content: string };
@@ -62,9 +62,27 @@ function renderAssistantText(content: string): React.ReactNode[] {
   });
 }
 
-const AVATAR_80 = "/agente/josaka-80-disco.png";
-const AVATAR_56 = "/agente/josaka-56-disco.png";
-const AVATAR_32 = "/agente/josaka-32-disco.png";
+/**
+ * Avatar PROVISIONAL del agente (SVG inline: icono Bot sobre navy) hasta que
+ * JosakaX elija la imagen definitiva. Los PNG de Josaka siguen disponibles en
+ * /public/agente/ (familia -disco) para restaurarlos en un minuto.
+ */
+function JosakaAvatar({ size, className }: { size: 24 | 32 | 40 | 56; className?: string }) {
+  const box = { 24: "h-6 w-6", 32: "h-8 w-8", 40: "h-10 w-10", 56: "h-14 w-14" }[size];
+  const icon = { 24: "h-3.5 w-3.5", 32: "h-4 w-4", 40: "h-5 w-5", 56: "h-7 w-7" }[size];
+  return (
+    <span
+      aria-hidden="true"
+      className={cn(
+        "grid shrink-0 place-items-center rounded-full bg-navy-grad text-white ring-1 ring-white/25",
+        box,
+        className,
+      )}
+    >
+      <Bot className={icon} aria-hidden="true" />
+    </span>
+  );
+}
 
 export function ChatWidget() {
   const t = useTranslations("common.chat");
@@ -156,7 +174,7 @@ export function ChatWidget() {
       {/* Globo de saludo (aparece solo, como Aimi) */}
       {balloon && !open && (
         <div className="fixed bottom-24 right-4 z-50 flex w-[calc(100vw-5rem)] max-w-xs items-start gap-2.5 rounded-2xl rounded-br-md border border-border bg-surface p-3 shadow-card-hover animate-fade-in">
-          <Image src={AVATAR_32} alt="" width={32} height={32} className="mt-0.5 shrink-0 rounded-full" />
+          <JosakaAvatar size={32} className="mt-0.5" />
           <button type="button" onClick={openChat} className="text-left text-sm text-foreground">
             {t("greeting").split("\n").map((line, i) => (
               <span key={i} className={i === 0 ? "font-semibold" : undefined}>
@@ -185,7 +203,7 @@ export function ChatWidget() {
           <div className="flex items-center justify-between gap-3 border-b border-border bg-navy-grad px-4 py-3">
             <div className="flex items-center gap-3">
               <span className="relative shrink-0">
-                <Image src={AVATAR_80} alt="" width={40} height={40} className="rounded-full" />
+                <JosakaAvatar size={40} />
                 <span
                   className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-full border-2 border-white bg-success"
                   title={t("online")}
@@ -229,7 +247,7 @@ export function ChatWidget() {
             )}
             {loading && (
               <div className="flex items-end gap-2">
-                <Image src={AVATAR_32} alt="" width={24} height={24} className="rounded-full" />
+                <JosakaAvatar size={24} />
                 <p className="text-xs text-muted">{t("typing")}</p>
               </div>
             )}
@@ -298,7 +316,7 @@ export function ChatWidget() {
           </span>
         ) : (
           <span className="relative">
-            <Image src={AVATAR_56} alt="" width={56} height={56} className="rounded-full" priority />
+            <JosakaAvatar size={56} />
             <span
               className="absolute bottom-0.5 right-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-success"
               title={t("online")}
@@ -343,7 +361,7 @@ function Bubble({ role, children }: { role: "user" | "assistant"; children: Reac
   }
   return (
     <div className="flex items-end gap-2">
-      <Image src={AVATAR_32} alt="" width={24} height={24} className="shrink-0 rounded-full" />
+      <JosakaAvatar size={24} />
       <p className="max-w-[80%] whitespace-pre-wrap rounded-2xl rounded-bl-md bg-surface-2 px-3.5 py-2 text-sm text-foreground">
         {children}
       </p>
