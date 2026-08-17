@@ -43,13 +43,24 @@ export function ContactForm() {
   });
 
   // Si el visitante llega desde el chat de Josaka, precarga la conversación
-  // en el mensaje para que no repita lo que ya escribió.
+  // y el servicio conversado. El traspaso es de UN SOLO USO: se borra tras
+  // aplicarse, para que un reload abra el formulario en blanco.
   useEffect(() => {
     try {
       const chat = sessionStorage.getItem("vgt-chat-transcript");
       if (chat && !getValues("mensaje")) {
         setValue("mensaje", chat.slice(0, 5000));
       }
+      const servicio = sessionStorage.getItem("vgt-chat-servicio");
+      if (
+        servicio &&
+        !getValues("servicio") &&
+        (SERVICIOS_VISIBLES as readonly string[]).includes(servicio)
+      ) {
+        setValue("servicio", servicio as FormContactValues["servicio"]);
+      }
+      sessionStorage.removeItem("vgt-chat-transcript");
+      sessionStorage.removeItem("vgt-chat-servicio");
     } catch {
       // Sin sessionStorage no hay precarga; el formulario abre vacío.
     }

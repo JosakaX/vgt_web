@@ -103,8 +103,16 @@ export function ChatWidget() {
       const transcript = messages
         .map((m) => `${m.role === "user" ? "Cliente" : "Josaka"}: ${m.content}`)
         .join("\n");
+      // El primer servicio mencionado en la conversación preselecciona el
+      // "Servicio de interés" del formulario (las claves coinciden con el enum).
+      let servicio: (typeof SERVICE_CHIP_KEYS)[number] | undefined;
+      for (const m of messages) {
+        servicio = SERVICE_CHIP_KEYS.find((key) => m.content.includes(tMenu(key)));
+        if (servicio) break;
+      }
       try {
         sessionStorage.setItem("vgt-chat-transcript", transcript.slice(0, 4000));
+        if (servicio) sessionStorage.setItem("vgt-chat-servicio", servicio);
       } catch {
         // Almacenamiento bloqueado: el formulario simplemente abre vacío.
       }
