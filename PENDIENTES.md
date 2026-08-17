@@ -32,9 +32,10 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
       proyectos aún no están hechas/publicadas.
 - [ ] **Links reales de redes sociales** (hoy `siteConfig.social` tiene "#" y los iconos del
       footer apuntan a nada). ⏰ JosakaX los sube el 2026-08-18.
-- [ ] **Idea del CEO (2026-08-17):** hacer "algo" dentro del card VGT del hero de portada
-      (el navy con VGT + línea + punto). Es JSX normal — se puede meter animación, 3D,
-      partículas, texto rotativo, etc. Definir qué con JosakaX en otra sesión.
+- [x] ~~Dar vida al card VGT del hero~~ → **HECHO (2026-08-17, nivel 2 "Interactivo"):**
+      tilt 3D con el mouse, flotación suave, latido en la línea-punto y los 6 servicios
+      rotando bajo el nombre (i18n, respeta prefers-reduced-motion). `VgtHeroCard` en
+      `components/motion/`. Reserva futura: nivel 3 (partículas/3D) para una landing o post-deploy.
 - [ ] **Misión y Visión** → validar los borradores con dirección.
 - [ ] **Revisión legal** de privacidad, términos y cookies (+ fecha de última actualización).
 
