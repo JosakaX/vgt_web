@@ -5,6 +5,7 @@ import { Globe, Mail, MapPin, Phone, Linkedin, Instagram, Facebook, Youtube } fr
 import { Logo } from "./logo";
 import { Container } from "@/components/ui/container";
 import { NewsletterForm } from "@/components/forms/newsletter-form";
+import { SocialIcon } from "@/components/ui/social-icon";
 import { siteConfig, routes, mostrarSoluciones, mostrarPortafolio } from "@/lib/site";
 
 export async function Footer() {
@@ -134,17 +135,11 @@ export async function Footer() {
           <div className="flex flex-wrap items-center justify-between gap-4">
             <p className="text-sm font-medium text-foreground">{t("brand.partnerNote")}</p>
             <div className="flex items-center gap-2">
+              {/* Efecto "rodillo" de la casa (skill iconos-sociales-animados) */}
               {socials.map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  aria-label={s.label}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="grid h-9 w-9 place-items-center rounded-full border border-border bg-surface text-muted transition-colors hover:border-accent hover:text-accent"
-                >
+                <SocialIcon key={s.label} href={s.href} label={s.label}>
                   <s.icon className="h-4 w-4" aria-hidden="true" />
-                </a>
+                </SocialIcon>
               ))}
             </div>
           </div>
