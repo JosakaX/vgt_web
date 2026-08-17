@@ -26,14 +26,18 @@ const CHAT_ROUTES = [
   { token: "/contacto", href: routes.contact, labelKey: "ctaContact" },
 ] as const;
 
-/** Chips de arranque: los 6 servicios, cada uno lleva a su página (pedido del CEO 2026-08-17). */
-const SERVICE_CHIPS = [
-  { href: routes.marketing, labelKey: "marketing" },
-  { href: routes.branding, labelKey: "branding" },
-  { href: routes.desarrollo, labelKey: "desarrollo" },
-  { href: routes.agentes, labelKey: "agentes" },
-  { href: routes.consultoria, labelKey: "consultoria" },
-  { href: routes.datos, labelKey: "datos" },
+/**
+ * Chips de arranque: los 6 servicios. El click INICIA la conversación sobre
+ * ese servicio con Josaka (no navega) — Josaka responde breve y ofrece los
+ * botones de /cotizacion y /contacto (pedido del CEO 2026-08-17).
+ */
+const SERVICE_CHIP_KEYS = [
+  "marketing",
+  "branding",
+  "desarrollo",
+  "agentes",
+  "consultoria",
+  "datos",
 ] as const;
 
 /**
@@ -227,18 +231,18 @@ export function ChatWidget() {
                 </Link>
               </div>
             )}
-            {/* Chips de arranque: los 6 servicios; el click lleva a la página del servicio */}
+            {/* Chips de arranque: los 6 servicios; el click abre la conversación sobre ese servicio */}
             {messages.length === 0 && !loading && (
               <div className="flex flex-wrap gap-2 pt-1">
-                {SERVICE_CHIPS.map((chip) => (
-                  <Link
-                    key={chip.href}
-                    href={chip.href}
-                    onClick={() => setOpen(false)}
+                {SERVICE_CHIP_KEYS.map((key) => (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => void send(tMenu(key))}
                     className="rounded-full border border-border bg-background px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
                   >
-                    {tMenu(chip.labelKey)}
-                  </Link>
+                    {tMenu(key)}
+                  </button>
                 ))}
               </div>
             )}
