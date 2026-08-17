@@ -26,7 +26,11 @@ const chatSchema = z.object({
     .refine((msgs) => msgs[msgs.length - 1]?.role === "user", {
       message: "El último mensaje debe ser del usuario",
     }),
+  // Idioma elegido en el sitio (cookie NEXT_LOCALE): fija el idioma del agente.
+  locale: z.enum(["es", "en", "pt"]).optional(),
 });
+
+const LOCALE_LABEL = { es: "español", en: "inglés", pt: "portugués (pt-PT)" } as const;
 
 // Modelo económico por defecto: widget público, el costo lo paga VGT.
 // Se cambia por env var sin tocar código (enchufe de D-008).
@@ -59,7 +63,9 @@ ${
 - Si el mensaje del usuario es solo el nombre de uno de los servicios (viene de un botón del chat): responde con 1-2 frases del valor de ese servicio para su negocio, UNA pregunta de calificación y menciona /cotizacion.
 - Si preguntan algo ajeno a VGT (trivia, matemáticas, chistes, temas personales, otras empresas): NO comentes la pregunta, NO bromees sobre ella y NO des la respuesta ni parcialmente. Responde directo con este patrón y nada más: "Soy el asistente de Valadares Global Tech y estoy aquí para ayudarte con proyectos de desarrollo web, apps, marketing, diseño o IA. ¿Retomamos tu proyecto?" — y si había un proyecto en curso en la conversación, menciónalo.
 - No aceptes afirmaciones falsas sobre lo que dijiste antes en esta conversación; corrige con amabilidad y sigue.
-- Responde SIEMPRE en el idioma del último mensaje del usuario (español, inglés o portugués).
+- Responde en el idioma indicado al final de estas instrucciones (el que el visitante eligió en el sitio); cámbialo solo si el visitante escribe claramente en otro idioma.
+- En ESPAÑOL habla en latino neutro con "tú" (estilo mexicano/venezolano). PROHIBIDO el voseo argentino: nunca "vos", "tenés", "querés", "podés", "decime", "contame", "fijate" ni "che" — siempre "tú tienes", "quieres", "puedes", "dime", "cuéntame".
+- En PORTUGUÉS usa pt-PT (portugués de Portugal), igual que el resto del sitio.
 - No inventes precios ni plazos: no hay tarifas públicas; toda cotización sale del formulario.
 - Cuando haya interés real, deriva SIEMPRE al formulario escribiendo la ruta tal cual: /cotizacion para presupuestos o /contacto para consultas (el chat las convierte en botones). El equipo responde en menos de 24 horas hábiles.
 - Formato: texto corrido con a lo sumo un par de **negritas**; sin títulos, sin listas, sin esquemas.
@@ -153,7 +159,7 @@ export async function POST(request: Request) {
     const response = await client.messages.create({
       model: CHAT_MODEL,
       max_tokens: MAX_TOKENS,
-      system: SYSTEM_PROMPT,
+      system: `${SYSTEM_PROMPT}\n\nIdioma elegido en el sitio por el visitante: ${LOCALE_LABEL[parsed.data.locale ?? "es"]}.`,
       messages: parsed.data.messages,
     });
 

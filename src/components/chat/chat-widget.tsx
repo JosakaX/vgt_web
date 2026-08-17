@@ -10,7 +10,7 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Send, X } from "lucide-react";
 
 import { routes } from "@/lib/site";
@@ -69,6 +69,7 @@ const AVATAR_32 = "/agente/josaka-32-disco.png";
 export function ChatWidget() {
   const t = useTranslations("common.chat");
   const tMenu = useTranslations("common.nav.servicesMenu");
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
   const [balloon, setBalloon] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -126,7 +127,8 @@ export function ChatWidget() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         // Historial acotado: el backend valida máx. 20 mensajes de ≤1000 chars.
-        body: JSON.stringify({ messages: history.slice(-12) }),
+        // El locale del sitio fija el idioma en que responde el agente.
+        body: JSON.stringify({ messages: history.slice(-12), locale }),
       });
       const data: { ok: boolean; reply?: string } = await res.json();
       if (data.ok && data.reply) {
