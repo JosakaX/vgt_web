@@ -5,7 +5,8 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { ProjectCard } from "@/components/ui/project-card";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { FadeIn, Stagger, StaggerItem } from "@/components/motion/reveal";
-import { routes, mostrarSoluciones } from "@/lib/site";
+import { notFound } from "next/navigation";
+import { routes, mostrarSoluciones, mostrarPortafolio } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("projects.meta");
@@ -18,6 +19,9 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function ProjectsPage() {
+  // Página oculta hasta publicar los sitios del portafolio.
+  if (!mostrarPortafolio) notFound();
+
   const t = await getTranslations("projects");
   const ts = await getTranslations("services");
 

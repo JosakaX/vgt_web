@@ -23,7 +23,7 @@ import { ThemeToggle } from "./theme-toggle";
 import { LangSwitcher } from "./lang-switcher";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
-import { routes, mostrarSoluciones } from "@/lib/site";
+import { routes, mostrarSoluciones, mostrarPortafolio } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
@@ -59,7 +59,8 @@ export function Navbar() {
     { href: routes.about, label: t("about") },
     { href: routes.projects, label: t("projects") },
     { href: routes.contact, label: t("contact") },
-  ];
+    // El portafolio sale del menú hasta publicar sus sitios.
+  ].filter((l) => mostrarPortafolio || l.href !== routes.projects);
 
   const serviceLinks = [
     {
@@ -199,9 +200,11 @@ export function Navbar() {
               ) : null}
             </div>
 
-            <NavItem href={routes.projects} active={isActive(routes.projects)}>
-              {t("projects")}
-            </NavItem>
+            {mostrarPortafolio && (
+              <NavItem href={routes.projects} active={isActive(routes.projects)}>
+                {t("projects")}
+              </NavItem>
+            )}
             <NavItem href={routes.contact} active={isActive(routes.contact)}>
               {t("contact")}
             </NavItem>

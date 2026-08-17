@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { siteConfig, routes, mostrarSoluciones } from "@/lib/site";
+import { siteConfig, routes, mostrarSoluciones, mostrarPortafolio } from "@/lib/site";
 
 // Permite generarlo como archivo estático (necesario con output: export).
 export const dynamic = "force-static";
@@ -27,7 +27,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
           ]
         : []),
       { path: routes.about, priority: 0.7, changeFrequency: "yearly" },
-      { path: routes.projects, priority: 0.7, changeFrequency: "monthly" },
+      // El portafolio se indexa solo cuando esté publicado.
+      ...(mostrarPortafolio
+        ? [{ path: routes.projects, priority: 0.7, changeFrequency: "monthly" as const }]
+        : []),
       { path: routes.contact, priority: 0.8, changeFrequency: "yearly" },
       { path: routes.quote, priority: 0.8, changeFrequency: "yearly" },
       { path: routes.legal.privacy, priority: 0.3, changeFrequency: "yearly" },

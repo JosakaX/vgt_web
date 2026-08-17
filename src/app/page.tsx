@@ -28,7 +28,7 @@ import { StatsBar } from "@/components/ui/stats-bar";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { FadeIn, SlideUp, Stagger, StaggerItem } from "@/components/motion/reveal";
 import { VgtHeroCard } from "@/components/motion/vgt-hero-card";
-import { routes, mostrarSoluciones } from "@/lib/site";
+import { routes, mostrarSoluciones, mostrarPortafolio } from "@/lib/site";
 
 const SERVICE_ICONS: Record<string, LucideIcon> = {
   marketing: Target,
@@ -149,36 +149,39 @@ export default async function HomePage() {
       {/* ===== STATS ===== */}
       <StatsBar stats={stats} />
 
-      {/* ===== PROYECTOS (preview) ===== */}
-      <section className="py-20 sm:py-24">
-        <Container>
-          <SectionHeading
-            eyebrow={t("projectsPreview.eyebrow")}
-            title={t("projectsPreview.title")}
-            subtitle={t("projectsPreview.subtitle")}
-          />
-          <Stagger className="mt-12 grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {projects.map((project) => (
-              <StaggerItem key={project.title} className="h-full">
-                <ProjectCard
-                  title={project.title}
-                  category={project.category}
-                  url={project.url}
-                  domain={project.domain}
-                  visitLabel={tp("visit")}
-                  image={project.image}
-                />
-              </StaggerItem>
-            ))}
-          </Stagger>
-          <FadeIn className="mt-10 flex justify-center">
-            <Button href={routes.projects} variant="ghost">
-              {tp("viewAll")}
-              <ArrowRight className="h-4 w-4" aria-hidden="true" />
-            </Button>
-          </FadeIn>
-        </Container>
-      </section>
+      {/* ===== PROYECTOS (preview) =====
+          Oculto hasta publicar los sitios del portafolio (mostrarPortafolio). */}
+      {mostrarPortafolio && (
+        <section className="py-20 sm:py-24">
+          <Container>
+            <SectionHeading
+              eyebrow={t("projectsPreview.eyebrow")}
+              title={t("projectsPreview.title")}
+              subtitle={t("projectsPreview.subtitle")}
+            />
+            <Stagger className="mt-12 grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {projects.map((project) => (
+                <StaggerItem key={project.title} className="h-full">
+                  <ProjectCard
+                    title={project.title}
+                    category={project.category}
+                    url={project.url}
+                    domain={project.domain}
+                    visitLabel={tp("visit")}
+                    image={project.image}
+                  />
+                </StaggerItem>
+              ))}
+            </Stagger>
+            <FadeIn className="mt-10 flex justify-center">
+              <Button href={routes.projects} variant="ghost">
+                {tp("viewAll")}
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Button>
+            </FadeIn>
+          </Container>
+        </section>
+      )}
 
       {/* ===== SOLUCIONES ESPECIALIZADAS (Veritempo / Veriscudo) =====
           Ocultas hasta firmar los acuerdos con los proveedores (mostrarSoluciones). */}

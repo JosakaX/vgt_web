@@ -5,7 +5,7 @@ import { Globe, Mail, MapPin, Phone, Linkedin, Instagram, Facebook, Youtube } fr
 import { Logo } from "./logo";
 import { Container } from "@/components/ui/container";
 import { NewsletterForm } from "@/components/forms/newsletter-form";
-import { siteConfig, routes, mostrarSoluciones } from "@/lib/site";
+import { siteConfig, routes, mostrarSoluciones, mostrarPortafolio } from "@/lib/site";
 
 export async function Footer() {
   const t = await getTranslations("common");
@@ -29,7 +29,10 @@ export async function Footer() {
       title: t("footer.cols.company"),
       links: [
         { label: t("footer.links.about"), href: routes.about },
-        { label: t("footer.links.projects"), href: routes.projects },
+        // El portafolio sale del footer hasta publicar sus sitios.
+        ...(mostrarPortafolio
+          ? [{ label: t("footer.links.projects"), href: routes.projects }]
+          : []),
         { label: t("footer.links.contactPage"), href: routes.contact },
         { label: t("footer.links.quote"), href: routes.quote },
       ],

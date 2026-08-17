@@ -41,6 +41,14 @@ export const siteConfig = {
  */
 export const mostrarSoluciones: boolean = false;
 
+/**
+ * Interruptor del portafolio (2026-08-17): oculto hasta que los proyectos
+ * estén publicados y en línea (GEDEVAL, Solo Una Vida, OHGDA — hoy solo
+ * Red Gobierno con Valores está vivo). Al ponerlo en true reaparecen la
+ * sección de portada, la página /proyectos, el menú, el footer y el sitemap.
+ */
+export const mostrarPortafolio: boolean = false;
+
 /** Rutas de navegación principal. */
 export const routes = {
   home: "/",
