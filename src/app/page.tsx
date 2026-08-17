@@ -27,6 +27,7 @@ import { IndustryChip } from "@/components/ui/industry-chip";
 import { StatsBar } from "@/components/ui/stats-bar";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { FadeIn, SlideUp, Stagger, StaggerItem } from "@/components/motion/reveal";
+import { VgtHeroCard } from "@/components/motion/vgt-hero-card";
 import { routes, mostrarSoluciones } from "@/lib/site";
 
 const SERVICE_ICONS: Record<string, LucideIcon> = {
@@ -107,24 +108,9 @@ export default async function HomePage() {
             </SlideUp>
           </div>
 
-          {/* Visual de marca VGT */}
+          {/* Visual de marca VGT — vivo: tilt 3D + servicios rotando (CEO 2026-08-17) */}
           <FadeIn delay={0.2} className="relative">
-            <div className="relative mx-auto aspect-square w-full max-w-md">
-              <div className="absolute inset-0 rounded-[2rem] bg-hero-grad shadow-card-hover" />
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-                <span className="font-display text-7xl font-extrabold tracking-tight text-white sm:text-8xl">
-                  VGT
-                </span>
-                <div className="flex items-center gap-3" aria-hidden="true">
-                  <span className="h-px w-12 bg-white/40" />
-                  <span className="h-2 w-2 rounded-full bg-white/70" />
-                  <span className="h-px w-12 bg-white/40" />
-                </div>
-                <span className="text-sm font-medium uppercase tracking-[0.25em] text-white/90">
-                  Valadares Global Tech
-                </span>
-              </div>
-            </div>
+            <VgtHeroCard />
           </FadeIn>
         </Container>
       </section>
