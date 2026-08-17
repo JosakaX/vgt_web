@@ -76,16 +76,27 @@ const ALLOWED_ORIGINS = new Set([
 ]);
 
 // Rate limit simple en memoria (por instancia). x-forwarded-for es falsificable
-// fuera de un proxy confiable, por eso hay ADEMÁS un tope global que acota el
-// gasto total aunque se roten IPs. Si hay abuso real → disparador b de D-008.
+// fuera de un proxy confiable, por eso hay ADEMÁS topes globales que acotan el
+// gasto total aunque se roten IPs. Cuatro capas (números del Build 1):
+//   por IP: 10/min y 30/hora · global: 60/min y 500/día (techo de gasto diario).
+// Si hay abuso real → disparador b de D-008 (mover límites a KV en el Worker).
 const WINDOW_MS = 60_000;
+const HOUR_MS = 3_600_000;
+const DAY_MS = 86_400_000;
 const MAX_PER_WINDOW = 10;
+const MAX_PER_HOUR = 30;
 const GLOBAL_MAX_PER_WINDOW = 60;
+const GLOBAL_MAX_PER_DAY = 500;
 const hits = new Map<string, number[]>();
 let globalHits: number[] = [];
+let dailyHits: number[] = [];
 
 function rateLimited(ip: string): boolean {
   const now = Date.now();
+
+  dailyHits = dailyHits.filter((t) => now - t < DAY_MS);
+  dailyHits.push(now);
+  if (dailyHits.length > GLOBAL_MAX_PER_DAY) return true;
 
   globalHits = globalHits.filter((t) => now - t < WINDOW_MS);
   globalHits.push(now);
@@ -94,14 +105,16 @@ function rateLimited(ip: string): boolean {
   // Poda: evita crecimiento sin límite del mapa con IPs rotadas.
   if (hits.size > 500) {
     for (const [key, times] of hits) {
-      if (times.every((t) => now - t >= WINDOW_MS)) hits.delete(key);
+      if (times.every((t) => now - t >= HOUR_MS)) hits.delete(key);
     }
   }
 
-  const recent = (hits.get(ip) ?? []).filter((t) => now - t < WINDOW_MS);
+  // Se conserva la última hora por IP: sirve para el tope por minuto y por hora.
+  const recent = (hits.get(ip) ?? []).filter((t) => now - t < HOUR_MS);
   recent.push(now);
   hits.set(ip, recent);
-  return recent.length > MAX_PER_WINDOW;
+  if (recent.length > MAX_PER_HOUR) return true;
+  return recent.filter((t) => now - t < WINDOW_MS).length > MAX_PER_WINDOW;
 }
 
 export async function POST(request: Request) {
