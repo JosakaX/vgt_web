@@ -11,6 +11,14 @@ export const siteConfig = {
   // En producción usar la variable de entorno; fallback al dominio oficial.
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.valadaresglobaltech.com",
   email: "info@valadaresglobaltech.com",
+  // Oficina oficial de la LLC (Alliance Virtual Offices, Ft. Lauderdale).
+  address: {
+    company: "Valadares Global Tech LLC",
+    street: "300 SE 2nd Street, Suite 600",
+    city: "Fort Lauderdale, FL 33301, US",
+    mapsUrl:
+      "https://www.google.com/maps/search/?api=1&query=300+SE+2nd+Street+Suite+600+Fort+Lauderdale+FL+33301",
+  },
   phones: {
     // Quo (OpenPhone), Ft. Lauderdale — el número oficial de la LLC (Atlas/Mercury/D&B/411).
     us: { display: "+1 (954) 758-8897", href: "tel:+19547588897" },

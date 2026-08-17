@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import { Globe, Mail, Phone, Linkedin, Instagram, Facebook, Youtube } from "lucide-react";
+import { Globe, Mail, MapPin, Phone, Linkedin, Instagram, Facebook, Youtube } from "lucide-react";
 
 import { Logo } from "./logo";
 import { Container } from "@/components/ui/container";
@@ -118,6 +118,18 @@ export async function Footer() {
           >
             <Phone className="h-4 w-4 shrink-0 text-accent" aria-hidden="true" />
             {t("contactInfo.phones.pt")} · {t("contactInfo.phones.ptNote")}
+          </a>
+          <a
+            href={siteConfig.address.mapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-start gap-2 transition-colors hover:text-accent sm:col-span-2"
+          >
+            <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" aria-hidden="true" />
+            <span>
+              {siteConfig.address.street}, {siteConfig.address.city} ·{" "}
+              {t("contactInfo.hours")}
+            </span>
           </a>
         </div>
 

@@ -26,6 +26,16 @@ const CHAT_ROUTES = [
   { token: "/contacto", href: routes.contact, labelKey: "ctaContact" },
 ] as const;
 
+/** Chips de arranque: los 6 servicios, cada uno lleva a su página (pedido del CEO 2026-08-17). */
+const SERVICE_CHIPS = [
+  { href: routes.marketing, labelKey: "marketing" },
+  { href: routes.branding, labelKey: "branding" },
+  { href: routes.desarrollo, labelKey: "desarrollo" },
+  { href: routes.agentes, labelKey: "agentes" },
+  { href: routes.consultoria, labelKey: "consultoria" },
+  { href: routes.datos, labelKey: "datos" },
+] as const;
+
 /**
  * Convierte la respuesta del asistente en nodos React: **negritas** reales y
  * las rutas conocidas como enlaces. Sin HTML crudo — React escapa el resto.
@@ -54,6 +64,7 @@ const AVATAR_32 = "/agente/josaka-32-disco.png";
 
 export function ChatWidget() {
   const t = useTranslations("common.chat");
+  const tMenu = useTranslations("common.nav.servicesMenu");
   const [open, setOpen] = useState(false);
   const [balloon, setBalloon] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -75,6 +86,25 @@ export function ChatWidget() {
   function openChat() {
     setBalloon(false);
     setOpen(true);
+  }
+
+  /**
+   * Al saltar a /cotizacion o /contacto: guarda la conversación para que el
+   * formulario la precargue (el cliente no repite lo que ya escribió) y
+   * cierra el panel para que la página nueva se vea.
+   */
+  function goToForm() {
+    if (messages.length > 0) {
+      const transcript = messages
+        .map((m) => `${m.role === "user" ? "Cliente" : "Josaka"}: ${m.content}`)
+        .join("\n");
+      try {
+        sessionStorage.setItem("vgt-chat-transcript", transcript.slice(0, 4000));
+      } catch {
+        // Almacenamiento bloqueado: el formulario simplemente abre vacío.
+      }
+    }
+    setOpen(false);
   }
 
   async function send(text?: string) {
@@ -179,7 +209,7 @@ export function ChatWidget() {
               ) : (
                 <div key={i} className="space-y-2">
                   <Bubble role="assistant">{renderAssistantText(m.content)}</Bubble>
-                  <ChatActions content={m.content} />
+                  <ChatActions content={m.content} onAction={goToForm} />
                 </div>
               ),
             )}
@@ -197,18 +227,18 @@ export function ChatWidget() {
                 </Link>
               </div>
             )}
-            {/* Chips de arranque: solo antes del primer mensaje (§13.2 — tres y no más) */}
+            {/* Chips de arranque: los 6 servicios; el click lleva a la página del servicio */}
             {messages.length === 0 && !loading && (
               <div className="flex flex-wrap gap-2 pt-1">
-                {(["s1", "s2", "s3"] as const).map((key) => (
-                  <button
-                    key={key}
-                    type="button"
-                    onClick={() => void send(t(key))}
+                {SERVICE_CHIPS.map((chip) => (
+                  <Link
+                    key={chip.href}
+                    href={chip.href}
+                    onClick={() => setOpen(false)}
                     className="rounded-full border border-border bg-background px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
                   >
-                    {t(key)}
-                  </button>
+                    {tMenu(chip.labelKey)}
+                  </Link>
                 ))}
               </div>
             )}
@@ -267,7 +297,7 @@ export function ChatWidget() {
 }
 
 /** Botones de acción bajo el mensaje cuando Josaka menciona /cotizacion o /contacto. */
-function ChatActions({ content }: { content: string }) {
+function ChatActions({ content, onAction }: { content: string; onAction: () => void }) {
   const t = useTranslations("common.chat");
   const mentioned = CHAT_ROUTES.filter((r) => content.includes(r.token));
   if (mentioned.length === 0) return null;
@@ -277,6 +307,7 @@ function ChatActions({ content }: { content: string }) {
         <Link
           key={r.token}
           href={r.href}
+          onClick={onAction}
           className="rounded-full bg-accent-solid px-3.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-accent-solid-hover"
         >
           {t(r.labelKey)}

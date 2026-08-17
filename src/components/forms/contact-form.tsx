@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
@@ -35,10 +35,25 @@ export function ContactForm() {
     handleSubmit,
     reset,
     control,
+    setValue,
+    getValues,
     formState: { errors },
   } = useForm<FormContactValues>({
     resolver: zodResolver(formContactSchema),
   });
+
+  // Si el visitante llega desde el chat de Josaka, precarga la conversación
+  // en el mensaje para que no repita lo que ya escribió.
+  useEffect(() => {
+    try {
+      const chat = sessionStorage.getItem("vgt-chat-transcript");
+      if (chat && !getValues("mensaje")) {
+        setValue("mensaje", chat.slice(0, 5000));
+      }
+    } catch {
+      // Sin sessionStorage no hay precarga; el formulario abre vacío.
+    }
+  }, [getValues, setValue]);
 
   async function onSubmit(values: FormContactValues) {
     setStatus("loading");

@@ -75,9 +75,12 @@
     "heading": "Información de contacto",
     "emailLabel": "Correo electrónico",
     "phoneLabel": "Teléfonos",
+    "addressLabel": "Oficina",
+    "hours": "Lunes a viernes, 9:00 a. m. – 5:00 p. m. (ET)",
+    "maps": "Ver en Google Maps",
     "demo": {
       "heading": "¿Prefieres una demo en vivo?",
-      "body": "Agenda una llamada con nuestro equipo y descubre cómo Veritempo o Veriscudo se adapta a tu operación.",
+      "body": "Agenda una llamada con nuestro equipo y descubre cómo nuestras soluciones se adaptan a tu operación.",
       "button": "Agendar demo"
     }
   }

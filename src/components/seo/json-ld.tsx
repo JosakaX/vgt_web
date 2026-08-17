@@ -14,8 +14,16 @@ export function OrganizationJsonLd() {
     email: siteConfig.email,
     slogan: "Marketing · Diseño · Tecnología",
     description:
-      "Valadares Global Tech integra y despliega soluciones líderes de gestión de personal y ciberseguridad para empresas de Latinoamérica.",
+      "Valadares Global Tech es una agencia digital de marketing, diseño y tecnología para empresas de Latinoamérica.",
     logo: `${siteConfig.url}/logo/logo-vgt.svg`,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: siteConfig.address.street,
+      addressLocality: "Fort Lauderdale",
+      addressRegion: "FL",
+      postalCode: "33301",
+      addressCountry: "US",
+    },
     areaServed: ["Latin America", "US"],
     contactPoint: [
       {

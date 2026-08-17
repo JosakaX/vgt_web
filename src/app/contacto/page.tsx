@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { Mail, Phone, CalendarDays } from "lucide-react";
+import { Mail, Phone, MapPin, CalendarDays } from "lucide-react";
 
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -90,7 +90,7 @@ export default async function ContactoPage() {
                   </div>
 
                   {/* Teléfonos */}
-                  <div className="flex items-start gap-3">
+                  <div className="mb-5 flex items-start gap-3">
                     <span
                       className="mt-0.5 grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-navy-grad text-white"
                       aria-hidden="true"
@@ -121,6 +121,37 @@ export default async function ContactoPage() {
                       </ul>
                     </div>
                   </div>
+
+                  {/* Oficina */}
+                  <div className="flex items-start gap-3">
+                    <span
+                      className="mt-0.5 grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-navy-grad text-white"
+                      aria-hidden="true"
+                    >
+                      <MapPin className="h-4 w-4" aria-hidden="true" />
+                    </span>
+                    <div>
+                      <p className="mb-0.5 text-xs font-semibold uppercase tracking-widest text-muted">
+                        {t("info.addressLabel")}
+                      </p>
+                      <p className="text-sm text-foreground">
+                        {siteConfig.address.company}
+                        <br />
+                        {siteConfig.address.street}
+                        <br />
+                        {siteConfig.address.city}
+                      </p>
+                      <p className="mt-1 text-sm text-muted">{t("info.hours")}</p>
+                      <a
+                        href={siteConfig.address.mapsUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1 inline-block text-sm text-accent hover:underline"
+                      >
+                        {t("info.maps")}
+                      </a>
+                    </div>
+                  </div>
                 </div>
 
                 {/* Bloque "Agendar demo" */}
@@ -147,9 +178,10 @@ export default async function ContactoPage() {
                     {t("info.demo.body")}
                   </p>
 
-                  {/* TODO: integrar Calendly */}
+                  {/* Interino: lleva a cotización para capturar el lead y agendar por correo.
+                      TODO: reemplazar con el link de Calendly cuando se integre. */}
                   <Button
-                    href={"#" /* TODO: reemplazar con link de Calendly */}
+                    href={routes.quote}
                     variant="accent"
                     size="md"
                     className="relative w-full justify-center"
