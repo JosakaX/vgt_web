@@ -27,9 +27,12 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 - [ ] **Logo SVG final** → reemplazar `public/logo/logo-vgt.svg` (hoy hay placeholder).
 - [ ] **Teléfono de EE. UU.** → confirmar el número.
 - [ ] **Fotos reales del equipo** (Carla y Jorge) → hoy avatares con iniciales.
-- [ ] **Capturas/mockups reales** de los proyectos del portafolio (hoy visual con gradiente).
-      ⏰ JosakaX lo atiende el 2026-08-18: faltan las miniaturas porque varias páginas de los
-      proyectos aún no están hechas/publicadas.
+- [ ] **PORTAFOLIO OCULTO (2026-08-17, decisión CEO):** de los 4 proyectos solo Red Gobierno
+      con Valores está en línea — links a sitios muertos dejan mal parada a la empresa.
+      Interruptor `mostrarPortafolio = false` en `site.ts` (oculta sección de portada,
+      /proyectos → 404, menú, footer y sitemap). **Para restaurar:** publicar GEDEVAL,
+      Solo Una Vida y OHGDA + capturas/miniaturas reales → poner en `true`.
+      ⏰ JosakaX atiende los sitios y miniaturas desde el 2026-08-18.
 - [ ] **Links reales de redes sociales** (hoy `siteConfig.social` tiene "#" y los iconos del
       footer apuntan a nada). ⏰ JosakaX los sube el 2026-08-18.
 - [x] ~~Dar vida al card VGT del hero~~ → **HECHO (2026-08-17, nivel 2 "Interactivo"):**
