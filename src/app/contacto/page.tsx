@@ -7,6 +7,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { Button } from "@/components/ui/button";
 import { FadeIn, SlideUp } from "@/components/motion/reveal";
 import { ContactForm } from "@/components/forms/contact-form";
+import { DemoRequestButton } from "@/components/forms/demo-request-button";
 import { siteConfig, routes } from "@/lib/site";
 
 // ---------------------------------------------------------------------------
@@ -180,16 +181,9 @@ export default async function ContactoPage() {
                     {t("info.demo.body")}
                   </p>
 
-                  {/* La demo la agenda VGT: el botón lleva al formulario y el
-                      lead llega por correo (decisión CEO 2026-08-17). */}
-                  <Button
-                    href="#formulario"
-                    variant="accent"
-                    size="md"
-                    className="relative w-full justify-center"
-                  >
-                    {t("info.demo.button")}
-                  </Button>
+                  {/* La demo la agenda VGT: el botón precarga el mensaje y baja
+                      al formulario; el aviso llega por correo (CEO 2026-08-17). */}
+                  <DemoRequestButton label={t("info.demo.button")} />
                 </div>
 
               </div>

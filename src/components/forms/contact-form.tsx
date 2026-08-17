@@ -66,6 +66,15 @@ export function ContactForm() {
     }
   }, [getValues, setValue]);
 
+  // Botón "Pedir una demo" (misma página): precarga el mensaje si está vacío.
+  useEffect(() => {
+    function onPedirDemo() {
+      if (!getValues("mensaje")) setValue("mensaje", t("form.demoPrefill"));
+    }
+    window.addEventListener("vgt:pedir-demo", onPedirDemo);
+    return () => window.removeEventListener("vgt:pedir-demo", onPedirDemo);
+  }, [getValues, setValue, t]);
+
   async function onSubmit(values: FormContactValues) {
     setStatus("loading");
     try {
