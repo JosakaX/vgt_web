@@ -36,9 +36,10 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 - [ ] **QA responsive** teléfono/tablet: revisión a nivel de código + visual cuando el entorno de
       screenshots lo permita.
 - [ ] Afinar el **contenido de las 6 landings de servicio** cuando JosakaX defina proveedores.
-- [ ] Integrar **Cal.com** en el bloque "Agendar demo" (decisión JosakaX 2026-08-17: Cal.com y
-      no Calendly — open source, plan gratis más generoso y ya se usa con Veritempo). Interino:
-      el botón apunta a `/cotizacion`.
+- [x] ~~Integrar Cal.com en "Agendar demo"~~ → **HECHO (2026-08-17):** el botón abre
+      `cal.com/vgt-4tbcpv/demo-vgt` (evento 30 min, cuenta management@, horario Lun–Vie
+      9–17 ET, avatar VGT). URL centralizada en `siteConfig.calDemoUrl`. Mejora futura
+      opcional: embed/popup de Cal en vez de pestaña nueva.
 - [x] ~~Integrar envío real de formularios~~ → **HECHO (2026-08-16):** leads a Supabase
       (`public.leads`) + contacto en Quo + aviso Resend a `info@` + acuse al lead en su idioma
       (commits d8d66cb/aa27ceb). Newsletter → Resend Audience "VGT Newsletter".

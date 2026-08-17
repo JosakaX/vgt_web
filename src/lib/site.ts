@@ -11,6 +11,8 @@ export const siteConfig = {
   // En producción usar la variable de entorno; fallback al dominio oficial.
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.valadaresglobaltech.com",
   email: "info@valadaresglobaltech.com",
+  // Agenda de demos (Cal.com, cuenta management@; evento "Demo VGT" 30 min).
+  calDemoUrl: "https://cal.com/vgt-4tbcpv/demo-vgt",
   // Oficina oficial de la LLC (Alliance Virtual Offices, Ft. Lauderdale).
   address: {
     company: "Valadares Global Tech LLC",

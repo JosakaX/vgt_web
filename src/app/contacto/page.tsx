@@ -178,10 +178,9 @@ export default async function ContactoPage() {
                     {t("info.demo.body")}
                   </p>
 
-                  {/* Interino: lleva a cotización para capturar el lead y agendar por correo.
-                      TODO: reemplazar con el link de Calendly cuando se integre. */}
                   <Button
-                    href={routes.quote}
+                    href={siteConfig.calDemoUrl}
+                    external
                     variant="accent"
                     size="md"
                     className="relative w-full justify-center"
