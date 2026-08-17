@@ -5,7 +5,7 @@
       "description": "How Valadares Global Tech LLC collects, uses, and protects your information."
     },
     "pageTitle": "Privacy Policy",
-    "lastUpdated": "Last updated: // TODO: date — pending legal review",
+    "lastUpdated": "Last updated: August 17, 2026",
     "intro": "Valadares Global Tech LLC (hereinafter, \"VGT\", \"we\", or \"the company\"), with its website at www.valadaresglobaltech.com, is the controller of the personal data collected through this site. This Privacy Policy describes what data we collect, for what purpose, how we retain it, and what your rights are as a data subject.",
     "sections": [
       {
@@ -89,7 +89,7 @@
       "description": "Terms and conditions of use for the website and services of Valadares Global Tech LLC."
     },
     "pageTitle": "Terms and Conditions",
-    "lastUpdated": "Last updated: // TODO: date — pending legal review",
+    "lastUpdated": "Last updated: August 17, 2026",
     "intro": "These Terms and Conditions (hereinafter, the \"Terms\") govern access to and use of the website www.valadaresglobaltech.com, operated by Valadares Global Tech LLC (\"VGT\", \"we\", or \"the company\"). By accessing or using this site, you agree to be bound by these Terms. If you do not agree with any of their provisions, please do not use the site.",
     "sections": [
       {
@@ -130,7 +130,7 @@
       {
         "heading": "5. Governing law and jurisdiction",
         "paragraphs": [
-          "These Terms are governed by the laws of the United States of America. // TODO: define the LLC's state of incorporation to determine the applicable state law.",
+          "These Terms are governed by the laws of the United States of America and, where applicable, by the laws of the State of Delaware.",
           "Any dispute arising from the use of the site or the interpretation of these Terms shall be submitted to the competent courts under such laws, without prejudice to any rights the user may have in their country of residence."
         ]
       },
@@ -150,7 +150,7 @@
       "description": "Information about the use of cookies on the Valadares Global Tech LLC website."
     },
     "pageTitle": "Cookie Policy",
-    "lastUpdated": "Last updated: // TODO: date — pending legal review",
+    "lastUpdated": "Last updated: August 17, 2026",
     "intro": "This website, operated by Valadares Global Tech LLC (\"VGT\"), uses cookies and similar technologies to ensure the platform works properly and to improve the user experience. This policy explains what cookies are, which types we use, and how you can manage them.",
     "sections": [
       {
@@ -172,14 +172,13 @@
           },
           {
             "name": "Analytics cookies",
-            "description": "// TODO: specify the analytics tool to be implemented (e.g. Google Analytics or Plausible Analytics). These cookies help us understand, on an aggregated and anonymous basis, how users interact with the site: pages visited, time on site, and traffic source. They will only be activated with your prior consent, via the cookie banner shown when you enter the site."
+            "description": "This site does not yet use analytics cookies. If they are introduced in the future (for example, Google Analytics or Plausible Analytics), they will help us understand, on an aggregated and anonymous basis, how users interact with the site — pages visited, time on site, and traffic source — and will only be activated with your prior consent."
           }
         ]
       },
       {
         "heading": "3. Third-party cookies",
         "paragraphs": [
-          "// TODO: update this section when third-party tools are integrated (analytics, live chat, social media widgets, etc.).",
           "The site does not currently make active use of third-party cookies. If services involving them are added in the future, this policy will be updated before their implementation and the corresponding consent will be requested."
         ]
       },

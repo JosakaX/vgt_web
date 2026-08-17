@@ -28,6 +28,13 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 - [ ] **Teléfono de EE. UU.** → confirmar el número.
 - [ ] **Fotos reales del equipo** (Carla y Jorge) → hoy avatares con iniciales.
 - [ ] **Capturas/mockups reales** de los proyectos del portafolio (hoy visual con gradiente).
+      ⏰ JosakaX lo atiende el 2026-08-18: faltan las miniaturas porque varias páginas de los
+      proyectos aún no están hechas/publicadas.
+- [ ] **Links reales de redes sociales** (hoy `siteConfig.social` tiene "#" y los iconos del
+      footer apuntan a nada). ⏰ JosakaX los sube el 2026-08-18.
+- [ ] **Idea del CEO (2026-08-17):** hacer "algo" dentro del card VGT del hero de portada
+      (el navy con VGT + línea + punto). Es JSX normal — se puede meter animación, 3D,
+      partículas, texto rotativo, etc. Definir qué con JosakaX en otra sesión.
 - [ ] **Misión y Visión** → validar los borradores con dirección.
 - [ ] **Revisión legal** de privacidad, términos y cookies (+ fecha de última actualización).
 

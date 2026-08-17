@@ -5,7 +5,7 @@
       "description": "Cómo Valadares Global Tech LLC recopila, usa y protege tu información."
     },
     "pageTitle": "Política de Privacidad",
-    "lastUpdated": "Última actualización: // TODO: fecha — pendiente de revisión legal",
+    "lastUpdated": "Última actualización: 17 de agosto de 2026",
     "intro": "Valadares Global Tech LLC (en adelante, \"VGT\", \"nosotros\" o \"la empresa\"), con sitio web en www.valadaresglobaltech.com, es responsable del tratamiento de los datos personales que se recaban a través de este sitio. Esta Política de Privacidad describe qué datos recopilamos, con qué finalidad, cómo los conservamos y cuáles son tus derechos como titular.",
     "sections": [
       {
@@ -89,7 +89,7 @@
       "description": "Términos y condiciones de uso del sitio y los servicios de Valadares Global Tech LLC."
     },
     "pageTitle": "Términos y Condiciones",
-    "lastUpdated": "Última actualización: // TODO: fecha — pendiente de revisión legal",
+    "lastUpdated": "Última actualización: 17 de agosto de 2026",
     "intro": "Estos Términos y Condiciones (en adelante, \"Términos\") regulan el acceso y uso del sitio web www.valadaresglobaltech.com, operado por Valadares Global Tech LLC (\"VGT\", \"nosotros\" o \"la empresa\"). Al acceder o utilizar este sitio, aceptas quedar vinculado por estos Términos. Si no estás de acuerdo con alguna de sus disposiciones, te pedimos que no utilices el sitio.",
     "sections": [
       {
@@ -130,7 +130,7 @@
       {
         "heading": "5. Ley aplicable y jurisdicción",
         "paragraphs": [
-          "Estos Términos se rigen por las leyes de los Estados Unidos de América. // TODO: definir estado de constitución de la LLC para determinar la ley estatal aplicable.",
+          "Estos Términos se rigen por las leyes de los Estados Unidos de América y, en lo que resulte aplicable, por las del estado de Delaware.",
           "Cualquier controversia derivada del uso del sitio o de la interpretación de estos Términos será sometida a los tribunales competentes conforme a dicha legislación, sin perjuicio de los derechos que correspondan al usuario en su país de residencia."
         ]
       },
@@ -150,7 +150,7 @@
       "description": "Información sobre el uso de cookies en el sitio de Valadares Global Tech LLC."
     },
     "pageTitle": "Política de Cookies",
-    "lastUpdated": "Última actualización: // TODO: fecha — pendiente de revisión legal",
+    "lastUpdated": "Última actualización: 17 de agosto de 2026",
     "intro": "Este sitio web, operado por Valadares Global Tech LLC (\"VGT\"), utiliza cookies y tecnologías similares para garantizar el correcto funcionamiento de la plataforma y mejorar la experiencia del usuario. Esta política explica qué son las cookies, qué tipos utilizamos y cómo puedes gestionarlas.",
     "sections": [
       {
@@ -172,14 +172,13 @@
           },
           {
             "name": "Cookies analíticas",
-            "description": "// TODO: especificar herramienta de analítica a implementar (p. ej. Google Analytics o Plausible Analytics). Estas cookies permiten conocer, de forma agregada y anónima, cómo los usuarios interactúan con el sitio: páginas visitadas, tiempo de permanencia y fuente de tráfico. Se activarán únicamente con tu consentimiento previo, a través del banner de cookies al ingresar al sitio."
+            "description": "Este sitio aún no utiliza cookies analíticas. Si en el futuro se incorporan (por ejemplo, Google Analytics o Plausible Analytics), permitirán conocer de forma agregada y anónima cómo los usuarios interactúan con el sitio — páginas visitadas, tiempo de permanencia y fuente de tráfico — y se activarán únicamente con tu consentimiento previo."
           }
         ]
       },
       {
         "heading": "3. Cookies de terceros",
         "paragraphs": [
-          "// TODO: actualizar este apartado cuando se integren herramientas de terceros (analítica, chat en vivo, widgets de redes sociales, etc.).",
           "Actualmente, el sitio no incorpora cookies de terceros de forma activa. Si en el futuro se añaden servicios que las impliquen, esta política se actualizará de forma previa a su implementación y se solicitará el consentimiento correspondiente."
         ]
       },
