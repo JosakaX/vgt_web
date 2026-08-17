@@ -56,7 +56,7 @@ export default async function ProjectsPage() {
             {t("intro")}
           </FadeIn>
           <Stagger className="grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {projects.map((project) => (
+            {projects.map((project, i) => (
               <StaggerItem key={project.title} className="h-full">
                 <ProjectCard
                   title={project.title}
@@ -65,6 +65,7 @@ export default async function ProjectsPage() {
                   domain={project.domain}
                   visitLabel={t("visit")}
                   image={project.image}
+                  priority={i === 0}
                 />
               </StaggerItem>
             ))}
