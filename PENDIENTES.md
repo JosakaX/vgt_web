@@ -33,8 +33,11 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 
 ## 🟡 Tareas de Claude (yo)
 - ~~Franja "Desarrollo acelerado con IA" en Desarrollo y Agentes~~ → **descartada por JosakaX**.
-- [ ] **QA responsive** teléfono/tablet: revisión a nivel de código + visual cuando el entorno de
-      screenshots lo permita.
+- [x] ~~QA responsive teléfono/tablet~~ → **HECHO (2026-08-17):** verificado con navegador real
+      (Chrome DevTools, emulación 375×812 móvil) en portada, /servicios, /contacto y /cotizacion:
+      cero overflow horizontal, columnas apilan bien, formularios usables (teléfono con bandera
+      incluido), chat y footer correctos. Único elemento "desbordado": el círculo decorativo del
+      card de demo, recortado por overflow-hidden (intencional).
 - [ ] Afinar el **contenido de las 6 landings de servicio** cuando JosakaX defina proveedores.
 - [x] ~~Integrar Cal.com en "Agendar demo"~~ → **HECHO (2026-08-17):** el botón abre
       `cal.com/vgt-4tbcpv/demo-vgt` (evento 30 min, cuenta management@, horario Lun–Vie
