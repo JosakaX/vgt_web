@@ -37,8 +37,9 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
       screenshots lo permita.
 - [ ] Afinar el **contenido de las 6 landings de servicio** cuando JosakaX defina proveedores.
 - [ ] Integrar **Calendly** en el bloque "Agendar demo".
-- [ ] Integrar **envío real de formularios** a CRM/email (Resend / HubSpot). Hoy: endpoints
-      placeholder que validan y responden 200.
+- [x] ~~Integrar envío real de formularios~~ → **HECHO (2026-08-16):** leads a Supabase
+      (`public.leads`) + contacto en Quo + aviso Resend a `info@` + acuse al lead en su idioma
+      (commits d8d66cb/aa27ceb). Newsletter → Resend Audience "VGT Newsletter".
 - [ ] Activar **analítica** (Google Analytics / Plausible).
 - [ ] **Despliegue final DINÁMICO en Cloudflare** (adaptador OpenNext). ⚠️ IMPORTANTE: en producción
       el sitio debe ser **dinámico como en dev**, con las rutas API funcionando (`/api/contact`,
