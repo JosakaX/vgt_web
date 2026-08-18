@@ -1,7 +1,7 @@
 # PENDIENTES — VGT Web
 
 Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX + Claude.
-Última actualización: 2026-08-15.
+Última actualización: 2026-08-18.
 
 ## 🔴 Decisiones / acciones de JosakaX (tú)
 - [ ] **Portafolio — 4 sitios pendientes de estar en vivo (2026-08-15):** GEDEVAL (`gedeval.org`)
@@ -57,13 +57,21 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 - [x] ~~Integrar envío real de formularios~~ → **HECHO (2026-08-16):** leads a Supabase
       (`public.leads`) + contacto en Quo + aviso Resend a `info@` + acuse al lead en su idioma
       (commits d8d66cb/aa27ceb). Newsletter → Resend Audience "VGT Newsletter".
-- [ ] Activar **analítica** (Google Analytics / Plausible).
-- [ ] **Despliegue final DINÁMICO en Cloudflare** (adaptador OpenNext). ⚠️ IMPORTANTE: en producción
-      el sitio debe ser **dinámico como en dev**, con las rutas API funcionando (`/api/contact`,
-      `/api/newsletter`). El export estático de GitHub Pages es **SOLO para el preview visual**:
-      se activa con `BUILD_STATIC=true` y el Action **quita `src/app/api`** antes de exportar. El build
-      normal (sin esa variable) conserva todo lo dinámico — ese es el que va a Cloudflare. NO hacer
-      `output: export` permanente.
+- [x] ~~Activar analítica~~ → **HECHO (2026-08-18):** GA4 propiedad "VGT Web"
+      (`G-7J84XE0YCX`, cuenta Valadares Global Tech de management@). Componente
+      `seo/google-analytics.tsx` — solo emite en builds de producción con
+      `NEXT_PUBLIC_GA_ID` (dev y preview de GH Pages no miden). **Sin banner de cookies
+      (decisión del CEO):** las políticas de cookies/privacidad (ES/EN/PT) dicen que
+      navegar implica aceptar cookies y analítica. Search Console verificado
+      (sc-domain bajo management@) y sitemap "Correcto" con 14 páginas.
+- [x] ~~Despliegue final DINÁMICO en Cloudflare~~ → **HECHO (2026-08-18, orden del CEO):**
+      worker `vgt-web` con OpenNext (`@opennextjs/cloudflare` + `wrangler`, config en
+      `wrangler.jsonc`/`open-next.config.ts`, `npm run deploy`). Las rutas del zone
+      `valadaresglobaltech.com/*` y `www…/*` pasaron de `vgt-construccion` a `vgt-web`.
+      Secretos server-only subidos con `wrangler secret bulk` (9 claves). Verificado en
+      producción: páginas 200, sitemap 200, GA presente y chatbot respondiendo.
+      El export estático de GitHub Pages sigue siendo SOLO preview (NO hacer
+      `output: export` permanente).
 - [ ] Re-auditoría final de **Lighthouse** (Performance/A11y/SEO/Best Practices ≥ 90).
 
 ## ✅ Hecho

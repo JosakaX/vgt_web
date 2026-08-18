@@ -10,6 +10,8 @@ const isStaticExport = process.env.BUILD_STATIC === "true";
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // Workers no trae optimizador de imágenes; servimos los archivos tal cual.
+  images: { unoptimized: true },
   ...(isStaticExport
     ? {
         output: "export",
