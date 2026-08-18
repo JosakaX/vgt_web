@@ -21,8 +21,12 @@ export const siteConfig = {
   },
   phones: {
     // Quo (OpenPhone), Ft. Lauderdale — el número oficial de la LLC (Atlas/Mercury/D&B/411).
-    // El móvil portugués personal NO se publica (regla del CEO: solo 2FA/privado).
-    us: { display: "+1 (954) 758-8897", href: "tel:+19547588897" },
+    us: { display: "+1 (954) 758-8897", href: "tel:+19547588897", whatsapp: null },
+    // Móviles públicos de atención (decisión del CEO 2026-08-18, revierte la regla
+    // anterior de mantenerlos privados). `whatsapp` con wa.me = atiende WhatsApp.
+    pt1: { display: "+351 931 768 723", href: "tel:+351931768723", whatsapp: "https://wa.me/351931768723" },
+    pt2: { display: "+351 932 742 678", href: "tel:+351932742678", whatsapp: null },
+    ve: { display: "+58 424 612 5993", href: "tel:+584246125993", whatsapp: "https://wa.me/584246125993" },
   },
   // TODO: confirmar/activar perfiles sociales reales
   social: {

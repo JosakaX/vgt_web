@@ -6,11 +6,19 @@ import { Logo } from "./logo";
 import { Container } from "@/components/ui/container";
 import { NewsletterForm } from "@/components/forms/newsletter-form";
 import { SocialIcon } from "@/components/ui/social-icon";
+import { WhatsappIcon } from "@/components/ui/whatsapp-icon";
 import { siteConfig, routes, mostrarSoluciones, mostrarPortafolio } from "@/lib/site";
 
 export async function Footer() {
   const t = await getTranslations("common");
   const year = new Date().getFullYear();
+
+  const phones = [
+    { ...siteConfig.phones.us, note: t("contactInfo.phones.usNote") },
+    { ...siteConfig.phones.pt1, note: t("contactInfo.phones.ptNote") },
+    { ...siteConfig.phones.pt2, note: t("contactInfo.phones.ptNote") },
+    { ...siteConfig.phones.ve, note: t("contactInfo.phones.veNote") },
+  ];
 
   const cols = [
     {
@@ -109,13 +117,25 @@ export async function Footer() {
             <Mail className="h-4 w-4 shrink-0 text-accent" aria-hidden="true" />
             {t("contactInfo.email")}
           </a>
-          <a
-            href={siteConfig.phones.us.href}
-            className="flex items-center gap-2 transition-colors hover:text-accent"
-          >
-            <Phone className="h-4 w-4 shrink-0 text-accent" aria-hidden="true" />
-            {t("contactInfo.phones.us")} · {t("contactInfo.phones.usNote")}
-          </a>
+          {phones.map((p) => (
+            <span key={p.href} className="flex items-center gap-2">
+              <Phone className="h-4 w-4 shrink-0 text-accent" aria-hidden="true" />
+              <a href={p.href} className="transition-colors hover:text-accent">
+                {p.display} · {p.note}
+              </a>
+              {p.whatsapp && (
+                <a
+                  href={p.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${t("contactInfo.phones.whatsapp")}: ${p.display}`}
+                  className="text-accent transition-colors hover:text-foreground"
+                >
+                  <WhatsappIcon className="h-4 w-4" />
+                </a>
+              )}
+            </span>
+          ))}
           <a
             href={siteConfig.address.mapsUrl}
             target="_blank"

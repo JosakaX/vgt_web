@@ -25,15 +25,13 @@ export function OrganizationJsonLd() {
       addressCountry: "US",
     },
     areaServed: ["Latin America", "US"],
-    contactPoint: [
-      {
-        "@type": "ContactPoint",
-        contactType: "sales",
-        telephone: siteConfig.phones.us.display,
-        email: siteConfig.email,
-        availableLanguage: ["Spanish"],
-      },
-    ],
+    contactPoint: Object.values(siteConfig.phones).map((p) => ({
+      "@type": "ContactPoint",
+      contactType: "sales",
+      telephone: p.display,
+      email: siteConfig.email,
+      availableLanguage: ["Spanish", "English", "Portuguese"],
+    })),
     sameAs: Object.values(siteConfig.social).filter((u) => u !== "#"),
   };
 

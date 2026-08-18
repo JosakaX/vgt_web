@@ -62,8 +62,10 @@
     "webUrl": "https://www.valadaresglobaltech.com",
     "email": "info@valadaresglobaltech.com",
     "phones": {
-      "us": "+1 (954) 758-8897",
-      "usNote": "United States"
+      "usNote": "United States",
+      "ptNote": "Portugal",
+      "veNote": "Venezuela",
+      "whatsapp": "WhatsApp"
     },
     "hours": "Mon – Fri, 9 am – 5 pm (ET)"
   },

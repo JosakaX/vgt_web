@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { FadeIn, SlideUp } from "@/components/motion/reveal";
 import { ContactForm } from "@/components/forms/contact-form";
 import { DemoRequestButton } from "@/components/forms/demo-request-button";
+import { WhatsappIcon } from "@/components/ui/whatsapp-icon";
 import { siteConfig, routes } from "@/lib/site";
 
 // ---------------------------------------------------------------------------
@@ -33,6 +34,14 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function ContactoPage() {
   const t = await getTranslations("contact");
+  const tCommon = await getTranslations("common");
+
+  const phones = [
+    { ...siteConfig.phones.us, note: tCommon("contactInfo.phones.usNote") },
+    { ...siteConfig.phones.pt1, note: tCommon("contactInfo.phones.ptNote") },
+    { ...siteConfig.phones.pt2, note: tCommon("contactInfo.phones.ptNote") },
+    { ...siteConfig.phones.ve, note: tCommon("contactInfo.phones.veNote") },
+  ];
 
   return (
     <>
@@ -104,15 +113,29 @@ export default async function ContactoPage() {
                       <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-muted">
                         {t("info.phoneLabel")}
                       </p>
-                      <ul className="flex flex-col gap-1">
-                        <li>
-                          <a
-                            href={siteConfig.phones.us.href}
-                            className="text-sm text-foreground hover:text-accent"
-                          >
-                            {siteConfig.phones.us.display}
-                          </a>
-                        </li>
+                      <ul className="flex flex-col gap-1.5">
+                        {phones.map((p) => (
+                          <li key={p.href} className="flex items-center gap-2">
+                            <a
+                              href={p.href}
+                              className="text-sm text-foreground hover:text-accent"
+                            >
+                              {p.display}
+                            </a>
+                            <span className="text-xs text-muted">{p.note}</span>
+                            {p.whatsapp && (
+                              <a
+                                href={p.whatsapp}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={`${tCommon("contactInfo.phones.whatsapp")}: ${p.display}`}
+                                className="text-accent transition-colors hover:text-foreground"
+                              >
+                                <WhatsappIcon className="h-4 w-4" />
+                              </a>
+                            )}
+                          </li>
+                        ))}
                       </ul>
                     </div>
                   </div>
