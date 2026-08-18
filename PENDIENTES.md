@@ -72,7 +72,11 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
       producción: páginas 200, sitemap 200, GA presente y chatbot respondiendo.
       El export estático de GitHub Pages sigue siendo SOLO preview (NO hacer
       `output: export` permanente).
-- [ ] Re-auditoría final de **Lighthouse** (Performance/A11y/SEO/Best Practices ≥ 90).
+- [x] ~~Re-auditoría final de Lighthouse~~ → **CORRIDA contra producción (2026-08-18):**
+      desktop **95/100/96/100** (Perf/A11y/BP/SEO) ✅; móvil **72**/100/96/100 — solo falla
+      Performance móvil (FCP 3,5 s / LCP 5,5 s con throttling 4G).
+- [ ] **Optimizar Performance móvil a ≥ 90** (LCP 5,5 s → < 2,5 s): preload/subset de las
+      fuentes (Inter/Sora), reducir CSS bloqueante y aligerar el primer render del hero.
 
 ## ✅ Hecho
 - [x] Fundación Next.js + TS + Tailwind + i18n + dark mode + componentes base.
