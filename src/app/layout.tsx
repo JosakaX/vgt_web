@@ -8,6 +8,7 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { ChatWidget } from "@/components/chat/chat-widget";
 import { OrganizationJsonLd } from "@/components/seo/json-ld";
+import { GoogleAnalytics } from "@/components/seo/google-analytics";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
@@ -75,6 +76,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <Providers>
             <OrganizationJsonLd />
+            <GoogleAnalytics />
             <Navbar />
             <main id="contenido">{children}</main>
             <Footer />

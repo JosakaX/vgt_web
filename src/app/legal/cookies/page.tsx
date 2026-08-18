@@ -1,5 +1,5 @@
-// TODO: revisión legal — plantilla base para LLC de EE.UU. operando en Latinoamérica.
-// Actualizar sección de cookies de terceros cuando se integre herramienta de analítica.
+// TODO: revisión legal — plantilla base para LLC de EE.UU. operando en América y Europa.
+// Analítica integrada (Google Analytics 4, 2026-08-18): consentimiento por navegación, sin banner.
 
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";

@@ -5,18 +5,19 @@
       "description": "How Valadares Global Tech LLC collects, uses, and protects your information."
     },
     "pageTitle": "Privacy Policy",
-    "lastUpdated": "Last updated: August 17, 2026",
+    "lastUpdated": "Last updated: August 18, 2026",
     "intro": "Valadares Global Tech LLC (hereinafter, \"VGT\", \"we\", or \"the company\"), with its website at www.valadaresglobaltech.com, is the controller of the personal data collected through this site. This Privacy Policy describes what data we collect, for what purpose, how we retain it, and what your rights are as a data subject.",
     "sections": [
       {
         "heading": "1. Data we collect",
         "paragraphs": [
-          "We collect only the data you voluntarily provide to us through the forms available on the site:"
+          "We collect the data you voluntarily provide to us through the forms available on the site and, automatically, usage data as you browse:"
         ],
         "list": [
           "Contact form: name, email address, company, and message.",
           "Quote form: name, company, email address, phone number, country, and description of needs.",
-          "Newsletter subscription: email address and, optionally, name."
+          "Newsletter subscription: email address and, optionally, name.",
+          "Site browsing: usage data collected automatically and on an aggregated basis through Google Analytics (pages visited, visit duration, device, and traffic source). See the Cookie Policy for details."
         ],
         "footer": "We do not knowingly collect data from anyone under 18 years of age. If you are a minor, do not use the forms on this site without the consent of your legal guardian."
       },
@@ -54,7 +55,8 @@
         "list": [
           "Hosting and technology infrastructure providers that host the website.",
           "Email delivery platforms used to manage the newsletter and respond to inquiries.",
-          "External technology providers that back some of our services, when a request relates to them, solely to the extent necessary to handle your request."
+          "External technology providers that back some of our services, when a request relates to them, solely to the extent necessary to handle your request.",
+   "Google Analytics (Google LLC), which processes site usage data on an aggregated basis to produce traffic statistics."
         ],
         "footer": "VGT does not sell, rent, or transfer your personal data to third parties for their own advertising or commercial purposes."
       },
@@ -150,8 +152,8 @@
       "description": "Information about the use of cookies on the Valadares Global Tech LLC website."
     },
     "pageTitle": "Cookie Policy",
-    "lastUpdated": "Last updated: August 17, 2026",
-    "intro": "This website, operated by Valadares Global Tech LLC (\"VGT\"), uses cookies and similar technologies to ensure the platform works properly and to improve the user experience. This policy explains what cookies are, which types we use, and how you can manage them.",
+    "lastUpdated": "Last updated: August 18, 2026",
+    "intro": "This website, operated by Valadares Global Tech LLC (\"VGT\"), uses first-party and third-party cookies to ensure the platform works properly and to measure, on an aggregated basis, how the site is used. By browsing this site you accept the use of cookies and the analytics described in this policy. This policy explains what cookies are, which types we use, and how you can manage them.",
     "sections": [
       {
         "heading": "1. What are cookies?",
@@ -172,14 +174,14 @@
           },
           {
             "name": "Analytics cookies",
-            "description": "This site does not yet use analytics cookies. If they are introduced in the future (for example, Google Analytics or Plausible Analytics), they will help us understand, on an aggregated and anonymous basis, how users interact with the site — pages visited, time on site, and traffic source — and will only be activated with your prior consent."
+            "description": "We use Google Analytics 4 (Google LLC) to understand, on an aggregated basis, how users interact with the site: pages visited, time on site, device type, and traffic source. These cookies are set as you browse the site; you can disable them at any time from your browser settings (see section 4)."
           }
         ]
       },
       {
         "heading": "3. Third-party cookies",
         "paragraphs": [
-          "The site does not currently make active use of third-party cookies. If services involving them are added in the future, this policy will be updated before their implementation and the corresponding consent will be requested."
+          "The site includes third-party cookies from Google Analytics, a web analytics service provided by Google LLC. The information they generate is processed on an aggregated basis in accordance with Google's privacy policy (https://policies.google.com/privacy). We do not use advertising or commercial tracking cookies."
         ]
       },
       {
@@ -193,7 +195,7 @@
           "Safari: Preferences → Privacy → Manage Website Data.",
           "Microsoft Edge: Settings → Cookies and site permissions."
         ],
-        "footer": "Please note that disabling technical cookies may affect the proper functioning of the site. Analytics cookies are optional, and disabling them does not prevent you from using the site. For any questions about our use of cookies, write to us at info@valadaresglobaltech.com."
+        "footer": "Please note that disabling technical cookies may affect the proper functioning of the site. Analytics cookies are optional, and disabling them does not prevent you from using the site. By continuing to browse without disabling them, you accept their use. For any questions about our use of cookies, write to us at info@valadaresglobaltech.com."
       }
     ]
   }

@@ -5,18 +5,19 @@
       "description": "Cómo Valadares Global Tech LLC recopila, usa y protege tu información."
     },
     "pageTitle": "Política de Privacidad",
-    "lastUpdated": "Última actualización: 17 de agosto de 2026",
+    "lastUpdated": "Última actualización: 18 de agosto de 2026",
     "intro": "Valadares Global Tech LLC (en adelante, \"VGT\", \"nosotros\" o \"la empresa\"), con sitio web en www.valadaresglobaltech.com, es responsable del tratamiento de los datos personales que se recaban a través de este sitio. Esta Política de Privacidad describe qué datos recopilamos, con qué finalidad, cómo los conservamos y cuáles son tus derechos como titular.",
     "sections": [
       {
         "heading": "1. Datos que recopilamos",
         "paragraphs": [
-          "Recopilamos únicamente los datos que tú nos proporcionas de forma voluntaria a través de los formularios disponibles en el sitio:"
+          "Recopilamos los datos que tú nos proporcionas de forma voluntaria a través de los formularios disponibles en el sitio y, de forma automática, datos de uso al navegar:"
         ],
         "list": [
           "Formulario de contacto: nombre, correo electrónico, empresa y mensaje.",
           "Formulario de cotización: nombre, empresa, correo electrónico, teléfono, país y descripción de necesidades.",
-          "Suscripción al newsletter: correo electrónico y, opcionalmente, nombre."
+          "Suscripción al newsletter: correo electrónico y, opcionalmente, nombre.",
+          "Navegación por el sitio: datos de uso recopilados de forma automática y agregada mediante Google Analytics (páginas visitadas, duración de la visita, dispositivo y fuente de tráfico). Más detalle en la Política de Cookies."
         ],
         "footer": "No recopilamos datos de menores de 18 años de manera intencional. Si eres menor de edad, no utilices los formularios de este sitio sin el consentimiento de tu tutor legal."
       },
@@ -54,7 +55,8 @@
         "list": [
           "Proveedores de hosting e infraestructura tecnológica que alojan el sitio web.",
           "Plataformas de envío de correo electrónico para la gestión del newsletter y la respuesta a consultas.",
-          "Proveedores tecnológicos externos que respaldan alguno de nuestros servicios, cuando la solicitud está relacionada con ellos, únicamente en la medida necesaria para atender tu requerimiento."
+          "Proveedores tecnológicos externos que respaldan alguno de nuestros servicios, cuando la solicitud está relacionada con ellos, únicamente en la medida necesaria para atender tu requerimiento.",
+          "Google Analytics (Google LLC), que procesa datos de uso del sitio de forma agregada para generar estadísticas de tráfico."
         ],
         "footer": "VGT no vende, alquila ni cede tus datos personales a terceros con fines publicitarios o comerciales propios."
       },
@@ -150,8 +152,8 @@
       "description": "Información sobre el uso de cookies en el sitio de Valadares Global Tech LLC."
     },
     "pageTitle": "Política de Cookies",
-    "lastUpdated": "Última actualización: 17 de agosto de 2026",
-    "intro": "Este sitio web, operado por Valadares Global Tech LLC (\"VGT\"), utiliza cookies y tecnologías similares para garantizar el correcto funcionamiento de la plataforma y mejorar la experiencia del usuario. Esta política explica qué son las cookies, qué tipos utilizamos y cómo puedes gestionarlas.",
+    "lastUpdated": "Última actualización: 18 de agosto de 2026",
+    "intro": "Este sitio web, operado por Valadares Global Tech LLC (\"VGT\"), utiliza cookies propias y de terceros para garantizar el correcto funcionamiento de la plataforma y medir de forma agregada cómo se usa el sitio. Al navegar por este sitio aceptas el uso de cookies y de la analítica descrita en esta política. Esta política explica qué son las cookies, qué tipos utilizamos y cómo puedes gestionarlas.",
     "sections": [
       {
         "heading": "1. ¿Qué son las cookies?",
@@ -172,14 +174,14 @@
           },
           {
             "name": "Cookies analíticas",
-            "description": "Este sitio aún no utiliza cookies analíticas. Si en el futuro se incorporan (por ejemplo, Google Analytics o Plausible Analytics), permitirán conocer de forma agregada y anónima cómo los usuarios interactúan con el sitio — páginas visitadas, tiempo de permanencia y fuente de tráfico — y se activarán únicamente con tu consentimiento previo."
+            "description": "Utilizamos Google Analytics 4 (Google LLC) para conocer de forma agregada cómo los usuarios interactúan con el sitio: páginas visitadas, tiempo de permanencia, tipo de dispositivo y fuente de tráfico. Estas cookies se activan al navegar por el sitio; puedes desactivarlas en cualquier momento desde la configuración de tu navegador (ver sección 4)."
           }
         ]
       },
       {
         "heading": "3. Cookies de terceros",
         "paragraphs": [
-          "Actualmente, el sitio no incorpora cookies de terceros de forma activa. Si en el futuro se añaden servicios que las impliquen, esta política se actualizará de forma previa a su implementación y se solicitará el consentimiento correspondiente."
+          "El sitio incorpora cookies de terceros de Google Analytics, un servicio de analítica web de Google LLC. La información que generan se procesa de forma agregada conforme a la política de privacidad de Google (https://policies.google.com/privacy). No utilizamos cookies publicitarias ni de seguimiento con fines comerciales."
         ]
       },
       {
@@ -193,7 +195,7 @@
           "Safari: Preferencias → Privacidad → Gestión de datos de sitios web.",
           "Microsoft Edge: Configuración → Cookies y permisos del sitio."
         ],
-        "footer": "Ten en cuenta que deshabilitar las cookies técnicas puede afectar el funcionamiento correcto del sitio. Las cookies analíticas son opcionales y su desactivación no impide el uso del sitio. Para cualquier consulta sobre el uso de cookies, escríbenos a info@valadaresglobaltech.com."
+        "footer": "Ten en cuenta que deshabilitar las cookies técnicas puede afectar el funcionamiento correcto del sitio. Las cookies analíticas son opcionales y su desactivación no impide el uso del sitio. Si continúas navegando sin deshabilitarlas, entendemos que aceptas su uso. Para cualquier consulta sobre el uso de cookies, escríbenos a info@valadaresglobaltech.com."
       }
     ]
   }
