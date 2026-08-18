@@ -1,18 +1,18 @@
 {
   "meta": {
     "title": "Sobre nós — Valadares Global Tech",
-    "description": "A VGT é o teu parceiro tecnológico: selecionamos, integramos e implementamos soluções líderes para empresas da América Latina. Marketing · Design · Tecnologia."
+    "description": "A VGT é o teu parceiro tecnológico: selecionamos, integramos e implementamos soluções líderes para empresas de toda a América e Europa. Marketing · Design · Tecnologia."
   },
   "hero": {
     "eyebrow": "Sobre nós",
     "title": "O teu parceiro tecnológico em toda a América e Europa",
-    "subtitle": "Selecionamos, integramos e implementamos soluções de classe mundial para que a tua empresa compita com as melhores ferramentas do mercado."
+    "subtitle": "Selecionamos, integramos e implementamos soluções e ajustamo-nos às leis de cada país para que a tua empresa compita com as melhores ferramentas do mercado."
   },
   "who": {
     "eyebrow": "Quem somos",
     "title": "Uma empresa construída para acelerar o teu negócio",
     "paragraphs": [
-      "A Valadares Global Tech (VGT) é uma empresa tecnológica orientada para empresas da América Latina. Não fabricamos ferramentas genéricas: identificamos as plataformas líderes do mercado, tornamo-nos seus partners autorizados e implementamo-las com acompanhamento real para que cada cliente obtenha o máximo retorno do seu investimento.",
+      "A Valadares Global Tech (VGT) é uma empresa tecnológica orientada para empresas de toda a América e Europa. Não fabricamos ferramentas genéricas: identificamos as plataformas líderes do mercado, tornamo-nos seus partners autorizados e implementamo-las com acompanhamento real para que cada cliente obtenha o máximo retorno do seu investimento.",
       "Funcionamos como ponte entre a inovação global e as necessidades específicas de cada organização. A nossa equipa combina experiência em marketing digital, design estratégico e tecnologia para oferecer uma proposta integral que vai muito além da venda de software."
     ]
   },
@@ -60,11 +60,11 @@
     "title": "O que nos move",
     "mission": {
       "label": "Missão",
-      "text": "Democratizar o acesso a tecnologia de classe mundial para empresas latino-americanas, acompanhando-as em cada etapa da sua transformação digital com soluções comprovadas, equipas certificadas e resultados mensuráveis."
+      "text": "Democratizar o acesso a tecnologia de classe mundial para empresas da América e da Europa, acompanhando-as em cada etapa da sua transformação digital com soluções comprovadas, equipas certificadas e resultados mensuráveis."
     },
     "vision": {
       "label": "Visão",
-      "text": "Ser o parceiro tecnológico de referência para empresas da América Latina que procuram crescer com as melhores ferramentas do mundo, consolidando a nossa presença em toda a região como ponte entre a inovação global e o mercado local."
+      "text": "Ser o parceiro tecnológico de referência para empresas da América e da Europa que procuram crescer com as melhores ferramentas do mundo, consolidando a nossa presença em ambas as regiões como ponte entre a inovação global e o mercado local."
     }
   },
   "team": {

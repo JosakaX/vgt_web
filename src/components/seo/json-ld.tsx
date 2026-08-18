@@ -14,7 +14,7 @@ export function OrganizationJsonLd() {
     email: siteConfig.email,
     slogan: "Marketing · Diseño · Tecnología",
     description:
-      "Valadares Global Tech es una agencia digital de marketing, diseño y tecnología para empresas de Latinoamérica.",
+      "Valadares Global Tech es una agencia digital de marketing, diseño y tecnología para empresas de América y Europa.",
     logo: `${siteConfig.url}/logo/logo-vgt.svg`,
     address: {
       "@type": "PostalAddress",
@@ -24,7 +24,7 @@ export function OrganizationJsonLd() {
       postalCode: "33301",
       addressCountry: "US",
     },
-    areaServed: ["Latin America", "US"],
+    areaServed: ["Americas", "Europe"],
     contactPoint: Object.values(siteConfig.phones).map((p) => ({
       "@type": "ContactPoint",
       contactType: "sales",

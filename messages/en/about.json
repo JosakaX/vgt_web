@@ -1,18 +1,18 @@
 {
   "meta": {
     "title": "About us — Valadares Global Tech",
-    "description": "VGT is your technology partner: we select, integrate, and deploy leading solutions for companies across Latin America. Marketing · Design · Technology."
+    "description": "VGT is your technology partner: we select, integrate, and deploy leading solutions for companies across the Americas and Europe. Marketing · Design · Technology."
   },
   "hero": {
     "eyebrow": "About us",
     "title": "Your technology partner across the Americas and Europe",
-    "subtitle": "We select, integrate, and deploy world-class solutions so your company can compete with the best tools on the market."
+    "subtitle": "We select, integrate, and deploy solutions and adapt to each country's laws so your company can compete with the best tools on the market."
   },
   "who": {
     "eyebrow": "Who we are",
     "title": "A company built to accelerate your business",
     "paragraphs": [
-      "Valadares Global Tech (VGT) is a technology company focused on businesses across Latin America. We don't build generic tools: we identify the market's leading platforms, become their authorized partners, and deploy them with real hands-on support so every client gets the maximum return on their investment.",
+      "Valadares Global Tech (VGT) is a technology company focused on businesses across the Americas and Europe. We don't build generic tools: we identify the market's leading platforms, become their authorized partners, and deploy them with real hands-on support so every client gets the maximum return on their investment.",
       "We act as a bridge between global innovation and the specific needs of each organization. Our team combines expertise in digital marketing, strategic design, and technology to deliver an integrated offering that goes far beyond selling software."
     ]
   },
@@ -60,11 +60,11 @@
     "title": "What drives us",
     "mission": {
       "label": "Mission",
-      "text": "To democratize access to world-class technology for Latin American companies, supporting them at every stage of their digital transformation with proven solutions, certified teams, and measurable results."
+      "text": "To democratize access to world-class technology for companies across the Americas and Europe, supporting them at every stage of their digital transformation with proven solutions, certified teams, and measurable results."
     },
     "vision": {
       "label": "Vision",
-      "text": "To be the go-to technology partner for Latin American companies looking to grow with the world's best tools, consolidating our presence across the region as a bridge between global innovation and the local market."
+      "text": "To be the go-to technology partner for companies across the Americas and Europe looking to grow with the world's best tools, consolidating our presence in both regions as a bridge between global innovation and the local market."
     }
   },
   "team": {
