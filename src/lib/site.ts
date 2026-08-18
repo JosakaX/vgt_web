@@ -25,7 +25,7 @@ export const siteConfig = {
     // Móviles públicos de atención (decisión del CEO 2026-08-18, revierte la regla
     // anterior de mantenerlos privados). `whatsapp` con wa.me = atiende WhatsApp.
     pt1: { display: "+351 931 768 723", href: "tel:+351931768723", whatsapp: "https://wa.me/351931768723" },
-    pt2: { display: "+351 932 742 678", href: "tel:+351932742678", whatsapp: null },
+    pt2: { display: "+351 932 742 678", href: "tel:+351932742678", whatsapp: "https://wa.me/351932742678" },
     ve: { display: "+58 424 612 5993", href: "tel:+584246125993", whatsapp: "https://wa.me/584246125993" },
   },
   // TODO: confirmar/activar perfiles sociales reales
