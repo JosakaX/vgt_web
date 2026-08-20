@@ -17,7 +17,6 @@ export async function Footer() {
     { ...siteConfig.phones.us, note: t("contactInfo.phones.usNote") },
     { ...siteConfig.phones.pt1, note: t("contactInfo.phones.ptNote") },
     { ...siteConfig.phones.pt2, note: t("contactInfo.phones.ptNote") },
-    { ...siteConfig.phones.ve, note: t("contactInfo.phones.veNote") },
   ];
 
   const cols = [

@@ -40,7 +40,6 @@ export default async function ContactoPage() {
     { ...siteConfig.phones.us, note: tCommon("contactInfo.phones.usNote") },
     { ...siteConfig.phones.pt1, note: tCommon("contactInfo.phones.ptNote") },
     { ...siteConfig.phones.pt2, note: tCommon("contactInfo.phones.ptNote") },
-    { ...siteConfig.phones.ve, note: tCommon("contactInfo.phones.veNote") },
   ];
 
   return (
