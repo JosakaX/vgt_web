@@ -36,8 +36,8 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 - [ ] **Links reales de redes sociales** — **LinkedIn HECHO (2026-08-21):** perfil del CEO
       (`linkedin.com/in/jorge-valadares-27609042b`) en `siteConfig.social.linkedin` → footer,
       JSON-LD `sameAs` y tarjeta de Jorge en /nosotros (`teamSocial`). Al crear la Página de
-      empresa de VGT en LinkedIn, sustituir por `linkedin.com/company/...`. Faltan Instagram,
-      Facebook y YouTube (siguen en "#").
+      empresa de VGT en LinkedIn, sustituir por `linkedin.com/company/...`. **Instagram HECHO
+      (2026-08-21):** `instagram.com/valadaresglobaltech`. Faltan Facebook y YouTube (siguen en "#").
 - [x] ~~Dar vida al card VGT del hero~~ → **HECHO (2026-08-17, nivel 2 "Interactivo"):**
       tilt 3D con el mouse, flotación suave, latido en la línea-punto y los 6 servicios
       rotando bajo el nombre (i18n, respeta prefers-reduced-motion). `VgtHeroCard` en
