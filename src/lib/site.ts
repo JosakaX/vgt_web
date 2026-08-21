@@ -27,13 +27,14 @@ export const siteConfig = {
     pt1: { display: "+351 931 768 723", href: "tel:+351931768723", whatsapp: "https://wa.me/351931768723" },
     pt2: { display: "+351 932 742 678", href: "tel:+351932742678", whatsapp: "https://wa.me/351932742678" },
   },
-  // TODO: activar Facebook/YouTube cuando existan los perfiles.
+  // TODO: activar YouTube cuando exista el canal. Facebook: al fijar el usuario,
+  // cambiar la URL por https://www.facebook.com/valadaresglobaltech
   // LinkedIn: perfil del CEO (2026-08-21) mientras no exista la Página de
   // empresa de VGT; al crearla, sustituir aquí por linkedin.com/company/....
   social: {
     linkedin: "https://www.linkedin.com/in/jorge-valadares-27609042b/",
     instagram: "https://www.instagram.com/valadaresglobaltech/",
-    facebook: "#",
+    facebook: "https://www.facebook.com/profile.php?id=61593719666145",
     youtube: "#",
   },
 } as const;
