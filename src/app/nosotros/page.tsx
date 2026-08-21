@@ -17,7 +17,7 @@ import { TeamCard } from "@/components/ui/team-card";
 import { CTABanner } from "@/components/ui/cta-banner";
 import { Button } from "@/components/ui/button";
 import { FadeIn, SlideUp, Stagger, StaggerItem } from "@/components/motion/reveal";
-import { routes, mostrarSoluciones } from "@/lib/site";
+import { routes, mostrarSoluciones, teamSocial } from "@/lib/site";
 import type { LucideIcon } from "lucide-react";
 
 // Íconos para los tres pilares de valor (Marketing · Diseño · Tecnología)
@@ -210,6 +210,7 @@ export default async function NosotrosPage() {
                   role={member.role}
                   subrole={member.subrole}
                   initials={member.initials}
+                  linkedin={teamSocial[member.initials]?.linkedin}
                 />
               </StaggerItem>
             ))}

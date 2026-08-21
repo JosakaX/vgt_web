@@ -27,14 +27,26 @@ export const siteConfig = {
     pt1: { display: "+351 931 768 723", href: "tel:+351931768723", whatsapp: "https://wa.me/351931768723" },
     pt2: { display: "+351 932 742 678", href: "tel:+351932742678", whatsapp: "https://wa.me/351932742678" },
   },
-  // TODO: confirmar/activar perfiles sociales reales
+  // TODO: activar Instagram/Facebook/YouTube cuando existan los perfiles.
+  // LinkedIn: perfil del CEO (2026-08-21) mientras no exista la Página de
+  // empresa de VGT; al crearla, sustituir aquí por linkedin.com/company/....
   social: {
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/jorge-valadares-27609042b/",
     instagram: "#",
     facebook: "#",
     youtube: "#",
   },
 } as const;
+
+/**
+ * Redes del equipo directivo (tarjetas de /nosotros), por iniciales del
+ * miembro tal como figuran en messages/<locale>/about.json → team.members.
+ * Única fuente de estas URLs: no repetirlas en los JSON de i18n.
+ */
+export const teamSocial: Record<string, { linkedin?: string }> = {
+  JV: { linkedin: siteConfig.social.linkedin },
+  CV: {},
+};
 
 /**
  * Interruptor de lanzamiento (2026-08-17): oculta las soluciones de partners

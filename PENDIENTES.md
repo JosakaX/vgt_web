@@ -33,8 +33,11 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
       /proyectos → 404, menú, footer y sitemap). **Para restaurar:** publicar GEDEVAL,
       Solo Una Vida y OHGDA + capturas/miniaturas reales → poner en `true`.
       ⏰ JosakaX atiende los sitios y miniaturas desde el 2026-08-18.
-- [ ] **Links reales de redes sociales** (hoy `siteConfig.social` tiene "#" y los iconos del
-      footer apuntan a nada). ⏰ JosakaX los sube el 2026-08-18.
+- [ ] **Links reales de redes sociales** — **LinkedIn HECHO (2026-08-21):** perfil del CEO
+      (`linkedin.com/in/jorge-valadares-27609042b`) en `siteConfig.social.linkedin` → footer,
+      JSON-LD `sameAs` y tarjeta de Jorge en /nosotros (`teamSocial`). Al crear la Página de
+      empresa de VGT en LinkedIn, sustituir por `linkedin.com/company/...`. Faltan Instagram,
+      Facebook y YouTube (siguen en "#").
 - [x] ~~Dar vida al card VGT del hero~~ → **HECHO (2026-08-17, nivel 2 "Interactivo"):**
       tilt 3D con el mouse, flotación suave, latido en la línea-punto y los 6 servicios
       rotando bajo el nombre (i18n, respeta prefers-reduced-motion). `VgtHeroCard` en
