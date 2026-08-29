@@ -46,7 +46,7 @@ export const siteConfig = {
  */
 export const teamSocial: Record<string, { linkedin?: string }> = {
   JV: { linkedin: siteConfig.social.linkedin },
-  CV: {},
+  CV: { linkedin: "https://www.linkedin.com/in/carla-valadares-cilia-06a769394/" },
 };
 
 /**
