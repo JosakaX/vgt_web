@@ -1,9 +1,20 @@
 # PENDIENTES — VGT Web
 
 Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX + Claude.
-Última actualización: 2026-08-18.
+Última actualización: 2026-08-29.
 
 ## 🔴 Decisiones / acciones de JosakaX (tú)
+- [ ] **Cabeceras de seguridad — cerrar el hueco de las páginas dinámicas (aprobación tuya):**
+      `public/_headers` (commiteado 29-ago, trabajo del 23-ago) ya pone HSTS, nosniff,
+      X-Frame-Options, Referrer/Permissions-Policy y una CSP Report-Only en los **assets
+      estáticos** servidos desde el borde (verificado en producción con curl). Pero casi todas
+      las páginas HTML y los 3 endpoints `/api/*` los sirve el Worker, y ahí `_headers` NO
+      aplica (limitación documentada de Cloudflare). Cerrar el hueco = agregar un
+      `middleware.ts` que ponga esas mismas cabeceras a toda respuesta del Worker — toca
+      código de aplicación, espera tu OK. Decisiones posteriores: pasar la CSP de
+      Report-Only a bloqueo (tras semanas sin violaciones; sumar Turnstile a la CSP si se
+      activa) y si HSTS lleva `preload` (irreversible por meses — recomendado NO por ahora).
+      Detalle completo en los comentarios de `public/_headers` y README § Cabeceras.
 - [ ] **Portafolio — 4 sitios pendientes de estar en vivo (2026-08-15):** GEDEVAL (`gedeval.org`)
       y Solo Una Vida (`solounavida.ong` — dominio correcto, .ong) aún no tienen sitio publicado
       (dominios ya comprados, cards apuntando por decisión de JosakaX); OHGDA está en página de

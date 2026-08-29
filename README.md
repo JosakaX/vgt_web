@@ -84,6 +84,28 @@ El destino de despliegue es **Cloudflare**. Opciones:
 
 Define `NEXT_PUBLIC_SITE_URL` con el dominio de producción en el panel de Cloudflare.
 
+### Cabeceras de seguridad (`public/_headers`)
+
+Cloudflare sirve `assets.directory` (`.open-next/assets`) **directamente desde el borde, sin pasar
+por el Worker**. `public/_headers` (que OpenNext copia tal cual a `.open-next/assets/_headers` en
+cada build — verificado) le pone a esos archivos `X-Content-Type-Options`, `X-Frame-Options`,
+`Referrer-Policy`, `Permissions-Policy`, `Strict-Transport-Security` (sin `preload`, ver comentario
+en el archivo) y una `Content-Security-Policy-Report-Only` construida a partir de lo que el código
+realmente carga (GA4, fuentes autoalojadas con `next/font`, sin llamadas del navegador a Supabase
+ni Anthropic).
+
+**⚠️ Hueco conocido, sin cerrar:** casi todas las páginas de este sitio salen `ƒ (Dynamic)` en el
+build de Next.js — `src/i18n/request.ts` lee `cookies()` para el locale, y como el `layout.tsx` raíz
+llama `getLocale()`, todo el árbol de rutas se vuelve dinámico. Eso significa que **`/`,
+`/servicios/*`, `/contacto`, `/nosotros`, etc. las sirve el Worker en cada request**, y Cloudflare
+documenta que las reglas de `_headers` **no se aplican a respuestas generadas por el código del
+Worker**. `_headers` sí cubre `/_next/static/*`, `/logo/*`, `/projects/*`, `/agente/*`, `/llms.txt`
+y los metadata routes estáticos (`/robots.txt`, `/sitemap.xml`, íconos) — pero NO las páginas HTML
+que la gente navega ni `/api/chat|contact|newsletter`. Cerrar ese hueco requiere un
+`middleware.ts` (patrón oficial de Next.js para cabeceras de seguridad) que añada estas mismas
+cabeceras a toda respuesta del Worker — toca código de aplicación/rutas, así que queda pendiente de
+aprobación explícita antes de implementarse.
+
 > Repositorio: https://github.com/JosakaX/vgt_web.git
 
 ## Páginas
