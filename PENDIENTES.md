@@ -90,6 +90,16 @@ Lista viva de lo que falta para dejar el sitio 100% listo. Mantenida por JosakaX
 - [x] ~~Re-auditoría final de Lighthouse~~ → **CORRIDA contra producción (2026-08-18):**
       desktop **95/100/96/100** (Perf/A11y/BP/SEO) ✅; móvil **72**/100/96/100 — solo falla
       Performance móvil (FCP 3,5 s / LCP 5,5 s con throttling 4G).
+- [x] **2026-09-07 — Lighthouse otra vez contra producción (desktop y móvil): A11y 100 / BP 96 /
+      SEO 91 / Agentic 100 con 2 fallos → CORREGIDOS y DESPLEGADOS (commit `c3b7ca3`, worker
+      versión `2f0fc8f4`).** (a) `htmlLimitedBots: /.*/` en `next.config.mjs`: Next 15.5
+      transmitía el metadata (title, description, canonical, OG) en streaming al `<body>`
+      y React no lo subía al `<head>`; ahora sale bloqueante en el `<head>` para todos.
+      (b) `keep_names: false` en `wrangler.jsonc`: wrangler inyectaba el helper `__name` de
+      esbuild y el script inline de next-themes lo llamaba → `ReferenceError` en cada carga.
+      Resultado en producción: **100/100/100/100**, 0 fallos, consola limpia. Trace aparte:
+      LCP 3,2 s sin throttling (TTFB ~1 s + 2,2 s de render), CLS 0,00 — sigue el pendiente
+      de Performance móvil de abajo.
 - [ ] **Optimizar Performance móvil a ≥ 90** (LCP 5,5 s → < 2,5 s): preload/subset de las
       fuentes (Inter/Sora), reducir CSS bloqueante y aligerar el primer render del hero.
 
