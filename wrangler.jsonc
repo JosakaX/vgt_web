@@ -4,6 +4,13 @@
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-08-01",
   "compatibility_flags": ["nodejs_compat"],
+  // keep_names (esbuild keepNames) viene activado por defecto y reescribe las
+  // funciones del bundle con un helper `__name(...)`. next-themes serializa su
+  // script de tema con `.toString()` y lo inyecta inline en el HTML, donde ese
+  // helper no existe → "ReferenceError: __name is not defined" en cada carga
+  // (hallazgo Lighthouse 2026-09-07). No minificamos, así que desactivarlo no
+  // cambia nada más.
+  "keep_names": false,
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
