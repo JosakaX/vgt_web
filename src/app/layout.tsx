@@ -25,10 +25,10 @@ const sora = Sora({
 });
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0a1124" },
-  ],
+  // El sitio abre SIEMPRE en oscuro (ver components/providers.tsx) y no sigue la
+  // preferencia del sistema, así que el color de la barra del navegador se fija al
+  // oscuro: con media queries quedaba una barra blanca sobre un sitio oscuro.
+  themeColor: "#0a1124",
   width: "device-width",
   initialScale: 1,
 };

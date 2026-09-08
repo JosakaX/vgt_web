@@ -23,11 +23,12 @@ export function ThemeToggle() {
       title={t("toggle")}
       className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-surface text-foreground transition-colors hover:border-accent hover:text-accent"
     >
-      {/* Hasta montar, mostramos un icono neutro para evitar mismatch */}
-      {mounted && isDark ? (
-        <Sun className="h-5 w-5" aria-hidden="true" />
-      ) : (
+      {/* Hasta montar mostramos el icono del tema por defecto (oscuro → sol,
+          que es la acción disponible), para que no parpadee al hidratar. */}
+      {mounted && !isDark ? (
         <Moon className="h-5 w-5" aria-hidden="true" />
+      ) : (
+        <Sun className="h-5 w-5" aria-hidden="true" />
       )}
     </button>
   );
