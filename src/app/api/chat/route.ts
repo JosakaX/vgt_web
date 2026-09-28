@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 
+import { juzgarMensaje, RESPUESTA_FUERA_DE_TEMA } from "@/lib/chat-guard";
 import { mostrarSoluciones } from "@/lib/site";
 
 /**
@@ -152,6 +153,20 @@ export async function POST(request: Request) {
   if (!apiKey) {
     // Sin llave configurada el widget degrada a ofrecer el formulario.
     return NextResponse.json({ ok: false, fallback: true }, { status: 200 });
+  }
+
+  // Juez semántico (lib/chat-guard): lo ajeno y los intentos de manipulación
+  // se contestan con el reencauce de siempre, sin gastar un token de Anthropic.
+  // Va con `ok: true` porque ES una respuesta: con `ok: false` el widget
+  // mostraría su mensaje de error. Sin veredicto (juez apagado o caído) se
+  // sigue como siempre.
+  const fallo = await juzgarMensaje(parsed.data.messages);
+  if (fallo !== null && fallo !== "pasa") {
+    console.warn("[chat] fuera de tema", { motivo: fallo });
+    return NextResponse.json(
+      { ok: true, reply: RESPUESTA_FUERA_DE_TEMA[parsed.data.locale ?? "es"] },
+      { status: 200 },
+    );
   }
 
   try {

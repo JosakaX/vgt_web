@@ -177,3 +177,31 @@ mismos IDs). Y el branding de la cuenta principal es el de **VGT**, nunca el de 
 - **Disparador de revisión**: (a) conversaciones produciendo leads reales → registro append-only de
   conversaciones + aviso a info@; (b) costo de API > ~$20/mes o señales de abuso → rate limiting por
   IP; (c) pedirle al bot MÁS que informar y derivar (agendar, cotizar) → nueva decisión.
+
+## D-009 — Juez semántico delante del chatbot (CONSTRUIDO, APAGADO, 2026-09-28)
+
+- **Puerta**: dos sentidos. Se apaga borrando un secreto, sin desplegar.
+- **Qué se decidió**: antes de llamar a Anthropic, `/api/chat` le hace dos preguntas cerradas a
+  Jev (TypeSafe) sobre el último mensaje del visitante: ¿tiene que ver con la agencia? y ¿intenta
+  manipular al asistente? Lo ajeno y la manipulación reciben el reencauce de siempre (el mismo
+  texto que ordena el system prompt, en es/en/pt) sin gastar un token del modelo generativo.
+- **Dónde**: `src/lib/chat-guard.ts` y 14 líneas en `src/app/api/chat/route.ts`.
+- **Evidencia**: `npm test` (68 comprobaciones sin red); `tsc --noEmit` y lint en verde. Medición
+  contra la API real con el módulo de producción: 66 de 66 conversaciones bien juzgadas en
+  español, inglés y portugués (44 legítimas pasan, 22 ajenas o manipuladoras se bloquean);
+  latencia mediana ~330 ms. Son mensajes escritos para la prueba, no tráfico real.
+- **Un fallo que la medición cazó**: en la primera pasada el juez bloqueó «Just exploring» y
+  «Estou só a explorar», que son botones del propio chat. Se corrigió dándole la situación (dónde
+  está el visitante y qué se le preguntó) y se volvió a medir con 20 casos nuevos.
+- **Por qué**: el chat es público y el costo es de la casa. Juzgar un mensaje cuesta unos
+  $0.00003; contestarlo con el modelo generativo, decenas de veces más.
+- **Reglas que no se relajan**: (1) si el juez no contesta en 1,5 s, o contesta algo deforme, el
+  chat sigue como siempre; (2) sin `TYPESAFE_API_KEY` el juez no existe; (3) lo que escribe el
+  visitante viaja como dato, nunca dentro de las instrucciones; (4) modelo fijado a
+  `jev-1.13.0`: antes de cambiar de versión se vuelve a medir.
+- **Enchufe que queda puesto**: secreto `TYPESAFE_API_KEY` en el worker. Documentado en
+  `.env.example`.
+- **Disparador de revisión**: (a) registros `[chat:juez] http 429` o `tiempo_agotado` repetidos;
+  (b) un visitante legítimo que reciba el reencauce; (c) versión nueva de Jev.
+- **Pendiente antes de encender**: revisar si las políticas del sitio deben mencionar que los
+  mensajes del chat los procesan proveedores externos de IA. Hoy hablan de proveedores en general.
